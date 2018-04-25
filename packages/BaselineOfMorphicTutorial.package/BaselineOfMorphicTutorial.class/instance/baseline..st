@@ -12,4 +12,4 @@ baseline: spec
 			spec
 				group: 'default' with: #('MorphicTutorial-Core');
 				group: 'tests' with: #('MorphicTutorial-Tests')];
-				yourself.
+				yourself
