@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "hks 5/2/2018 21:09",
+		"testBuildMotuBrowserListWithReturnsSpec" : "hks 5/2/2018 21:12",
+		"testBuildWithReturnsWindow" : "hks 5/2/2018 21:08" } }
