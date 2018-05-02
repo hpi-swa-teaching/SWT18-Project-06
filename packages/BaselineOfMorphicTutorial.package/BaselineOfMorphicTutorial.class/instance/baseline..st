@@ -8,8 +8,9 @@ baseline: spec
 				
 				package: 'MorphicTutorial-Core';
 				package: 'MorphicTutorial-Tests' with: [spec requires: #('MorphicTutorial-Core')];
+				package: 'MorphicTutorial-Lectures' with: [spec requires: #('MorphicTutorial-Core')];
 				yourself.
 			spec
-				group: 'default' with: #('MorphicTutorial-Core');
+				group: 'default' with: #('MorphicTutorial-Core'.'MorphicTutorial-Lectures');
 				group: 'tests' with: #('MorphicTutorial-Tests')];
 				yourself

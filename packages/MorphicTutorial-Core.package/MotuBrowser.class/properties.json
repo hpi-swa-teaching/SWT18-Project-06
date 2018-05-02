@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MotuBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

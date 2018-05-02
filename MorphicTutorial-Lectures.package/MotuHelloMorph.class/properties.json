@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MotuHelloMorph",
+	"pools" : [
+		 ],
+	"super" : "MotuLecture",
+	"type" : "normal" }
