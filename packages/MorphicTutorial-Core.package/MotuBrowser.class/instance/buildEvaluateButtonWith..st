@@ -5,7 +5,7 @@ buildEvaluateButtonWith: aBuilder
 		model: self;
 		label: 'Evaluate';
 		"enabled: #isProjectChapter;"
-		action: #evaluateCode;
+		action: #evaluateWorld;
 		frame: (LayoutFrame new
 			leftFraction: 0.8;
 			topFraction: 0.95;

@@ -1,4 +1,6 @@
 ui
 descriptionBoxContent
 
-	^ 'Hallo Oliver'
+	^ self selectedLecture
+		ifNil: [self welcomeMessage]
+		ifNotNil: [self selectedLecture comment]
