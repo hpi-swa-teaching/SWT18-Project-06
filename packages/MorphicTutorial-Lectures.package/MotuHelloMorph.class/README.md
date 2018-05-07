@@ -1,0 +1,1 @@
+Create an object from the Morph-Class. Give this object the color green and let it appear on the display.

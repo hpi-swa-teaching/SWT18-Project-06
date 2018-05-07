@@ -1,0 +1,3 @@
+accessing
+selectedLecture
+	^ selectedLecture
