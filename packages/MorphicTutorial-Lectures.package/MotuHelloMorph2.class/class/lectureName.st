@@ -1,3 +1,3 @@
 as yet unclassified
 lectureName
-	^ 'Morph Einführung'
+	^ 'Second Lecture'

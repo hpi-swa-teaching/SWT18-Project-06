@@ -5,3 +5,4 @@ evaluateWorld
 	allMorphs isEmpty ifTrue: [^ self].
 
 	self selectedLecture evaluateMorph: (allMorphs first).
+	"allMorphs first delete"

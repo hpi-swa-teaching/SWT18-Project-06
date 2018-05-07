@@ -1,1 +1,1 @@
-Test Comment 2
+Here comes the description for the second lecture.

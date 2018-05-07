@@ -1,1 +1,1 @@
-Build a Morph with a the color green an open him in the world.
+Create an object from the Morph-Class. Give this object the color green and let it appear on the display.
