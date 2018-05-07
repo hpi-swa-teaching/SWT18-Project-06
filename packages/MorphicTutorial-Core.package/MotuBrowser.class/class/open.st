@@ -1,4 +1,4 @@
 as yet unclassified
 open
 
-	^ ToolBuilder open: self new
+	^ self new open
