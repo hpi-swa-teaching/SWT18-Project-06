@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MotuEditor",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

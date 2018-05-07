@@ -1,7 +1,7 @@
 building
 buildCodeEditorWith: aBuilder
 	|spec|
-	self codeEditor: Workspace new.
+	self codeEditor: MotuEditor new.
 	
 	spec := self codeEditor buildCodePaneWith: aBuilder.
 	spec
