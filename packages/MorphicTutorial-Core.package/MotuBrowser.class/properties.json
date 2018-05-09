@@ -8,7 +8,8 @@
 	"instvars" : [
 		"codeEditor",
 		"selectedLecture",
-		"window" ],
+		"window",
+		"playground" ],
 	"name" : "MotuBrowser",
 	"pools" : [
 		 ],
