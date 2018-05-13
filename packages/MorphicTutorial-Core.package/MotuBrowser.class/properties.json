@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"codeEditor",
 		"selectedLecture",
 		"window",
+		"codeEditor",
 		"playground" ],
 	"name" : "MotuBrowser",
 	"pools" : [

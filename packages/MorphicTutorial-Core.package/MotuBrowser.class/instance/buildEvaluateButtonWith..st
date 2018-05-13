@@ -3,7 +3,7 @@ buildEvaluateButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		label: 'Evaluate World State';
+		label: 'Evaluate Code';
 		"enabled: #isProjectChapter;"
 		action: #evaluateCode;
 		frame: (LayoutFrame new

@@ -1,14 +1,12 @@
 editor
 evaluateCode
-	|code paneMorphs editor morph|
+	| morph|
+
+	self clearPlayground.
+	self codeEditor accept.
 	
-	paneMorphs := window paneMorphs.
-	editor := paneMorphs second.
-	editor accept.
-	code := self codeEditor contents asString.
+	morph := Compiler evaluate: self codeEditor getText.
+	morph ifNil: [^self].
+	self openInPlayground: morph.
 	
-	morph := Compiler evaluate: code.
-	morph beSticky.
-	morph openInWorld: self playground.
-	
-	self selectedLecture evaluateMorph: morph
+	self selectedLecture ifNotNil: [self selectedLecture evaluateMorph: morph]

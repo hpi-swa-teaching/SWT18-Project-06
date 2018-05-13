@@ -1,13 +1,12 @@
 building
 buildWith: aBuilder
-	|playground|
 	
-	playground := PasteUpMorph new.
+	"playground := PasteUpMorph new.
 	playground
 		extent: (300@300);
 		beSticky;
 		openInWorld.
-	self playground: playground.
+	self playground: playground."
 			
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
@@ -17,6 +16,7 @@ buildWith: aBuilder
 			self buildDescriptionBoxWith: aBuilder.
 			self buildLectureListWith: aBuilder.
 			self buildCodeEditorWith: aBuilder.
-			self buildEvaluateButtonWith: aBuilder
+			self buildEvaluateButtonWith: aBuilder.
+			self buildPlaygroundWith: aBuilder.
 			};
 		yourself)
