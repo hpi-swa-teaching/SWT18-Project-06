@@ -1,3 +1,3 @@
-ui
+ids and labels
 codeEditorID
-	^'CodeEditor'
+	^ 'CodeEditor'

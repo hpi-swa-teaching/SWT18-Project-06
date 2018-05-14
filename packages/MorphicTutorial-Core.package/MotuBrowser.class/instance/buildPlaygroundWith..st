@@ -1,4 +1,4 @@
-ui
+building
 buildPlaygroundWith: aBuilder
 
 	^ (aBuilder pluggablePasteUpMorphSpec new

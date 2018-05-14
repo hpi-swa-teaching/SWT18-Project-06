@@ -1,4 +1,4 @@
-editor
+editor and playground
 evaluateCode
 	| morph|
 
