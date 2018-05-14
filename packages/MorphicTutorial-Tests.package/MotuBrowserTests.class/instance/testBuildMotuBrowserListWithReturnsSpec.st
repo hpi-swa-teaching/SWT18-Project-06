@@ -1,6 +1,6 @@
-as yet unclassified
+building
 testBuildMotuBrowserListWithReturnsSpec
 
 	| spec |
 	spec := browser buildLectureListWith: toolbuilder.
-	self assert: (spec isKindOf: ToolBuilderSpec)
+	self assert: (spec isKindOf: PluggableListSpec)

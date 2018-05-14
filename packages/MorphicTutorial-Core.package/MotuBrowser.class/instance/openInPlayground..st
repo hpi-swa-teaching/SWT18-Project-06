@@ -4,6 +4,7 @@ openInPlayground: aMorph
 	
 	"We copy the morph, so we can set the position and size realtive to the playground dimension, but still can evaluate the 	original Morph".
 	morphCopy := aMorph copy.
+	morphCopy beSticky.
 	
 	"Set correct position for the morph copy."
 	self setRelativePositionInPlaygroundFor: morphCopy.
