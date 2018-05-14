@@ -9,4 +9,5 @@
 		"testBuildMotuBrowserDescriptionBoxReturnsSpec" : "ps 5/14/2018 10:30",
 		"testBuildMotuBrowserEvaluateButtonWithReturnsSpec" : "ps 5/14/2018 10:27",
 		"testBuildMotuBrowserListWithReturnsSpec" : "ps 5/14/2018 10:27",
-		"testBuildMotuBrowserPlaygroundReturnsSpec" : "ps 5/14/2018 10:31" } }
+		"testBuildMotuBrowserPlaygroundIsInserted" : "js 5/14/2018 16:08",
+		"testBuildMotuBrowserPlaygroundReturnsSpec" : "js 5/14/2018 16:08" } }

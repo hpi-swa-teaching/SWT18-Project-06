@@ -1,14 +1,14 @@
 {
-	"category" : "MorphicTutorial-Lectures",
+	"category" : "MorphicTutorial-Core",
 	"classinstvars" : [
-		"passed" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MotuLecture",
+	"name" : "MotuPlayground",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PasteUpMorph",
 	"type" : "normal" }

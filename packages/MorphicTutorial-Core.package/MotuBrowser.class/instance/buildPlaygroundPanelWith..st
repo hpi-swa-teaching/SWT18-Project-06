@@ -1,8 +1,8 @@
 building
-buildPlaygroundWith: aBuilder
-
-	^ (aBuilder pluggablePasteUpMorphSpec new
-		name: self playgroundID;
+buildPlaygroundPanelWith: aBuilder
+	^ (aBuilder pluggablePanelSpec new
+		model: self;
+		children: #playgroundInCollection;
 		frame: (LayoutFrame new
 			leftFraction: 0.33;
 			topFraction: 0;

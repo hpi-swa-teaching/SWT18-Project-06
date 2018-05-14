@@ -2,5 +2,5 @@ building
 testBuildMotuBrowserPlaygroundReturnsSpec
 
 	| spec |
-	spec := browser buildPlaygroundWith: toolbuilder.
-	self assert: (spec isKindOf: PluggablePasteUpMorphSpec)
+	spec := browser buildPlaygroundPanelWith: toolbuilder.
+	self assert: (spec isKindOf: PluggablePanelSpec)
