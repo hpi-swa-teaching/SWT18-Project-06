@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedLecture",
-		"window",
-		"codeEditor",
-		"playground" ],
-	"name" : "MotuBrowser",
+		 ],
+	"name" : "MotuEditor",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CodeHolder",
 	"type" : "normal" }

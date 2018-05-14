@@ -10,5 +10,6 @@ buildWith: aBuilder
 			self buildLectureListWith: aBuilder.
 			self buildCodeEditorWith: aBuilder.
 			self buildEvaluateButtonWith: aBuilder.
+			self buildPlaygroundWith: aBuilder.
 			};
 		yourself)

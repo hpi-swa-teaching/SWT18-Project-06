@@ -1,5 +1,5 @@
-as yet unclassified
-testBuildWithReturnsWindow
+building
+testBuildMotuBrowser
 
 	| window |
 	window := browser buildWith: toolbuilder.

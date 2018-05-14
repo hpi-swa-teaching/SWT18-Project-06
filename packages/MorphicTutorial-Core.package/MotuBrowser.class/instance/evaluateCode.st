@@ -1,11 +1,12 @@
-editor
+editor and playground
 evaluateCode
-	"We can use this function as soon as we understand the code editor more and have access to the code."
+	| morph|
 
-	|code Editor|
-	code := self codeEditor contents asString.
-	Editor := TextEditor new.
-	Transcript showln: Editor class.
-	Editor addString: code.
-	Editor printIt.
+	self clearPlayground.
+	self codeEditor accept.
 	
+	morph := Compiler evaluate: self codeEditor getText.
+	morph ifNil: [^self].
+	self openInPlayground: morph.
+	
+	self selectedLecture ifNotNil: [self selectedLecture evaluateMorph: morph]
