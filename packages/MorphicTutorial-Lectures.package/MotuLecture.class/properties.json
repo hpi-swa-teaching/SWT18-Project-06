@@ -1,12 +1,14 @@
 {
 	"category" : "MorphicTutorial-Lectures",
 	"classinstvars" : [
-		"passed" ],
+		"passed",
+		"instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"passed",
+		"feedback" ],
 	"name" : "MotuLecture",
 	"pools" : [
 		 ],

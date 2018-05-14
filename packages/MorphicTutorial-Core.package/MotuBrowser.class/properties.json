@@ -9,7 +9,8 @@
 		"selectedLecture",
 		"window",
 		"codeEditor",
-		"playground" ],
+		"playground",
+		"codeStatusBarContent" ],
 	"name" : "MotuBrowser",
 	"pools" : [
 		 ],

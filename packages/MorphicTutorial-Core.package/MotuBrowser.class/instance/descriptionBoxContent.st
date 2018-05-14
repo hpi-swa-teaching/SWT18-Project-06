@@ -3,4 +3,4 @@ descriptionBoxContent
 
 	^ self selectedLecture
 		ifNil: [self welcomeMessage]
-		ifNotNil: [self selectedLecture comment]
+		ifNotNil: [self selectedLecture descriptionBoxContent]

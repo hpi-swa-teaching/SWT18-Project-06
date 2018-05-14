@@ -1,9 +1,14 @@
 {
 	"class" : {
 		"allLectures" : "hks 5/2/2018 20:46",
-		"evaluateMorph:" : "pascal 5/13/2018 13:24",
-		"isPassed" : "hks 5/14/2018 17:34",
-		"setFailed" : "hks 5/14/2018 17:34",
-		"setPassed" : "hks 5/14/2018 17:34" },
+		"instance" : "till-later 5/14/2018 18:48",
+		"instance:" : "till-later 5/14/2018 18:47",
+		"printOn:" : "till-later 5/14/2018 18:53" },
 	"instance" : {
-		 } }
+		"decriptionBoxContent" : "till-later 5/14/2018 18:56",
+		"evaluateMorph:" : "till-later 5/14/2018 18:51",
+		"feedback" : "till-later 5/14/2018 19:01",
+		"feedback:" : "till-later 5/14/2018 19:01",
+		"isPassed" : "till-later 5/14/2018 18:51",
+		"setFailed" : "till-later 5/14/2018 18:48",
+		"setPassed" : "till-later 5/14/2018 18:48" } }

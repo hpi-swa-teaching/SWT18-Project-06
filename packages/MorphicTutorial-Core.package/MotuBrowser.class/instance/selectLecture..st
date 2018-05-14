@@ -2,5 +2,5 @@ ui
 selectLecture: aLecture
 
 	self
-		selectedLecture: aLecture;
+		selectedLecture: aLecture new;
 		changed: #descriptionBoxContent

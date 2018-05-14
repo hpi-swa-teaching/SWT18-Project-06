@@ -7,4 +7,4 @@ buildPlaygroundPanelWith: aBuilder
 			leftFraction: 0.33;
 			topFraction: 0;
 			rightFraction: 1;
-			bottomFraction: 0.5)).
+			bottomFraction: 0.45)).
