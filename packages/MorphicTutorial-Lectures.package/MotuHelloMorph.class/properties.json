@@ -10,5 +10,5 @@
 	"name" : "MotuHelloMorph",
 	"pools" : [
 		 ],
-	"super" : "AnObsoleteMotuLecture",
+	"super" : "MotuLecture",
 	"type" : "normal" }
