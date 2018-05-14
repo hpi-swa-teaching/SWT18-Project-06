@@ -1,3 +1,3 @@
 editor and playground
 clearPlayground
-	self playground removeAllMorphs
+	self playground clear
