@@ -1,6 +1,9 @@
 {
 	"class" : {
 		"allLectures" : "hks 5/2/2018 20:46",
-		"evaluateMorph:" : "pascal 5/13/2018 13:24" },
+		"evaluateMorph:" : "pascal 5/13/2018 13:24",
+		"isPassed" : "hks 5/14/2018 17:34",
+		"setFailed" : "hks 5/14/2018 17:34",
+		"setPassed" : "hks 5/14/2018 17:34" },
 	"instance" : {
 		 } }

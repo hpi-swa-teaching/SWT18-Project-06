@@ -9,4 +9,5 @@ evaluateCode
 	morph ifNil: [^self].
 	self openInPlayground: morph.
 	
-	self selectedLecture ifNotNil: [self selectedLecture evaluateMorph: morph]
+	self selectedLecture ifNotNil: [self selectedLecture evaluateMorph: morph].
+	self changed: #lectureList

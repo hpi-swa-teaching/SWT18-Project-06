@@ -4,6 +4,7 @@ buildLectureListWith: aBuilder
 	^ aBuilder pluggableListSpec new
 		model: self;
 		list: #lectureList;
+		icon: #lectureIconAt:;
 		getSelected: #selectedLecture;
 		setSelected: #selectLecture:;
 		autoDeselect: false;
