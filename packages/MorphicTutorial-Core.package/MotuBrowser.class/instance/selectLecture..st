@@ -2,5 +2,7 @@ ui
 selectLecture: aLecture
 
 	self
-		selectedLecture: aLecture new;
+		selectedLecture: aLecture instance;
+		codeStatusBarContent: (self selectedLecture feedback);
+		changed: #codeStatusBarColor;
 		changed: #descriptionBoxContent

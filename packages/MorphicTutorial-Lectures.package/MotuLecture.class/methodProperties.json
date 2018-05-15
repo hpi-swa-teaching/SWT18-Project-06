@@ -5,10 +5,12 @@
 		"instance:" : "till-later 5/14/2018 18:47",
 		"printOn:" : "till-later 5/14/2018 18:53" },
 	"instance" : {
-		"decriptionBoxContent" : "till-later 5/14/2018 18:56",
-		"evaluateMorph:" : "till-later 5/14/2018 18:51",
+		"descriptionBoxContent" : "ps 5/15/2018 20:27",
+		"evaluateMorph:" : "ps 5/15/2018 20:34",
 		"feedback" : "till-later 5/14/2018 19:01",
 		"feedback:" : "till-later 5/14/2018 19:01",
-		"isPassed" : "till-later 5/14/2018 18:51",
-		"setFailed" : "till-later 5/14/2018 18:48",
-		"setPassed" : "till-later 5/14/2018 18:48" } }
+		"isPassed" : "ps 5/15/2018 20:28",
+		"passed" : "ps 5/15/2018 20:27",
+		"passed:" : "ps 5/15/2018 20:27",
+		"setFailed" : "ps 5/15/2018 20:27",
+		"setPassed" : "ps 5/15/2018 20:28" } }

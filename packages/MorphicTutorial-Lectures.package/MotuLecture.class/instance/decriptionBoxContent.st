@@ -1,3 +1,0 @@
-as yet unclassified
-decriptionBoxContent
-	^self subclassResponsibility

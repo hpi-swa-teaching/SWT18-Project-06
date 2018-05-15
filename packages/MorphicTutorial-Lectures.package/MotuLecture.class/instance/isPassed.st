@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isPassed
 
-	^ passed ifNil: [false]
+	^ self passed ifNil: [false]

@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pascal 5/7/2018 10:31",
+	"commentStamp" : "pascal 5/7/2018 10:32",
 	"instvars" : [
 		 ],
-	"name" : "MotuHelloMorph2",
+	"name" : "Lecture01CreateMorph",
 	"pools" : [
 		 ],
 	"super" : "MotuLecture",

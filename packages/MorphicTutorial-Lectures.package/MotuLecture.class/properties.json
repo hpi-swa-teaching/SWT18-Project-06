@@ -1,7 +1,6 @@
 {
 	"category" : "MorphicTutorial-Lectures",
 	"classinstvars" : [
-		"passed",
 		"instance" ],
 	"classvars" : [
 		 ],

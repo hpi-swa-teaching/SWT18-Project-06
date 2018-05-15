@@ -1,2 +1,3 @@
-as yet unclassified
+subclassResponsibility
 evaluateMorph: aMorph
+	self subclassResponsibility

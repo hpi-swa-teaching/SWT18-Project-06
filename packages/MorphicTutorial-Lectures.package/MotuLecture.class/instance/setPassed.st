@@ -1,4 +1,3 @@
-as yet unclassified
+accessing
 setPassed
-
-	passed := true
+	self passed: true
