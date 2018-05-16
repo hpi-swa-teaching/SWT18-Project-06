@@ -5,7 +5,7 @@ buildLectureListWith: aBuilder
 		model: self;
 		list: #lectureList;
 		icon: #lectureIconAt:;
-		getSelected: #selectedLecture;
+		getSelected: #selectedLectureClass;
 		setSelected: #selectLecture:;
 		autoDeselect: false;
 		frame: (LayoutFrame new
