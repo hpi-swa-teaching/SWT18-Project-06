@@ -1,5 +1,6 @@
 building
 buildPlaygroundPanelWith: aBuilder
+	
 	^ (aBuilder pluggablePanelSpec new
 		model: self;
 		children: #playgroundInCollection;

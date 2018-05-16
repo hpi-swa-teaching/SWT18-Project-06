@@ -1,18 +1,20 @@
 editor and playground
 evaluateCode
-	| morph|
+	| morph code|
 
 	self clearPlayground.
 	self codeEditor accept.
 	
-	morph := Compiler evaluate: self codeEditor getText.
+	code := self codeEditor getText.
+	morph := Compiler evaluate: code.
 	morph ifNil: [^self].
 	self openInPlayground: morph.
 	
 	self selectedLecture ifNotNil: [
 		self selectedLecture evaluateMorph: morph.
-		self codeStatusBarContent: self selectedLecture feedback.
-		].
+		self codeStatusBarContent: self selectedLecture feedback].
 	
 	self changed: #codeStatusBarColor.
-	self changed: #lectureList
+	self changed: #lectureList.
+	
+	self selectedLecture code: code

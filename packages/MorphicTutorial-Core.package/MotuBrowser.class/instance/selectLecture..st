@@ -5,4 +5,6 @@ selectLecture: aLecture
 		selectedLecture: aLecture instance;
 		codeStatusBarContent: (self selectedLecture feedback);
 		changed: #codeStatusBarColor;
-		changed: #descriptionBoxContent
+		changed: #descriptionBoxContent.
+
+	self codeEditor setText: (self selectedLecture code)
