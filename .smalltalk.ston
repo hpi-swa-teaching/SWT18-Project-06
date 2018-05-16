@@ -6,10 +6,5 @@ SmalltalkCISpec {
       #directory : 'packages',
       #load : [ 'tests' ]
     }
-  ],
-  #testing : {
-    #coverage : {
-      #categories : [ 'MorphicTutorial-*' ]
-    }
-  }
+  ]
 }
