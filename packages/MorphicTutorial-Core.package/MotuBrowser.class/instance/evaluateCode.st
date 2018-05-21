@@ -15,6 +15,6 @@ evaluateCode
 		self codeStatusBarContent: self selectedLecture feedback].
 	
 	self changed: #codeStatusBarColor.
-	self changed: #lectureList.
+	self changed: #categoryList.
 	
 	self selectedLecture code: code

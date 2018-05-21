@@ -1,9 +1,7 @@
 {
 	"class" : {
-		"allLectures" : "hks 5/2/2018 20:46",
 		"instance" : "till-later 5/14/2018 18:48",
-		"instance:" : "till-later 5/14/2018 18:47",
-		"printOn:" : "till-later 5/14/2018 18:53" },
+		"instance:" : "till-later 5/14/2018 18:47" },
 	"instance" : {
 		"code" : "ps 5/16/2018 11:25",
 		"code:" : "ps 5/16/2018 11:23",
@@ -12,6 +10,7 @@
 		"feedback" : "till-later 5/14/2018 19:01",
 		"feedback:" : "till-later 5/14/2018 19:01",
 		"isPassed" : "ps 5/15/2018 20:28",
+		"lectureName" : "js 5/21/2018 16:12",
 		"passed" : "ps 5/15/2018 20:27",
 		"passed:" : "ps 5/15/2018 20:27",
 		"setFailed" : "ps 5/15/2018 20:27",
