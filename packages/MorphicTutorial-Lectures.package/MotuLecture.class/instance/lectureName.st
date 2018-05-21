@@ -1,0 +1,3 @@
+subclassResponsibility
+lectureName 
+	^ self subclassResponsibility 

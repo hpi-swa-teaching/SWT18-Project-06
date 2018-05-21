@@ -2,10 +2,8 @@
 	"class" : {
 		"spyOn:" : "ps 5/21/2018 18:52" },
 	"instance" : {
-		"doesNotUnderstand:" : "ps 5/21/2018 18:54",
-		"expect:withArgs:errMessage:" : "ps 5/21/2018 19:27",
-		"expectationMessage" : "ps 5/21/2018 18:50",
-		"expectationMessage:" : "ps 5/21/2018 18:59",
+		"doesNotUnderstand:" : "ps 5/21/2018 19:47",
+		"expect:withArgs:errMessage:" : "ps 5/21/2018 19:56",
 		"hasError" : "ps 5/21/2018 18:51",
 		"hasError:" : "ps 5/21/2018 18:51",
 		"history" : "ps 5/21/2018 18:51",

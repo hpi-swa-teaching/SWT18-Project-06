@@ -1,4 +1,0 @@
-ui
-lectureList
-
-	^ MotuLecture allLectures

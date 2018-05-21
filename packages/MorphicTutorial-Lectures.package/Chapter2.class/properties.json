@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Chapter2",
+	"pools" : [
+		 ],
+	"super" : "MotuLectureCategory",
+	"type" : "normal" }

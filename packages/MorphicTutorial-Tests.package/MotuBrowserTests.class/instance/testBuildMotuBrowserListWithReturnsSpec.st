@@ -3,4 +3,4 @@ testBuildMotuBrowserListWithReturnsSpec
 
 	| spec |
 	spec := browser buildLectureListWith: toolbuilder.
-	self assert: (spec isKindOf: PluggableListSpec)
+	self assert: (spec isKindOf: PluggableTreeSpec)

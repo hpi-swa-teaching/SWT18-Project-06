@@ -5,6 +5,6 @@ test03assertMessageInHistorie
 	errMessage := 'Position was not or wrong called'.
 	
 	spy 
-		expect: #position withArgs: {100@100} errMessage: errMessage;
-		success: [self assert: false] 
-		failure: [:aString | self assert: aString = errMessage]
+		expect: #position withArgs: {100@100} errMessage: errMessage.
+		
+	self assert: self failMessage = errMessage.
