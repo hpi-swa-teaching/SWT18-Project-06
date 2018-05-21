@@ -3,6 +3,9 @@
 		 },
 	"instance" : {
 		"aboutToStyle:" : "js 5/7/2018 17:15",
+		"accept" : "js 5/21/2018 15:37",
 		"contents:notifying:" : "pascal 5/12/2018 16:20",
+		"getText" : "js 5/21/2018 15:41",
+		"setText:" : "js 5/21/2018 15:33",
 		"wantsAnnotationPane" : "js 5/7/2018 17:00",
 		"wantsOptionalButtons" : "js 5/7/2018 17:00" } }
