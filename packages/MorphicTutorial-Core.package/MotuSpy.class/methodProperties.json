@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"spy:" : "ps 5/21/2018 18:12" },
+	"instance" : {
+		"doesNotUnderstand:" : "ps 5/21/2018 17:18",
+		"expect:withArgs:errMessage:onSuccess:" : "ps 5/21/2018 18:11",
+		"historie" : "ps 5/21/2018 17:13",
+		"historie:" : "ps 5/21/2018 17:11",
+		"morph" : "ps 5/21/2018 17:11",
+		"morph:" : "ps 5/21/2018 17:11",
+		"success" : "ps 5/21/2018 17:58" } }

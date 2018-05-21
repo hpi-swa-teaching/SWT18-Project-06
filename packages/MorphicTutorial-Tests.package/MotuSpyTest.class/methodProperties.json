@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "ps 5/21/2018 17:27",
+		"test01assertHistorieIsAOrderedCollection" : "ps 5/21/2018 17:22",
+		"test02addMethodCallToHistorie" : "ps 5/21/2018 17:26",
+		"test03assertMehtodCallIsInHistorie" : "ps 5/21/2018 17:28",
+		"test03assertMessageInHistorie" : "ps 5/21/2018 18:09",
+		"test04assertExpectationSuccess" : "ps 5/21/2018 18:07",
+		"test05ChainedExpectationSuccess" : "ps 5/21/2018 18:09",
+		"test06" : "ps 5/21/2018 18:11" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"spy" ],
+	"name" : "MotuSpyTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
