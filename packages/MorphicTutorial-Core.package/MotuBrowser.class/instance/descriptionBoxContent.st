@@ -1,6 +1,4 @@
 ui
 descriptionBoxContent
 
-	^ self selectedLecture
-		ifNil: [self welcomeMessage]
-		ifNotNil: [self selectedLecture descriptionBoxContent]
+	^ self selectedLecture descriptionBoxContent

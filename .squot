@@ -2,5 +2,6 @@ OrderedDictionary {
 	'packages\/BaselineOfMorphicTutorial.package' : #SquotCypressCodeSerializer,
 	'packages\/MorphicTutorial-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/MorphicTutorial-Lectures.package' : #SquotCypressCodeSerializer,
+	'packages\/MorphicTutorial-TestMocks.package' : #SquotCypressCodeSerializer,
 	'packages\/MorphicTutorial-Tests.package' : #SquotCypressCodeSerializer
 }
