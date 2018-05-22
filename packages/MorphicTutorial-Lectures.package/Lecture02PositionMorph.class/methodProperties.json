@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"checkLectureMethod:" : "hks 5/22/2018 13:50",
 		"descriptionBoxContent" : "ps 5/15/2018 20:32",
-		"evaluateMorph:" : "ps 5/15/2018 20:34",
+		"lectureMethod" : "hks 5/22/2018 13:38",
 		"lectureName" : "js 5/21/2018 16:12",
-		"openMorphIn:" : "hks 5/22/2018 12:02" } }
+		"move:" : "hks 5/22/2018 13:50",
+		"resetLecture" : "hks 5/22/2018 13:44" } }

@@ -1,9 +1,10 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph
 
-	|spy|
-	
+	|spy morph|
+
+	super checkLectureMethod: aPlaygroundMorph.
 	spy := MotuSpy spyOn: aPlaygroundMorph reportTo: self.
 	
-	self openMorphIn: spy.
-	spy expect: #openIn withArgs: {Morph new} errMessage: 'Füge einen frisch erstellten Morph in aPlaygroundMorph ein'.
+	morph := self openMorphIn: spy.
+	spy expect: #addMorph: withArgs: {morph} errMessage: 'Returne den Morph, auf dem Du "openInWorld: aPlaygroundMorph" aufrufst.'

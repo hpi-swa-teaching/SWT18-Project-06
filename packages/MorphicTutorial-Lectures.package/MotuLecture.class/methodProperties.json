@@ -1,13 +1,13 @@
 {
 	"class" : {
 		"instance" : "till-later 5/14/2018 18:48",
-		"instance:" : "till-later 5/14/2018 18:47" },
+		"instance:" : "till-later 5/14/2018 18:47",
+		"resetAll" : "hks 5/22/2018 13:35" },
 	"instance" : {
 		"checkCode:on:" : "hks 5/22/2018 11:49",
 		"checkLectureMethod:" : "hks 5/22/2018 11:49",
 		"codeToEdit" : "hks 5/22/2018 11:16",
 		"descriptionBoxContent" : "hks 5/22/2018 11:06",
-		"evaluateMorph:" : "hks 5/22/2018 11:11",
 		"feedback" : "hks 5/22/2018 11:06",
 		"feedback:" : "hks 5/22/2018 11:10",
 		"initialize" : "hks 5/22/2018 11:11",
@@ -15,6 +15,7 @@
 		"lectureName" : "hks 5/22/2018 11:07",
 		"passed" : "hks 5/22/2018 11:07",
 		"passed:" : "hks 5/22/2018 11:07",
-		"report:" : "hks 5/22/2018 11:47",
+		"report:" : "hks 5/22/2018 13:12",
+		"resetLecture" : "hks 5/22/2018 13:33",
 		"setFailed" : "hks 5/22/2018 11:07",
 		"setPassed" : "hks 5/22/2018 11:07" } }

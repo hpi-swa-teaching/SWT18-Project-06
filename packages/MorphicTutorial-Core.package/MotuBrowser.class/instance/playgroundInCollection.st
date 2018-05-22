@@ -1,3 +1,3 @@
 accessing
 playgroundInCollection
-	^ { self playground  }
+	^ { self playground }

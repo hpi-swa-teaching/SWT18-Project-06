@@ -1,0 +1,4 @@
+accessing
+resetLecture
+
+	^ self subclassResponsibility

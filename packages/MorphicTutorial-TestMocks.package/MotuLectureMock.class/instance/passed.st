@@ -1,3 +1,4 @@
 as yet unclassified
-isPassed
+passed
+
 	^ passed

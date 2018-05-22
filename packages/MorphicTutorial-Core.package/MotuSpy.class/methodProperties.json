@@ -2,7 +2,7 @@
 	"class" : {
 		"spyOn:reportTo:" : "hks 5/22/2018 11:44" },
 	"instance" : {
-		"doesNotUnderstand:" : "ps 5/21/2018 19:47",
+		"doesNotUnderstand:" : "hks 5/22/2018 12:22",
 		"expect:withArgs:errMessage:" : "hks 5/22/2018 11:45",
 		"hasError" : "ps 5/21/2018 18:51",
 		"hasError:" : "ps 5/21/2018 18:51",

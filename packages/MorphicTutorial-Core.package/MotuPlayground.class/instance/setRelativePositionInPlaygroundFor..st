@@ -4,4 +4,4 @@ setRelativePositionInPlaygroundFor: aMorph
 	
 	x := (aMorph position x) * (self width) / (self currentWorld width).
 	y := (aMorph position y) * (self height) / (self currentWorld height).
-	aMorph position: self playground position + (x@y)
+	aMorph position: self position + (x@y)
