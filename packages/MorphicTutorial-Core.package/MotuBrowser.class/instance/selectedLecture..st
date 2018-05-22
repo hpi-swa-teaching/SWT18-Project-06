@@ -6,7 +6,7 @@ selectedLecture: anObject
 	self codeStatusBarContent: (self selectedLecture feedback);
 		changed: #codeStatusBarColor;
 		changed: #descriptionBoxContent.
-	self codeEditor setText: (self selectedLecture code).
+	self codeEditor setText: (self selectedLecture codeToEdit).
 
 	
 	self changed: #selectedLecture

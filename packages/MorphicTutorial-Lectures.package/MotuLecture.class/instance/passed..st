@@ -1,3 +1,4 @@
 accessing
-passed: anObject
-	passed := anObject
+passed: aBoolean
+
+	passed := aBoolean

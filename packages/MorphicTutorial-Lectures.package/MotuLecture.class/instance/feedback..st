@@ -1,3 +1,4 @@
 accessing
-feedback: anObject
-	feedback := anObject
+feedback: aString
+
+	feedback := aString

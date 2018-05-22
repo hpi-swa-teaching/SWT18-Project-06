@@ -1,3 +1,4 @@
 subclassResponsibility
 descriptionBoxContent
-	^self subclassResponsibility
+
+	^ self subclassResponsibility

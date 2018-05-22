@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"spyOn:" : "ps 5/21/2018 18:52" },
+		"spyOn:reportTo:" : "hks 5/22/2018 11:44" },
 	"instance" : {
 		"doesNotUnderstand:" : "ps 5/21/2018 19:47",
-		"expect:withArgs:errMessage:" : "ps 5/21/2018 19:56",
+		"expect:withArgs:errMessage:" : "hks 5/22/2018 11:45",
 		"hasError" : "ps 5/21/2018 18:51",
 		"hasError:" : "ps 5/21/2018 18:51",
 		"history" : "ps 5/21/2018 18:51",
@@ -11,6 +11,6 @@
 		"initialize" : "ps 5/21/2018 18:52",
 		"morph" : "ps 5/21/2018 17:11",
 		"morph:" : "ps 5/21/2018 17:11",
-		"spyReporter" : "ps 5/21/2018 19:26",
-		"spyReporter:" : "ps 5/21/2018 19:26",
+		"reporter" : "hks 5/22/2018 11:45",
+		"reporter:" : "hks 5/22/2018 11:45",
 		"success:failure:" : "ps 5/21/2018 18:56" } }

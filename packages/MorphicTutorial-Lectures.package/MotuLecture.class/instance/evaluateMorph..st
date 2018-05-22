@@ -1,3 +1,4 @@
 subclassResponsibility
 evaluateMorph: aMorph
-	self subclassResponsibility
+
+	^ self subclassResponsibility

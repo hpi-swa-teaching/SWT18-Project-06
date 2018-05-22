@@ -8,7 +8,7 @@
 	"instvars" : [
 		"history",
 		"morph",
-		"spyReporter" ],
+		"reporter" ],
 	"name" : "MotuSpy",
 	"pools" : [
 		 ],
