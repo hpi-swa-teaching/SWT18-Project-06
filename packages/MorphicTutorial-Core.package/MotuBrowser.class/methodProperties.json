@@ -4,7 +4,7 @@
 		"defaultLabel" : "hks 5/2/2018 19:56",
 		"open" : "hks 5/7/2018 15:59" },
 	"instance" : {
-		"buildCodeEditorWith:" : "js 5/21/2018 15:35",
+		"buildCodeEditorWith:" : "js 5/22/2018 17:18",
 		"buildCodeStatusBarWith:" : "hks 5/22/2018 14:51",
 		"buildDescriptionBoxWith:" : "till-later 5/2/2018 21:06",
 		"buildEvaluateButtonWith:" : "hks 5/22/2018 14:51",
@@ -19,7 +19,7 @@
 		"codeStatusBarContent" : "hks 5/22/2018 14:48",
 		"codeStatusBarContent:" : "hks 5/22/2018 14:48",
 		"descriptionBoxContent" : "js 5/21/2018 18:54",
-		"evaluateCode" : "hks 5/22/2018 14:46",
+		"evaluateCode" : "js 5/22/2018 17:18",
 		"initialize" : "hks 5/22/2018 14:47",
 		"labelString" : "hks 5/2/2018 19:58",
 		"lectureIconAt:" : "hks 5/22/2018 14:47",
@@ -28,5 +28,5 @@
 		"playground:" : "hks 5/22/2018 14:47",
 		"playgroundInCollection" : "hks 5/22/2018 14:47",
 		"selectedLecture" : "hks 5/22/2018 14:47",
-		"selectedLecture:" : "hks 5/22/2018 14:47",
+		"selectedLecture:" : "js 5/22/2018 17:11",
 		"windowColorToUse" : "till-later 5/2/2018 21:14" } }

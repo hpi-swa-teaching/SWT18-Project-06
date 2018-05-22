@@ -2,7 +2,7 @@ editor and playground
 evaluateCode
 
 	|code|
-	
+	self selectedLecture readOnly ifTrue: [ ^ self ].
 	self clearPlayground.
 	code := self codeEditor
 		accept;

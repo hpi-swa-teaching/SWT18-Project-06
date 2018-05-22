@@ -1,7 +1,7 @@
 building
 buildLectureListWith: aBuilder
 
-	self flag: #refactor. "Kommentar unten löschen. Toter Code?"
+	self flag: #refactor. "Kommentar unten lschen. Toter Code?"
 
 	^ aBuilder pluggableTreeSpec new
 		model: self;
