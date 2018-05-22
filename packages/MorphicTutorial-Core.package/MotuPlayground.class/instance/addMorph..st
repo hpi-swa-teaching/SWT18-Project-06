@@ -1,13 +1,13 @@
 as yet unclassified
 addMorph: aMorph
+	"We copy the morph, so we can set the position and size realtive to the playground dimension, but still can evaluate the 	original Morph"
 
 	|morphCopy|
-	"We copy the morph, so we can set the position and size realtive to the playground dimension, but still can evaluate the 	original Morph".
-	morphCopy := aMorph copy.
-	morphCopy beSticky.
+
+	morphCopy := aMorph copy
+		beSticky;
+		yourself.
 	
-	"Set correct position for the morph copy."
 	self setRelativePositionInPlaygroundFor: morphCopy.
-	
 	super addMorph: morphCopy
 	

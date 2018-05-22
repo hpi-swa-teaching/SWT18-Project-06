@@ -1,3 +1,4 @@
 as yet unclassified
 name
-	self subclassResponsibility
+
+	^ self subclassResponsibility

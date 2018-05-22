@@ -1,3 +1,4 @@
 accessing
-history: anObject
-	history := anObject
+history: anOrderedCollection
+
+	history := anOrderedCollection

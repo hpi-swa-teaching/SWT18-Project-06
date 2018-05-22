@@ -1,4 +1,5 @@
 ui
-initialize 
+initialize
+
 	super initialize.
 	self selectedLecture: nil

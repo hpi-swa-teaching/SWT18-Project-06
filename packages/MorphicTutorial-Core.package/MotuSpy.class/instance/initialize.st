@@ -1,5 +1,5 @@
 accessing
 initialize
-	self
-		hasError: false;
-		history: OrderedCollection new
+
+	super initialize.
+	self history: OrderedCollection new

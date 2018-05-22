@@ -4,13 +4,10 @@
 	"instance" : {
 		"doesNotUnderstand:" : "hks 5/22/2018 12:22",
 		"expect:withArgs:errMessage:" : "hks 5/22/2018 11:45",
-		"hasError" : "ps 5/21/2018 18:51",
-		"hasError:" : "ps 5/21/2018 18:51",
-		"history" : "ps 5/21/2018 18:51",
-		"history:" : "ps 5/21/2018 18:51",
-		"initialize" : "ps 5/21/2018 18:52",
-		"morph" : "ps 5/21/2018 17:11",
-		"morph:" : "ps 5/21/2018 17:11",
+		"history" : "hks 5/22/2018 14:27",
+		"history:" : "hks 5/22/2018 14:28",
+		"initialize" : "hks 5/22/2018 14:29",
+		"morph" : "hks 5/22/2018 14:28",
+		"morph:" : "hks 5/22/2018 14:28",
 		"reporter" : "hks 5/22/2018 11:45",
-		"reporter:" : "hks 5/22/2018 11:45",
-		"success:failure:" : "ps 5/21/2018 18:56" } }
+		"reporter:" : "hks 5/22/2018 11:45" } }

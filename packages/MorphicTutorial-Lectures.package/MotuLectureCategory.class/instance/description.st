@@ -1,3 +1,5 @@
 as yet unclassified
 description 
-	self subclassResponsibility
+
+	self flag: #refactor. "Diese Methode wird nie überschrieben und nie aufgerufen. Löschen?"
+	^ self subclassResponsibility
