@@ -1,10 +1,10 @@
 {
 	"class" : {
-		 },
+		"openMorphIn:" : "ps 5/23/2018 16:19" },
 	"instance" : {
-		"checkLectureMethod:" : "ps 5/23/2018 15:48",
+		"checkLectureMethod:" : "ps 5/23/2018 16:11",
 		"descriptionBoxContent" : "js 5/22/2018 17:27",
 		"lectureMethod" : "hks 5/22/2018 11:36",
 		"lectureName" : "hks 5/22/2018 14:07",
-		"openMorphIn:" : "ps 5/23/2018 15:32",
-		"resetLecture" : "ps 5/23/2018 15:02" } }
+		"openMorphIn:" : "ps 5/23/2018 16:22",
+		"resetLecture" : "ps 5/23/2018 16:19" } }
