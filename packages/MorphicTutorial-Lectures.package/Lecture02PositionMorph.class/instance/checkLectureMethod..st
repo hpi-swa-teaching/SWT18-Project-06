@@ -1,6 +1,5 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph
-
 	|spy morph|
 
 	super checkLectureMethod: aPlaygroundMorph.
