@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"failMessage" : "ps 5/21/2018 19:53",
+		"failMessage:" : "ps 5/21/2018 19:53",
+		"report:" : "ps 5/21/2018 19:54",
+		"setUp" : "hks 5/22/2018 11:44",
+		"test01assertHistorieIsAOrderedCollection" : "ps 5/21/2018 18:52",
+		"test02addMethodCallToHistorie" : "ps 5/21/2018 18:54",
+		"test03assertMessageInHistorie" : "ps 5/21/2018 19:55",
+		"test04assertExpectationSuccess" : "ps 5/21/2018 19:56",
+		"test05ChainedExpectationSuccess" : "ps 5/21/2018 19:57",
+		"test06ChainedExpectationFailure" : "ps 5/21/2018 19:57" } }

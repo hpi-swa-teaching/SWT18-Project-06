@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"test01lecturesExist" : "till-later 5/2/2018 22:06" } }
+		"testCategoriesExist" : "js 5/21/2018 17:46",
+		"testCategoriesReturnLectures" : "js 5/21/2018 18:04",
+		"testCreateLecture" : "ps 5/23/2018 15:45",
+		"testShouldShowError" : "ps 5/23/2018 15:53" } }

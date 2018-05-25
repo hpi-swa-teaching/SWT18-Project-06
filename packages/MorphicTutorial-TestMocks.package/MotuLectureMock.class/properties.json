@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-TestMocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"passed" ],
+	"name" : "MotuLectureMock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

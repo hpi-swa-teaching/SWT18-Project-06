@@ -2,7 +2,9 @@ ui
 lectureIconAt: anIndex
 
 	|icon|
-	icon := (MotuLecture allLectures at: anIndex) instance isPassed
+
+	icon := (MotuLecture allLectures at: anIndex) instance passed
 		ifTrue: [#testGreen]
 		ifFalse: [#testRed].
+
 	^ ToolIcons iconNamed: icon

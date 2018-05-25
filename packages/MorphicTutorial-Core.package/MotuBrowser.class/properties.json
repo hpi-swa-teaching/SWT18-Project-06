@@ -10,7 +10,8 @@
 		"window",
 		"codeEditor",
 		"playground",
-		"codeStatusBarContent" ],
+		"codeStatusBarContent",
+		"categoryList" ],
 	"name" : "MotuBrowser",
 	"pools" : [
 		 ],

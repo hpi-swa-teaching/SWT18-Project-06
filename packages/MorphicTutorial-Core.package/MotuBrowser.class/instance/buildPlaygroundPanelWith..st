@@ -1,11 +1,11 @@
 building
 buildPlaygroundPanelWith: aBuilder
 	
-	^ (aBuilder pluggablePanelSpec new
+	^ aBuilder pluggablePanelSpec new
 		model: self;
 		children: #playgroundInCollection;
 		frame: (LayoutFrame new
 			leftFraction: 0.33;
 			topFraction: 0;
 			rightFraction: 1;
-			bottomFraction: 0.45)).
+			bottomFraction: 0.45)

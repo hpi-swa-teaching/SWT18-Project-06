@@ -1,3 +1,4 @@
 accessing
 codeStatusBarContent
+
 	^codeStatusBarContent

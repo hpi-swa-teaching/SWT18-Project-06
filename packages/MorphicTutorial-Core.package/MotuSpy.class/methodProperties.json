@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"spyOn:reportTo:" : "hks 5/22/2018 11:44" },
+	"instance" : {
+		"doesNotUnderstand:" : "hks 5/22/2018 12:22",
+		"expect:withArgs:errMessage:" : "hks 5/22/2018 11:45",
+		"history" : "hks 5/22/2018 14:27",
+		"history:" : "hks 5/22/2018 14:28",
+		"initialize" : "hks 5/22/2018 14:29",
+		"morph" : "hks 5/22/2018 14:28",
+		"morph:" : "hks 5/22/2018 14:28",
+		"reporter" : "hks 5/22/2018 11:45",
+		"reporter:" : "hks 5/22/2018 11:45" } }

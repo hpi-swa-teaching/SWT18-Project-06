@@ -1,0 +1,3 @@
+subclassResponsibility
+readOnly
+	^ false

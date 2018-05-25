@@ -1,6 +1,10 @@
 {
 	"class" : {
-		"lectureName" : "ps 5/15/2018 20:32" },
+		 },
 	"instance" : {
-		"descriptionBoxContent" : "ps 5/15/2018 20:32",
-		"evaluateMorph:" : "ps 5/15/2018 20:34" } }
+		"checkLectureMethod:" : "ps 5/23/2018 16:10",
+		"descriptionBoxContent" : "js 5/22/2018 17:28",
+		"lectureMethod" : "ps 5/23/2018 15:15",
+		"lectureName" : "hks 5/22/2018 14:09",
+		"resetLecture" : "ps 5/23/2018 15:21",
+		"setPosition:" : "ps 5/23/2018 17:27" } }
