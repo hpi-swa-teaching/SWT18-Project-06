@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"color" ],
+	"name" : "Lecture03switchColors",
+	"pools" : [
+		 ],
+	"super" : "MotuLecture",
+	"type" : "normal" }

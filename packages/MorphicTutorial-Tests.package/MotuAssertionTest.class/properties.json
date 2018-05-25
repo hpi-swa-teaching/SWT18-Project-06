@@ -1,0 +1,15 @@
+{
+	"category" : "MorphicTutorial-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"assertion",
+		"failMessage" ],
+	"name" : "MotuAssertionTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

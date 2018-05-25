@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"failMessage" : "ps 5/21/2018 19:53",
+		"failMessage:" : "ps 5/21/2018 19:53",
+		"report:" : "ps 5/21/2018 19:54",
+		"setUp" : "till-later 5/25/2018 13:39",
+		"test01EqualsEvaluateTrue" : "till-later 5/25/2018 13:45",
+		"test02EqualsEvaluateFalse" : "till-later 5/25/2018 13:47" } }

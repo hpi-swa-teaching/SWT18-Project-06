@@ -2,7 +2,7 @@ as yet unclassified
 checkLectureMethod: aPlaygroundMorph
 	|spy morph|
 	self flag: #refactor. "Seems to be dirty to make call this always first."
-	super checkLectureMethod: aPlaygroundMorph.
+	self markAsPassed.
 	spy := MotuSpy spyOn: aPlaygroundMorph reportTo: self.
 	
 	morph := self performLectureMethodWith: spy.

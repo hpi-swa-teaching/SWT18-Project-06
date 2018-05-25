@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"reportTo:" : "till-later 5/25/2018 13:23" },
+	"instance" : {
+		"assert:equals:errMessage:" : "till-later 5/25/2018 13:28",
+		"reporter" : "hks 5/22/2018 11:45",
+		"reporter:" : "hks 5/22/2018 11:45" } }
