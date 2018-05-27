@@ -1,13 +1,13 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph	
-	|spy|
+	|assertion|
 	
 	self markAsPassed.
-	
+
 	self color: Color blue.
-	spy := MotuSpy spyOn: self reportTo: self.
+	assertion := MotuAssertion reportTo: self.
 	
 	self switchColors.
-	spy expect: #color: withArgs: {Color red} errMessage: 'Deine Funktion wechselt die Farbe des Morphs nicht von blau auf rot!'
+	assertion assert: self color equals: Color red errMessage: 'Deine Funktion wechselt die Farbe des Morphs nicht von blau auf rot!'.
 	self switchColors.
-	spy expect: #color: withArgs: {Color red} errMessage: 'Deine Funktion wechselt die Farbe des Morphs nicht von rot auf blau!'
+	assertion assert: self color equals: Color blue errMessage:  'Deine Funktion wechselt die Farbe des Morphs nicht von rot auf blau!'

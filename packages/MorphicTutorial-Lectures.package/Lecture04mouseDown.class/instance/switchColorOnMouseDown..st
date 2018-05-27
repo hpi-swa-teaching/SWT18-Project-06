@@ -1,3 +1,3 @@
 as yet unclassified
 switchColorOnMouseDown: aColorfulMorph
-	aColorfulMorph on: #mouseUp send: #switchColors to: aColorfulMorph
+		aColorfulMorph on: #mouseDown send: #switchColors to: aColorfulMorph
