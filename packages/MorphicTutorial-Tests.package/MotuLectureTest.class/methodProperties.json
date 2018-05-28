@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"testAssertEveryLectureHasADescriptionBoxContent" : "ps 5/28/2018 08:32",
+		"testAssertEveryLectureHasRichtTextDescription" : "js 5/28/2018 16:48",
 		"testCategoriesExist" : "js 5/21/2018 17:46",
 		"testCategoriesReturnLectures" : "js 5/21/2018 18:04",
 		"testCreateLecture" : "ps 5/23/2018 15:45",
