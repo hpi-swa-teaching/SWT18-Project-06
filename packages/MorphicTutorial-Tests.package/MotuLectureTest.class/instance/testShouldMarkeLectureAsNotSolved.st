@@ -1,5 +1,5 @@
 as yet unclassified
-testShouldShowError
+testShouldMarkeLectureAsNotSolved
 	|lecture string|
 	
 	string := 'ErrMessage'.
