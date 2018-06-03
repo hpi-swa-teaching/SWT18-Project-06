@@ -1,4 +1,4 @@
 as yet unclassified
 lectures
 
-	^ {Lecture06CreatePolygonMorph}
+	^ {Lecture06CreatePolygonMorph. Lecture07LinesWithPolygonMorphs }
