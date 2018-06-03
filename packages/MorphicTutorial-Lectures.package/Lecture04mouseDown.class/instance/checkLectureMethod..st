@@ -11,4 +11,4 @@ checkLectureMethod: aPlaygroundMorph
 	
 	self performLectureMethodWith: spy.
 	
-	 spy expect: #on:send:to: withArgs: {#mouseDown. #switchColors. spy} errMessage: 'Deine MouseDown handling Methode ist nicht korrekt.' 
+	 spy expect: #on:send:to: withArgs: {#mouseDown. #switchColors. spy} errMessage: 'Your method is not correct.' 

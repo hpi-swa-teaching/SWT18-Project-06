@@ -1,4 +1,4 @@
 as yet unclassified
 descriptionBoxContent
 
-	^ '<b>Schatzi schenk mir ein Foto</b><br>In dieser Lektion sollst Du eineh <a href="code://ImageMorph">ImageMorph</a> erstellen und zurückgeben. Wähle dafür ein beliebiges Bild von deiner Festplatte. Recherchiere, wie Du das Foto mit dem <i>ImageMorph</i> laden und zurückgeben kannst.' asHtmlText 
+	^ '<b>But first... let me take a selfie.</b><br>In this lecture you should create and return an <a href="code://ImageMorph">ImageMorph</a>. Choose a image from your computer and display it. Your should look up how your can load an images into the <i>ImageMorph</i>' asHtmlText 

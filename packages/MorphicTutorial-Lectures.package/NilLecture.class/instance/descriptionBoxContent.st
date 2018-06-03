@@ -1,4 +1,4 @@
 as yet unclassified
 descriptionBoxContent
 
-	^ '<b>Willkommen im Interaktiven Morphic Tutorial.</b><br>In den folgenden Lektionen kannst Du viel Nützliches über Morphs in Squeak lernen. Aufregend!' asHtmlText 
+	^ '<b>Welcome to the interactive Morphic Tutorial.</b><br>The following lectures will teach you a lot of useful things aboout Morphs in squeak. Awesome!' asHtmlText 

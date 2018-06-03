@@ -1,5 +1,4 @@
 as yet unclassified
 descriptionBoxContent
 
-	^ '<b>Blau wie ein Schlumpf</b><br><i>switchColors</i> ist eine Methode der Klasse <i>ColorfulMorph</i>, welche von Morph erbt. 
-Wenn die Methode aufgerufen wird, soll sie die Farbe des Morphs zwischen rot und blau tauschen. Deine Methode ist es jetzt, diese Mehtode zu schreiben.' asHtmlText
+	^ '<b>Blue, da ba dee</b><br><i>switchColors</i> is method of the class <i>ColorfulMorph</i>, which inherits from Morph. When the method is called, the color of the morph should be toggled between red to blue. Your task is to implement this method. Remember that you can refer to the color of your morph with <i>self color</i>.' asHtmlText
