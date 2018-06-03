@@ -8,6 +8,7 @@ evaluateCode
 		accept;
 		getText.
 		
+	self playground clear.
 	self selectedLecture checkCode: code on: self playground.
 	
 	self codeStatusBarContent: self selectedLecture feedback.
