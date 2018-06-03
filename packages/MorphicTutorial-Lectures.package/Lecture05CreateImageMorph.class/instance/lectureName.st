@@ -1,4 +1,4 @@
 as yet unclassified
 lectureName
 
-	^ 'Create a ImageMorph'
+	^ 'Create an ImageMorph'

@@ -1,4 +1,4 @@
 as yet unclassified
 lectureName
 
-	^ 'Einen Morph positionieren'
+	^ 'Position a Morph'

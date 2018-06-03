@@ -7,5 +7,5 @@ checkLectureMethod: aPlaygroundMorph
 	assertion := MotuAssertion reportTo: self.
 	morph := self performLectureMethodWith: spy.
 
-	assertion assert: morph hasClass: Morph errMessage: 'Du hast kein Object der Klasse Morph returned!'.
-	spy expect: #addMorph: withArgs: {morph} errMessage: 'Du hast den Morph nicht zur übegebenen Welt hinzugefügt!'
+	assertion assert: morph hasClass: Morph errMessage: 'You did not return an instance of Morph to us!'.
+	spy expect: #addMorph: withArgs: {morph} errMessage: 'You did not #openInWorld:!'
