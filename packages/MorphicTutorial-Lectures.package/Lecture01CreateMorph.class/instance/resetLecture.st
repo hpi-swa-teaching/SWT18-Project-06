@@ -2,6 +2,6 @@ as yet unclassified
 resetLecture
 
 	self class compile: 'openMorphIn: aWorld
-	"Den PlaygroundMorph geben wir Dir vor. Erstelle einen Morph
-	und öffne ihn im PlaygroundMorph. Returne ihn anschließend."
+	"We provide the PlaygroundMorph (the area above). Create a Morph
+	and open it in aWorld. Then return your Morph instance."
 	'
