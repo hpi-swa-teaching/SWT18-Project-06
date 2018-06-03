@@ -8,4 +8,4 @@ buildPlaygroundPanelWith: aBuilder
 			leftFraction: 0.33;
 			topFraction: 0;
 			rightFraction: 1;
-			bottomFraction: 0.45)
+			bottomFraction: 0.5 offset: self codeStatusBarHeight negated)

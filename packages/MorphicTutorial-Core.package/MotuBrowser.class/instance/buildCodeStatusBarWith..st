@@ -5,10 +5,11 @@ buildCodeStatusBarWith: aBuilder
 		model: self;
 		getText: #codeStatusBarContent;
 		color: #codeStatusBarColor;
+		textColor: #codeStatusBarTextColor;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new
 			leftFraction: 0.33;
-			topFraction: 0.45;
+			topFraction: 0.5 offset: self codeStatusBarHeight negated;
 			rightFraction: 1;
 			bottomFraction: 0.5)
