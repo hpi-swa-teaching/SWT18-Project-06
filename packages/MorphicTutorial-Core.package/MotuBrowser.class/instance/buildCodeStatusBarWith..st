@@ -3,9 +3,8 @@ buildCodeStatusBarWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 		model: self;
-		getText: #codeStatusBarContent;
+		getText: #codeStatusBarContentStyled;
 		color: #codeStatusBarColor;
-		textColor: #codeStatusBarTextColor;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new
