@@ -1,12 +1,9 @@
 building
 buildEvaluateButtonWith: aBuilder
 
-	self flag: #refactor. "Kommentar unten lschen. Toter Code?"
-
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Evaluate Code';
-		"enabled: #isProjectChapter;"
 		action: #evaluateCode;
 		frame: (LayoutFrame new
 			leftFraction: 0.33;
