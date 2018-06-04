@@ -1,14 +1,12 @@
 as yet unclassified
-checkLectureMethod: aPlaygroundMorph
+checkLectureMethod: aPlaygroundMorph 
 
-	|spy polygon|
-	
+	|polygon|
+
 	self setFailed.
 	self feedback: 'Please type in correct code.'.
-	
-	spy := MotuSpy spyOn: aPlaygroundMorph reportTo: self.
-	
-	polygon := self openPolygonMorph: spy.
+
+	polygon := self createStar.
 	polygon ifNil: [
 		^ self
 			feedback: 'Please return your PolygonMorph. You returned nil instead.';
@@ -17,10 +15,11 @@ checkLectureMethod: aPlaygroundMorph
 		^ self
 			feedback: 'Please return your PolygonMorph. You returned something different.';
 			setFailed].
-	spy expect: #addMorph: withArgs: {polygon} onFail: [
-		^self
-			feedback: 'Please open the PolygonMorph in the world we provide you with.';
+	(StarTester new constructsStar: polygon vertices) ifFalse: [
+		^ self
+			feedback: 'Your Polygon does not have the shape of a star.';
 			setFailed].
 
+	polygon openInWorld: aPlaygroundMorph.
 	self setPassed.
-	self feedback: 'Great!'
+	self feedback: 'Bigly!'

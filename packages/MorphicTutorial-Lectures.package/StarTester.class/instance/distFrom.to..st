@@ -1,4 +1,6 @@
 as yet unclassified
 distFrom: aPoint to: anotherPoint
 
-	^ (aPoint x squared + aPoint y squared) sqrt
+| result |
+	result := ((aPoint x - anotherPoint x) squared + (aPoint y - anotherPoint y) squared) sqrt.
+	^ result

@@ -10,5 +10,5 @@
 	"name" : "StarTester",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "Object",
 	"type" : "normal" }
