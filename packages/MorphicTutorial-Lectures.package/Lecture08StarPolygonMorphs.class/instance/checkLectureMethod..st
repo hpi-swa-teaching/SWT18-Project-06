@@ -15,7 +15,7 @@ checkLectureMethod: aPlaygroundMorph
 		^ self
 			feedback: 'Please return your PolygonMorph. You returned something different.';
 			setFailed].
-	(StarTester new constructsStar: polygon vertices) ifFalse: [
+	(MotuStarTester new constructsStar: polygon vertices) ifFalse: [
 		^ self
 			feedback: 'Your Polygon does not have the shape of a star.';
 			setFailed].

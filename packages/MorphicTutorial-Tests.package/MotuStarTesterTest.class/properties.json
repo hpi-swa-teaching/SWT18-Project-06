@@ -1,0 +1,15 @@
+{
+	"category" : "MorphicTutorial-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"spy",
+		"failMessage" ],
+	"name" : "MotuStarTesterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
