@@ -1,4 +1,4 @@
 subclassResponsibility
 markAsPassed
 	self setPassed.
-	self feedback: 'Grandios gelöst!'
+	self feedback: 'You are a morphic genius!'
