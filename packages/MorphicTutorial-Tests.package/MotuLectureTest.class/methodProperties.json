@@ -2,9 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+<<<<<<< HEAD
 		"testAssertEveryLectureHasADescriptionBoxContent" : "ps 5/28/2018 08:32",
 		"testAssertEveryLectureHasRichtTextDescription" : "js 5/28/2018 16:48",
 		"testCategoriesExist" : "js 5/21/2018 17:46",
 		"testCategoriesReturnLectures" : "js 5/21/2018 18:04",
 		"testCreateLecture" : "ps 5/23/2018 15:45",
 		"testShouldMarkeLectureAsNotSolved" : "ps 5/27/2018 23:56" } }
+=======
+		"testCategoriesExist" : "js 5/21/2018 17:46",
+		"testCategoriesReturnLectures" : "js 5/21/2018 18:04",
+		"testCreateLecture" : "ps 5/23/2018 15:45",
+		"testShouldShowError" : "ps 5/23/2018 15:53" } }
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13

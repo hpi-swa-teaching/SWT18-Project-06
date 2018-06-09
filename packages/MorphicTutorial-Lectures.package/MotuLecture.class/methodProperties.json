@@ -4,24 +4,40 @@
 		"instance:" : "till-later 5/14/2018 18:47",
 		"resetAll" : "hks 5/22/2018 13:35" },
 	"instance" : {
+<<<<<<< HEAD
 		"checkCode:on:" : "ps 5/27/2018 18:55",
 		"checkLectureMethod:" : "till-later 5/25/2018 12:25",
+=======
+		"checkCode:on:" : "hks 5/22/2018 11:49",
+		"checkLectureMethod:" : "ps 5/23/2018 15:13",
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13
 		"codeToEdit" : "hks 5/22/2018 11:16",
 		"descriptionBoxContent" : "hks 5/22/2018 11:06",
 		"feedback" : "hks 5/22/2018 11:06",
 		"feedback:" : "hks 5/22/2018 11:10",
+<<<<<<< HEAD
 		"initialize" : "ps 5/28/2018 07:55",
 		"lectureMethod" : "hks 5/22/2018 11:19",
 		"lectureName" : "hks 5/22/2018 11:07",
 		"markAsPassed" : "hks 6/6/2018 17:18",
 		"markAsPassedIfPossible" : "ps 5/28/2018 07:56",
+=======
+		"initialize" : "hks 5/22/2018 14:29",
+		"lectureMethod" : "hks 5/22/2018 11:19",
+		"lectureName" : "hks 5/22/2018 11:07",
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13
 		"passed" : "hks 5/22/2018 11:07",
 		"passed:" : "hks 5/22/2018 11:07",
 		"performLectureMethodWith:" : "ps 5/23/2018 15:18",
 		"readOnly" : "js 5/22/2018 17:13",
 		"report:" : "hks 5/22/2018 13:12",
 		"resetLecture" : "hks 5/22/2018 13:33",
+<<<<<<< HEAD
 		"resetLectureStatus" : "ps 5/28/2018 07:55",
 		"setFailed" : "hks 5/22/2018 11:07",
 		"setPassed" : "hks 5/22/2018 11:07",
 		"wasAnderes" : "till-later 5/25/2018 12:25" } }
+=======
+		"setFailed" : "hks 5/22/2018 11:07",
+		"setPassed" : "hks 5/22/2018 11:07" } }
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13

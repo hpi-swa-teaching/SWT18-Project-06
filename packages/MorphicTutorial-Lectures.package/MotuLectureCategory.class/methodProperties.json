@@ -2,5 +2,9 @@
 	"class" : {
 		"allCategories" : "js 5/21/2018 18:11" },
 	"instance" : {
+<<<<<<< HEAD
+=======
+		"description" : "hks 5/22/2018 14:24",
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13
 		"lectures" : "hks 5/22/2018 14:22",
 		"name" : "hks 5/22/2018 14:21" } }

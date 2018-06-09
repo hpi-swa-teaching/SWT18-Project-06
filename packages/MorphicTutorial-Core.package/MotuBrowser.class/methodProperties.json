@@ -5,6 +5,7 @@
 		"open" : "hks 5/7/2018 15:59" },
 	"instance" : {
 		"buildCodeEditorWith:" : "js 5/22/2018 17:18",
+<<<<<<< HEAD
 		"buildCodeStatusBarWith:" : "js 6/4/2018 09:56",
 		"buildDescriptionBoxWith:" : "till-later 5/2/2018 21:06",
 		"buildEvaluateButtonWith:" : "ps 6/4/2018 14:39",
@@ -12,10 +13,21 @@
 		"buildPlaygroundPanelWith:" : "hks 6/3/2018 14:30",
 		"buildWith:" : "till-later 5/14/2018 18:35",
 		"categoryList" : "hks 5/22/2018 14:49",
+=======
+		"buildCodeStatusBarWith:" : "hks 5/22/2018 14:51",
+		"buildDescriptionBoxWith:" : "till-later 5/2/2018 21:06",
+		"buildEvaluateButtonWith:" : "hks 5/22/2018 14:51",
+		"buildLectureListWith:" : "hks 5/22/2018 14:51",
+		"buildPlaygroundPanelWith:" : "js 5/21/2018 15:27",
+		"buildWith:" : "till-later 5/14/2018 18:35",
+		"categoryList" : "hks 5/22/2018 14:49",
+		"clearPlayground" : "hks 5/22/2018 14:49",
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13
 		"codeEditor" : "hks 5/22/2018 14:48",
 		"codeEditor:" : "hks 5/22/2018 14:48",
 		"codeStatusBarColor" : "hks 5/22/2018 14:48",
 		"codeStatusBarContent" : "hks 5/22/2018 14:48",
+<<<<<<< HEAD
 		"codeStatusBarContent:" : "hks 6/3/2018 14:44",
 		"codeStatusBarContentStyled" : "js 6/4/2018 09:55",
 		"codeStatusBarHeight" : "hks 6/3/2018 14:28",
@@ -25,6 +37,12 @@
 		"evaluateCode" : "hks 6/3/2018 16:17",
 		"initialize" : "hks 5/22/2018 14:47",
 		"isProjectChapter" : "ps 6/4/2018 14:36",
+=======
+		"codeStatusBarContent:" : "hks 5/22/2018 14:48",
+		"descriptionBoxContent" : "js 5/21/2018 18:54",
+		"evaluateCode" : "ps 5/23/2018 15:00",
+		"initialize" : "hks 5/22/2018 14:47",
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13
 		"labelString" : "hks 5/2/2018 19:58",
 		"lectureIconAt:" : "hks 5/22/2018 14:47",
 		"open" : "hks 5/7/2018 16:00",
@@ -32,5 +50,9 @@
 		"playground:" : "hks 5/22/2018 14:47",
 		"playgroundInCollection" : "hks 5/22/2018 14:47",
 		"selectedLecture" : "hks 5/22/2018 14:47",
+<<<<<<< HEAD
 		"selectedLecture:" : "hks 6/3/2018 14:46",
+=======
+		"selectedLecture:" : "js 5/22/2018 17:11",
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13
 		"windowColorToUse" : "till-later 5/2/2018 21:14" } }

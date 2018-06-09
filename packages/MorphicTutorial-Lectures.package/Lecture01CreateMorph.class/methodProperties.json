@@ -2,9 +2,18 @@
 	"class" : {
 		"openMorphIn:" : "ps 5/23/2018 16:19" },
 	"instance" : {
+<<<<<<< HEAD
 		"checkLectureMethod:" : "hks 6/3/2018 14:58",
 		"descriptionBoxContent" : "hks 6/3/2018 14:57",
 		"lectureMethod" : "hks 5/22/2018 11:36",
 		"lectureName" : "hks 5/22/2018 14:07",
 		"openMorphIn:" : "hks 6/4/2018 17:42",
 		"resetLecture" : "hks 6/3/2018 15:09" } }
+=======
+		"checkLectureMethod:" : "ps 5/23/2018 16:11",
+		"descriptionBoxContent" : "js 5/22/2018 17:27",
+		"lectureMethod" : "hks 5/22/2018 11:36",
+		"lectureName" : "hks 5/22/2018 14:07",
+		"openMorphIn:" : "ps 5/23/2018 17:24",
+		"resetLecture" : "ps 5/23/2018 16:19" } }
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13

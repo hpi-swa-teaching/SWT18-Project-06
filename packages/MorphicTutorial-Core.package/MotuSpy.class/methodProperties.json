@@ -2,9 +2,14 @@
 	"class" : {
 		"spyOn:reportTo:" : "hks 5/22/2018 11:44" },
 	"instance" : {
+<<<<<<< HEAD
 		"doesNotUnderstand:" : "till-later 5/25/2018 13:18",
 		"expect:withArgs:errMessage:" : "hks 5/22/2018 11:45",
 		"expect:withArgs:onFail:" : "hks 6/3/2018 16:01",
+=======
+		"doesNotUnderstand:" : "hks 5/22/2018 12:22",
+		"expect:withArgs:errMessage:" : "hks 5/22/2018 11:45",
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13
 		"history" : "hks 5/22/2018 14:27",
 		"history:" : "hks 5/22/2018 14:28",
 		"initialize" : "hks 5/22/2018 14:29",

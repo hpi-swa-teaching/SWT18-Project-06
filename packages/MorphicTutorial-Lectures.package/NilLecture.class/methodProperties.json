@@ -3,6 +3,10 @@
 		 },
 	"instance" : {
 		"codeToEdit" : "hks 5/22/2018 11:52",
+<<<<<<< HEAD
 		"descriptionBoxContent" : "js 6/3/2018 15:09",
+=======
+		"descriptionBoxContent" : "js 5/22/2018 17:29",
+>>>>>>> 485f9a622de42fe6e01661a73d754bc862d9fe13
 		"readOnly" : "js 5/22/2018 17:13",
 		"resetLecture" : "hks 5/22/2018 14:04" } }
