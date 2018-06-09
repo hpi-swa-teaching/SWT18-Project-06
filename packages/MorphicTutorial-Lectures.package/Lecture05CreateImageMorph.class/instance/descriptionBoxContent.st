@@ -1,4 +1,4 @@
 as yet unclassified
 descriptionBoxContent
 
-	^ '<b>But first... let me take a selfie.</b><br>In this lecture you should create and return an <a href="code://ImageMorph">ImageMorph</a>. Choose an image from your computer and display it. You should look up how you can load an images into the <i>ImageMorph</i>' asHtmlText 
+	^ '<b>But first... let me take a selfie.</b><br>You already know how to access and load an image from your computer. Now you have to put the Form into the <a href="code://ImageMorph">ImageMorph</a>. Create an ImageMorph with an Image of your choice and return the ImageMorph.' asHtmlText 
