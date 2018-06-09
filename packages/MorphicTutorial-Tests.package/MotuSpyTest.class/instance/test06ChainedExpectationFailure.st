@@ -4,8 +4,12 @@ test06ChainedExpectationFailure
 	
 	errMessage1 := 'err1'.
 	errMessage2 := 'err2'.
-	spy 
+	
+	[spy 
 		expect: #position: withArgs: {100@100} errMessage: errMessage1;
 		expect: #color: withArgs: {Color green} errMessage: errMessage2.
+	self assert: false] 
+		on: Error do: [:e |
+			self assert: e messageText = errMessage1].
 		
-	self assert: self failMessage = errMessage1
+	

@@ -1,7 +1,6 @@
 as yet unclassified
-spyOn: aMorph reportTo: aReporter
+spyOn: aMorph
 
 	^ self new
 		morph: aMorph;
-		reporter: aReporter;
 		yourself

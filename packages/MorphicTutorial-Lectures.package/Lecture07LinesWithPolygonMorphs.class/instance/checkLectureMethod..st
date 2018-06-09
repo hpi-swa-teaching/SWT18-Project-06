@@ -1,20 +1,21 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph 
-	| polygon |
-	self setFailed.
-	self feedback: 'Your code is not correct.'.
+	| polygon asserter |
+
 	polygon := self createLineFrom: 0 @ 0 to: 100 @ 100.
-	(polygon isKindOf: PolygonMorph)
-		ifFalse: [^ self failWithFeedback: 'Your method does not return a PolygonMorph.'].
+	asserter := MotuAssertion new.
 	
+	[
+	asserter assert: polygon hasClass:PolygonMorph errMessage: 'Your method does not return a PolygonMorph.'.
+	asserter assertBlockCollection: {
+		[polygon vertices size = 2]. 
+		[polygon vertices first - aPlaygroundMorph visibleClearArea origin = (0@0)].
+		[polygon vertices last  - aPlaygroundMorph visibleClearArea origin = (100@ 100)]
+		} errMessage: 'You should pass the two given points to the PolygonMorph.'.
+	asserter assert: polygon borderColor equals: Color red errMessage: 'Your line should be red.'.
 	aPlaygroundMorph addMorph: polygon.
+	self markAsPassed] 
+		on: Error do: [:e | self markAsFailedWithMessage: e asString]
 	
-	(polygon vertices size = 2
-			and: [polygon vertices first - aPlaygroundMorph visibleClearArea origin = (0@0)]
-			and: [polygon vertices last  - aPlaygroundMorph visibleClearArea origin = (100@ 100)])
-		ifFalse: [^ self failWithFeedback: 'You should pass the two given points to the PolygonMorph.'].
-	polygon borderColor = Color red
-		ifFalse: [ ^ self failWithFeedback: 'Your line should be red.'].
+
 	
-	self setPassed.
-	self feedback: 'Great job!'

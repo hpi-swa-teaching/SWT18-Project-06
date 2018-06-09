@@ -13,15 +13,13 @@
 		"initialize" : "ps 5/28/2018 07:55",
 		"lectureMethod" : "hks 5/22/2018 11:19",
 		"lectureName" : "hks 5/22/2018 11:07",
-		"markAsPassed" : "hks 6/6/2018 17:18",
-		"markAsPassedIfPossible" : "ps 5/28/2018 07:56",
+		"markAsFailedWithMessage:" : "ps 6/9/2018 15:04",
+		"markAsPassed" : "ps 6/9/2018 15:05",
 		"passed" : "hks 5/22/2018 11:07",
 		"passed:" : "hks 5/22/2018 11:07",
 		"performLectureMethodWith:" : "ps 5/23/2018 15:18",
 		"readOnly" : "js 5/22/2018 17:13",
-		"report:" : "hks 5/22/2018 13:12",
 		"resetLecture" : "hks 5/22/2018 13:33",
 		"resetLectureStatus" : "ps 5/28/2018 07:55",
 		"setFailed" : "hks 5/22/2018 11:07",
-		"setPassed" : "hks 5/22/2018 11:07",
-		"wasAnderes" : "till-later 5/25/2018 12:25" } }
+		"setPassed" : "ps 6/9/2018 15:03" } }

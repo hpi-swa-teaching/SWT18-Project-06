@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"failMessage" : "ps 5/21/2018 19:53",
-		"failMessage:" : "ps 5/21/2018 19:53",
-		"report:" : "ps 5/21/2018 19:54",
-		"setUp" : "till-later 5/25/2018 13:39",
-		"test01EqualsEvaluateTrue" : "ps 5/25/2018 23:30",
-		"test02EqualsEvaluateFalse" : "ps 5/25/2018 23:31" } }
+		"setUp" : "ps 6/9/2018 14:46",
+		"testClassEvaluateFalse" : "ps 6/9/2018 14:48",
+		"testClassEvaluatesTrue" : "ps 6/9/2018 14:48",
+		"testEqualsEvaluateFalse" : "ps 6/9/2018 14:47",
+		"testEqualsEvaluateTrue" : "ps 6/9/2018 14:47",
+		"testNotEqualsEvaluateFalse" : "ps 6/9/2018 14:49",
+		"testNotEqualsEvaluateTrue" : "ps 6/9/2018 14:51",
+		"testNotNilEvaluateFalse" : "ps 6/9/2018 14:52",
+		"testNotNilEvaluateTrue" : "ps 6/9/2018 14:52" } }

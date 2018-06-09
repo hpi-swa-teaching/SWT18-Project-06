@@ -5,9 +5,12 @@ checkLectureMethod: aPlaygroundMorph
 	self markAsPassed.
 
 	self color: Color blue.
-	assertion := MotuAssertion reportTo: self.
+	assertion := MotuAssertion new.
 	
+	[
 	self switchColors.
 	assertion assert: self color equals: Color red errMessage: 'Your method does not change the color of the morph from blue to red.'.
 	self switchColors.
-	assertion assert: self color equals: Color blue errMessage:  'Your method does not change the color of the morph from red to blue.'
+	assertion assert: self color equals: Color blue errMessage: 'Your method does not change the color of the morph from red to blue.'.
+	self markAsPassed] 
+		on: Error do: [:e | self markAsFailedWithMessage: e asString]

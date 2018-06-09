@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"reportTo:" : "till-later 5/25/2018 13:23" },
+		 },
 	"instance" : {
-		"assert:equals:errMessage:" : "ps 5/28/2018 08:34",
-		"assert:hasClass:errMessage:" : "ps 5/27/2018 23:52",
-		"assert:notEquals:errMessage:" : "ps 5/28/2018 08:33",
-		"reporter" : "hks 5/22/2018 11:45",
-		"reporter:" : "hks 5/22/2018 11:45" } }
+		"assert:equals:errMessage:" : "ps 6/9/2018 14:46",
+		"assert:hasClass:errMessage:" : "ps 6/7/2018 14:44",
+		"assert:notEquals:errMessage:" : "ps 6/9/2018 14:51",
+		"assertBlock:errMessage:" : "ps 6/9/2018 18:19",
+		"assertBlockCollection:errMessage:" : "ps 6/9/2018 18:17",
+		"assertNotNil:errMessage:" : "ps 6/9/2018 14:51" } }
