@@ -8,6 +8,6 @@ buildEvaluateButtonWith: aBuilder
 		action: #evaluateCode;
 		frame: (LayoutFrame new
 			leftFraction: 0.33;
-			topFraction: 0.95;
+			topFraction: 1 offset: self evaluateButtonHeight negated;
 			rightFraction: 1;
 			bottomFraction: 1)
