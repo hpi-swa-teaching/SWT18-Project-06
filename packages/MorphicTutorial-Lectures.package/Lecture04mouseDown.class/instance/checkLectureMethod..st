@@ -10,5 +10,5 @@ checkLectureMethod: aPlaygroundMorph
 	
 	[
 	spy expect: #on:send:to: withArgs: {#mouseDown. #switchColors. spy} errMessage: 'Your method is not correct.'.
-	self markAsPassed] 
-		on: Error do: [:e | self markAsFailedWithMessage: e asString]
+	self pass] 
+		on: Error do: [:e | self failWith: e asString]

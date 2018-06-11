@@ -1,4 +1,4 @@
 accessing
 codeStatusBarContent
 
-	^codeStatusBarContent
+	^ self selectedLecture feedback

@@ -14,8 +14,8 @@ checkLectureMethod: aPlaygroundMorph
 		} errMessage: 'You should pass the two given points to the PolygonMorph.'.
 	asserter assert: polygon borderColor equals: Color red errMessage: 'Your line should be red.'.
 	aPlaygroundMorph addMorph: polygon.
-	self markAsPassed] 
-		on: Error do: [:e | self markAsFailedWithMessage: e asString]
+	self pass] 
+		on: Error do: [:e | self failWith: e asString]
 	
 
 	

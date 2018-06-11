@@ -1,4 +1,4 @@
 building
 isLectureSelected
 
-	^ (self selectedLecture isKindOf: NilLecture) not
+	^ self selectedLecture readOnly not
