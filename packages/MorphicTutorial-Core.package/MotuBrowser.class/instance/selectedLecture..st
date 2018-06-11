@@ -3,6 +3,10 @@ selectedLecture: anObject
 
 	(anObject isKindOf: MotuLectureCategory) ifTrue: [^ self ].
 	selectedLecture := anObject ifNil: [ NilLecture new ].
+	
+	self playground clear.
+	selectedLecture passed
+		ifTrue: [selectedLecture checkLectureMethod: self playground].
 
 	self codeStatusBarContent: (self selectedLecture feedback).
 	self codeEditor activeLecture: self selectedLecture.
