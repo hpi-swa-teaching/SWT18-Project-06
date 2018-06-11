@@ -8,4 +8,5 @@ selectedLecture: anObject
 	self codeEditor activeLecture: self selectedLecture.
 
 	self changed: #selectedLecture.
-	self changed: #descriptionBoxContent
+	self changed: #descriptionBoxContent.
+	self changed: #isLectureSelected
