@@ -1,4 +1,4 @@
 as yet unclassified
 lectures
 
-	^ {Lecture01CreateMorph. Lecture02PositionMorph}
+	^ {Lecture01CreateMorph. Lecture02PositionMorph. MotuAbandonMorph}

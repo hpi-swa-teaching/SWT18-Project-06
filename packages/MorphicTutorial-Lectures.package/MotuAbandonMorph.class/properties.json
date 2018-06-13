@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MotuAbandonMorph",
+	"pools" : [
+		 ],
+	"super" : "MotuLecture",
+	"type" : "normal" }
