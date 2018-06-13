@@ -1,4 +1,4 @@
 building
 isLectureSelected
 
-	^ self selectedLecture readOnly not
+	^ self selectedLecture enableEvaluation
