@@ -1,0 +1,3 @@
+subclassResponsibility
+enableEvaluation
+	^ true

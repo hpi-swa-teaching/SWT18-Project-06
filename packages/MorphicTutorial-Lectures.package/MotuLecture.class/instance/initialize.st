@@ -1,5 +1,5 @@
-accessing
+initialize-release
 initialize
 
 	super initialize.
-	self resetLectureStatus
+	self failWith: ''

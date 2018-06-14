@@ -1,26 +1,15 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph
 
-	|spy polygon|
+	|spy asserter polygon|
 	
-	self setFailed.
-	self feedback: 'Please type in correct code.'.
-	
-	spy := MotuSpy spyOn: aPlaygroundMorph reportTo: self.
-	
+	spy := MotuSpy spyOn: aPlaygroundMorph.
+	asserter := MotuAssertion new.
 	polygon := self openPolygonMorph: spy.
-	polygon ifNil: [
-		^ self
-			feedback: 'Please return your PolygonMorph. You returned nil instead.';
-			setFailed].
-	(polygon isKindOf: PolygonMorph) ifFalse: [
-		^ self
-			feedback: 'Please return your PolygonMorph. You returned something different.';
-			setFailed].
-	spy expect: #addMorph: withArgs: {polygon} onFail: [
-		^self
-			feedback: 'Please open the PolygonMorph in the world we provide you with.';
-			setFailed].
-
-	self setPassed.
-	self feedback: 'Great!'
+	
+	[
+	asserter assertNotNil: polygon errMessage: 'Please return your PolygonMorph. You returned nil instead.'.
+	asserter assert: polygon hasClass: PolygonMorph errMessage: 'Please return your PolygonMorph. You returned something different.'.
+	spy expect: #addMorph: withArgs: {polygon} errMessage: 'Please open the PolygonMorph in the world we provide you with.'.
+	self pass] 
+		on: Error do: [:e | self failWith: e asString]

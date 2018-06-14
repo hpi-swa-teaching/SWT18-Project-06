@@ -1,8 +1,6 @@
 building
 buildLectureListWith: aBuilder
 
-	self flag: #refactor. "Kommentar unten lschen. Toter Code?"
-
 	^ aBuilder pluggableTreeSpec new
 		model: self;
 		roots: #categoryList;
@@ -15,7 +13,3 @@ buildLectureListWith: aBuilder
 			topFraction: 0;
 			rightFraction: 0.33;
 			bottomFraction: 0.67)
-	"		list: #lectureList;
-		icon: #lectureIconAt:;
-		getSelected: #selectedLectureClass;
-		setSelected: #selectLecture:;"

@@ -2,10 +2,17 @@ accessing
 selectedLecture: anObject
 
 	(anObject isKindOf: MotuLectureCategory) ifTrue: [^ self ].
+	
+	selectedLecture  ifNotNil: [selectedLecture removeDependent: self].
 	selectedLecture := anObject ifNil: [ NilLecture new ].
+	selectedLecture addDependent: self.
+	
+	self playground clear.
+	selectedLecture passed
+		ifTrue: [selectedLecture checkLectureMethod: self playground].
 
-	self codeStatusBarContent: (self selectedLecture feedback).
 	self codeEditor activeLecture: self selectedLecture.
 
 	self changed: #selectedLecture.
-	self changed: #descriptionBoxContent
+	self changed: #descriptionBoxContent.
+	self changed: #isLectureSelected

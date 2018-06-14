@@ -1,4 +1,4 @@
 accessing
 codeStatusBarContentStyled
 
-	^ Text string: codeStatusBarContent attribute: (TextColor color: self codeStatusBarTextColor)
+	^ Text string: self codeStatusBarContent attribute: (TextColor color: self codeStatusBarTextColor)

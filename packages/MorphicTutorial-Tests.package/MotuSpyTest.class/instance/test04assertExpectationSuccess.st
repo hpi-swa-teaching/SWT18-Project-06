@@ -3,9 +3,8 @@ test04assertExpectationSuccess
 	|errMessage|
 	
 	errMessage := 'Position was not or wrong called'.
-	spy 
+	[spy 
 		position: 100@100;
-		expect: #position: withArgs: {100@100} errMessage: errMessage.
-	
-	self assert: self failMessage isNil.
+		expect: #position: withArgs: {100@100} errMessage: errMessage.]
+		on: Error do: [:e | self assert: false].
 	
