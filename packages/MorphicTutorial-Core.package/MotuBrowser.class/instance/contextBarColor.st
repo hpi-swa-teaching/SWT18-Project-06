@@ -1,0 +1,4 @@
+ui
+contextBarColor
+	
+	^ self windowColorToUse 

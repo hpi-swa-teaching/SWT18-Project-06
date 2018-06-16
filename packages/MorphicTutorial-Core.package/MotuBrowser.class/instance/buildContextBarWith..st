@@ -1,14 +1,14 @@
 building
-buildCodeStatusBarWith: aBuilder
+buildContextBarWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 		model: self;
-		getText: #codeStatusBarContentStyled;
-		color: #codeStatusBarColor;
+		getText: #contextBarContent;
+		color: #contextBarColor;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new
 			leftFraction: 0.33;
-			topFraction: 0.5 offset: 2 * self codeStatusBarHeight negated;
+			topFraction: 0.5 offset: self codeStatusBarHeight negated;
 			rightFraction: 1;
 			bottomFraction: 0.5)

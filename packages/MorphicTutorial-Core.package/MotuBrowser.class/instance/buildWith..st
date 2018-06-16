@@ -12,5 +12,6 @@ buildWith: aBuilder
 			self buildEvaluateButtonWith: aBuilder.
 			self buildPlaygroundPanelWith: aBuilder.
 			self buildCodeStatusBarWith: aBuilder.
+			self buildContextBarWith: aBuilder.
 			};
 		yourself)
