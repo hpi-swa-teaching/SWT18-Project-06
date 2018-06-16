@@ -1,4 +1,4 @@
 as yet unclassified
 lectureMethod
 
-	^ #createLineFrom:to: 
+	^ self class >> #createLineFrom:to: 

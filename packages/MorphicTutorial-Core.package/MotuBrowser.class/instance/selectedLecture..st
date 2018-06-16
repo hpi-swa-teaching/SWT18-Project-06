@@ -15,4 +15,5 @@ selectedLecture: anObject
 
 	self changed: #selectedLecture.
 	self changed: #descriptionBoxContent.
-	self changed: #isLectureSelected
+	self changed: #isLectureSelected.
+	self update: selectedLecture

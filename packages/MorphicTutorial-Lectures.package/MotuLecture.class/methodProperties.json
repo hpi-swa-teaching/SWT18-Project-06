@@ -4,9 +4,9 @@
 		"instance:" : "till-later 5/14/2018 18:47",
 		"resetAll" : "hks 5/22/2018 13:35" },
 	"instance" : {
-		"checkCode:on:" : "hks 6/11/2018 16:05",
+		"checkCode:on:" : "js 6/16/2018 10:12",
 		"checkLectureMethod:" : "till-later 5/25/2018 12:25",
-		"codeToEdit" : "hks 5/22/2018 11:16",
+		"codeToEdit" : "js 6/16/2018 10:05",
 		"descriptionBoxContent" : "hks 5/22/2018 11:06",
 		"enableEvaluation" : "ps 6/11/2018 23:04",
 		"failWith:" : "hks 6/11/2018 16:30",
@@ -18,7 +18,8 @@
 		"pass" : "hks 6/11/2018 16:27",
 		"passed" : "hks 5/22/2018 11:07",
 		"passed:" : "hks 5/22/2018 11:07",
-		"performLectureMethodWith:" : "ps 5/23/2018 15:18",
+		"performLectureMethodWith:" : "js 6/16/2018 10:19",
 		"resetLecture" : "hks 5/22/2018 13:33",
 		"setFailed" : "hks 5/22/2018 11:07",
-		"setPassed" : "ps 6/9/2018 15:03" } }
+		"setPassed" : "ps 6/9/2018 15:03",
+		"simulateWorkspace" : "js 6/16/2018 10:08" } }

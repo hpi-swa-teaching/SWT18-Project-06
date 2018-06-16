@@ -1,4 +1,4 @@
 as yet unclassified
 codeToEdit
 
-	^ (self class >> self lectureMethod) getSource
+	^ self lectureMethod getSource

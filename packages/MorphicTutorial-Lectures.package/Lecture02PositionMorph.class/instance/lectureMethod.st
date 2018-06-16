@@ -1,4 +1,4 @@
 as yet unclassified
 lectureMethod
 
-	^ #setPosition:
+	^ self class >> #setPosition:

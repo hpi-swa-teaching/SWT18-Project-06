@@ -3,7 +3,7 @@ checkLectureMethod: aPlaygroundMorph
 	|assertion morph|
 	
 	assertion := MotuAssertion new.
-	morph := self perform: self lectureMethod.
+	morph := self perform: self lectureMethod selector.
 
 	[
 	assertion assert: morph hasClass: ImageMorph errMessage: 'Your did not return an ImageMorph.'.

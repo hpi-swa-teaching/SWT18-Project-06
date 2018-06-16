@@ -1,0 +1,3 @@
+as yet unclassified
+testColorFullMorphLectureHasSelfContext
+	self assert: Lecture03switchColors instance simulateWorkspace not

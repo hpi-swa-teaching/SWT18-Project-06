@@ -1,4 +1,4 @@
 as yet unclassified
 lectureMethod
 
-	^ #openPolygonMorph:
+	^ self class >> #openPolygonMorph:

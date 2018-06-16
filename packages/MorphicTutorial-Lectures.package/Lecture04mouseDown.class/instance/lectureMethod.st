@@ -1,4 +1,4 @@
 as yet unclassified
 lectureMethod
 
-	^ #switchColorOnMouseDown:
+	^ self class >> #switchColorOnMouseDown:

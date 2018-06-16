@@ -1,4 +1,4 @@
 as yet unclassified
 lectureMethod
 
-	^ #pathToAnImage
+	^ self class >> #pathToAnImage

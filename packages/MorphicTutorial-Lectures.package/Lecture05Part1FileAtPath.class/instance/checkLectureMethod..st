@@ -3,7 +3,7 @@ checkLectureMethod: aPlaygroundMorph
 	|asserter path|
 	
 	asserter := MotuAssertion new.
-	path := self perform: self lectureMethod.
+	path := self perform: self lectureMethod selector.
 
 	[
 	asserter assert: path hasClass: ByteString errMessage: 'You did not return a String'.

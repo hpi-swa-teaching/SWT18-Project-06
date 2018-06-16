@@ -3,7 +3,7 @@ checkLectureMethod: aPlaygroundMorph
 	|asserter form|
 	
 	asserter := MotuAssertion new.
-	form := self perform: self lectureMethod.
+	form := self perform: self lectureMethod selector.
 
 	[
 	asserter assert: form hasClass: Form errMessage: 'You did not return a Form.'.
