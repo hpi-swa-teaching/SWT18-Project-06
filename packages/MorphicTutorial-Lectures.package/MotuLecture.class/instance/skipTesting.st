@@ -1,0 +1,3 @@
+subclassResponsibility
+skipTesting
+	^ false
