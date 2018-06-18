@@ -8,8 +8,7 @@ selectedLecture: anObject
 	selectedLecture addDependent: self.
 	
 	self playground clear.
-	selectedLecture passed
-		ifTrue: [selectedLecture checkLectureMethod: self playground].
+	selectedLecture setUp: self playground.
 
 	self codeEditor activeLecture: self selectedLecture.
 
