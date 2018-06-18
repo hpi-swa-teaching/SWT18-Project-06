@@ -7,7 +7,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"color" ],
-	"name" : "Lecture04mouseDown",
+	"name" : "SwitchColors",
 	"pools" : [
 		 ],
 	"super" : "MotuLecture",

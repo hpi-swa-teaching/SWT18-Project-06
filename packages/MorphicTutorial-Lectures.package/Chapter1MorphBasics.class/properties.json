@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "Lecture05Part1FileAtPath",
+	"name" : "Chapter1MorphBasics",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuLectureCategory",
 	"type" : "normal" }

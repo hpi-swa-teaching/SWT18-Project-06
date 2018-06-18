@@ -1,3 +1,3 @@
 as yet unclassified
 testFirstLectureSimulatesWorkSpace
-	self assert: Lecture01CreateMorph instance simulateWorkspace 
+	self assert: CreateMorph instance simulateWorkspace 

@@ -7,7 +7,7 @@
 	"commentStamp" : "pascal 5/7/2018 10:32",
 	"instvars" : [
 		 ],
-	"name" : "Lecture01CreateMorph",
+	"name" : "CreateMorph",
 	"pools" : [
 		 ],
 	"super" : "MotuLecture",

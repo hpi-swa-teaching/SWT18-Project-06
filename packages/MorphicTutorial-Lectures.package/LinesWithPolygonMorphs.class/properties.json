@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"color" ],
-	"name" : "Lecture03switchColors",
+		 ],
+	"name" : "LinesWithPolygonMorphs",
 	"pools" : [
 		 ],
 	"super" : "MotuLecture",
