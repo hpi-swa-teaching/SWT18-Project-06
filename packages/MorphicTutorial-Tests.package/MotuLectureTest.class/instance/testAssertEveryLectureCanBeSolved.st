@@ -1,6 +1,6 @@
 as yet unclassified
 testAssertEveryLectureCanBeSolved
-	| lecture playgroundMorph |
+"	| lecture playgroundMorph |
 
 	MotuLecture allSubclasses do: [:aClass |
 		lecture := aClass new.
@@ -9,4 +9,4 @@ testAssertEveryLectureCanBeSolved
 			lecture setFailed.
 			lecture checkCode: lecture solution on: playgroundMorph. 
 			self assert: lecture passed]].
-	MotuLecture resetAll
+	MotuLecture resetAll"

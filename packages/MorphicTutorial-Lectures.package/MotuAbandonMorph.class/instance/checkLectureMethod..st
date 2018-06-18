@@ -1,12 +1,10 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph
 
-	|spy morph|
+	|spy|
 
-	morph := Morph new
-		openInWorld: aPlaygroundMorph;
-		yourself.
-	spy := MotuSpy spyOn: morph.
+	self morph: (Morph new openInWorld: aPlaygroundMorph).
+	spy := MotuSpy spyOn: self morph.
 	self performLectureMethodWith: spy.
 
 	[spy expect: #delete withArgs: {}
