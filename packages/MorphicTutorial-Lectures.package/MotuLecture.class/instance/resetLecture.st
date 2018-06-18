@@ -1,4 +1,5 @@
 accessing
 resetLecture
-
-	^ self subclassResponsibility
+	| methodHead |
+	methodHead := self extractMethodName: self solution.
+	self lectureMethod methodClass compile: methodHead

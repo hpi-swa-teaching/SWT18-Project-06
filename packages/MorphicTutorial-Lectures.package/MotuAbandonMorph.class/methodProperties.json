@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"abandon:" : "hks 6/18/2018 16:30",
-		"checkLectureMethod:" : "hks 6/13/2018 16:58",
+		"abandon:" : "till-later 6/18/2018 17:42",
+		"checkLectureMethod:" : "till-later 6/18/2018 17:36",
 		"descriptionBoxContent" : "hks 6/13/2018 16:51",
 		"lectureMethod" : "js 6/16/2018 10:02",
 		"lectureName" : "hks 6/13/2018 16:41",
-		"resetLecture" : "hks 6/13/2018 16:38" } }
+		"solution" : "till-later 6/18/2018 16:22" } }

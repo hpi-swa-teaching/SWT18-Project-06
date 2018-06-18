@@ -3,6 +3,7 @@ checkLectureMethod: aPlaygroundMorph
 	|polygon asserter|
 
 	polygon := self createStar.
+	polygon openInWorld: aPlaygroundMorph.
 	
 	asserter := MotuAssertion new.
 	

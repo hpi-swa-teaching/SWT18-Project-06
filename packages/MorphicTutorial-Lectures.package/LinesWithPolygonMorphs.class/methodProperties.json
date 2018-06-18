@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"checkLectureMethod:" : "hks 6/11/2018 15:55",
-		"createLineFrom:to:" : "hks 6/18/2018 16:30",
+		"checkLectureMethod:" : "till-later 6/18/2018 16:44",
+		"createLineFrom:to:" : "till-later 6/18/2018 17:42",
 		"descriptionBoxContent" : "ps 6/4/2018 14:40",
 		"lectureMethod" : "js 6/16/2018 10:02",
 		"lectureName" : "js 6/3/2018 15:52",
-		"resetLecture" : "js 6/3/2018 15:54" } }
+		"solution" : "till-later 6/18/2018 16:45" } }

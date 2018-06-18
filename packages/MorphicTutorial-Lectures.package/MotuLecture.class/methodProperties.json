@@ -4,11 +4,12 @@
 		"instance:" : "till-later 5/14/2018 18:47",
 		"resetAll" : "hks 5/22/2018 13:35" },
 	"instance" : {
-		"checkCode:on:" : "js 6/16/2018 10:12",
+		"checkCode:on:" : "till-later 6/18/2018 17:39",
 		"checkLectureMethod:" : "till-later 5/25/2018 12:25",
 		"codeToEdit" : "js 6/16/2018 10:05",
 		"descriptionBoxContent" : "hks 5/22/2018 11:06",
 		"enableEvaluation" : "ps 6/11/2018 23:04",
+		"extractMethodName:" : "till-later 6/18/2018 17:04",
 		"failWith:" : "hks 6/11/2018 16:30",
 		"feedback" : "hks 5/22/2018 11:06",
 		"feedback:" : "hks 5/22/2018 11:10",
@@ -19,8 +20,9 @@
 		"passed" : "hks 5/22/2018 11:07",
 		"passed:" : "hks 5/22/2018 11:07",
 		"performLectureMethodWith:" : "js 6/16/2018 10:19",
-		"resetLecture" : "hks 5/22/2018 13:33",
+		"resetLecture" : "till-later 6/18/2018 17:09",
 		"setFailed" : "hks 5/22/2018 11:07",
 		"setPassed" : "ps 6/9/2018 15:03",
 		"setUp:" : "hks 6/18/2018 16:23",
-		"simulateWorkspace" : "js 6/16/2018 10:08" } }
+		"simulateWorkspace" : "js 6/16/2018 10:08",
+		"solution" : "till-later 6/18/2018 16:21" } }
