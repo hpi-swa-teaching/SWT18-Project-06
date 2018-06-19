@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"checkLectureMethod:" : "js 6/16/2018 10:14",
+		"checkLectureMethod:" : "hks 6/19/2018 11:22",
 		"descriptionBoxContent" : "js 6/3/2018 15:13",
+		"initialize" : "hks 6/19/2018 11:18",
 		"lectureMethod" : "till-later 6/18/2018 15:55",
 		"lectureName" : "hks 6/3/2018 14:50",
+		"morph" : "hks 6/19/2018 11:18",
+		"morph:" : "hks 6/19/2018 11:18",
+		"setUp:" : "hks 6/19/2018 11:19",
 		"solution" : "till-later 6/18/2018 16:36",
 		"switchColors" : "hks 6/18/2018 16:30" } }
