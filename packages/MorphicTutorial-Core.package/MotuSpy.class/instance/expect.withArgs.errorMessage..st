@@ -1,5 +1,5 @@
 accessing
-dontExpect: aSelector withArgs: aCollection errMessage: aString
+expect: aSelector withArgs: aCollection errorMessage: aString
 			
 	(self history anySatisfy: [:aMessage | aMessage selector = aSelector and: [aMessage arguments = aCollection]])
-		ifTrue: [ ^ self error: aString ]
+		ifFalse: [ ^ self error: aString ]

@@ -1,5 +1,5 @@
 accessing
-assertNotNil: anObject errMessage: aString
+assertNotNil: anObject errorMessage: aString
 
 	anObject ifNil: [^ self error: aString]
 	

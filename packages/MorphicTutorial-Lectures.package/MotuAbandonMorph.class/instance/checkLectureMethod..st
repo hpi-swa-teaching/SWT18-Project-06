@@ -1,18 +1,21 @@
 as yet unclassified
-checkLectureMethod: aPlaygroundMorph
-
-	|spy|
-
-	self morph: (Morph new openInWorld: aPlaygroundMorph).
+checkLectureMethod: aPlaygroundMorph 
+	| spy |
+	self
+		morph: (Morph new openInWorld: aPlaygroundMorph).
 	spy := MotuSpy spyOn: self morph.
 	self performLectureMethodWith: spy.
-
-	[spy expect: #delete withArgs: {}
-		errMessage: '']
+	[spy
+		expect: #delete
+		withArgs: {}
+		errorMessage: '']
 		on: Error
-		do: [[spy expect: #abandon withArgs: {}
-				errMessage: 'Let the Morph disappear using delete or abandon.']
+		do: [[spy
+				expect: #abandon
+				withArgs: {}
+				errorMessage: 'Let the Morph disappear using delete or abandon.']
 				on: Error
-				do: [:e | self failWith: e asString.
+				do: [:error | 
+					self failWith: error asString.
 					^ self]].
 	self pass

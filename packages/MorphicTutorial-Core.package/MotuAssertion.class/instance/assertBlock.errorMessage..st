@@ -1,5 +1,5 @@
 accessing
-assertBlock: aBlock errMessage: aString
+assertBlock: aBlock errorMessage: aString
 
 	aBlock value ifFalse: [^ self error: aString]
 	

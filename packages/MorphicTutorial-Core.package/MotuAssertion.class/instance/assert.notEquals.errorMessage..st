@@ -1,5 +1,5 @@
 accessing
-assert: anObjectA notEquals: anObjectB errMessage: aString
+assert: anObjectA notEquals: anObjectB errorMessage: aString
 
 	anObjectA = anObjectB ifTrue: [^ self error: aString]
 	

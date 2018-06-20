@@ -7,11 +7,11 @@ checkLectureMethod: aPlaygroundMorph
 	[assertion
 		assert: morph
 		hasClass: Morph
-		errMessage: 'You did not return an instance of Morph to us!'.
+		errorMessage: 'You did not return an instance of Morph to us!'.
 	spy
 		expect: #addMorph:
 		withArgs: {morph}
-		errMessage: 'You did not #openInWorld:!'.
+		errorMessage: 'You did not #openInWorld:!'.
 	self pass]
 		on: Error
-		do: [:e | self failWith: e asString]
+		do: [:error | self failWith: error asString]

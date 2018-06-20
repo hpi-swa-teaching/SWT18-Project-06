@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"setUp" : "ps 6/9/2018 14:46",
-		"testClassEvaluateFalse" : "till-later 6/18/2018 17:32",
-		"testClassEvaluatesTrue" : "ps 6/9/2018 14:48",
-		"testEqualsEvaluateFalse" : "ps 6/9/2018 14:47",
-		"testEqualsEvaluateTrue" : "ps 6/9/2018 14:47",
-		"testNotEqualsEvaluateFalse" : "ps 6/9/2018 14:49",
-		"testNotEqualsEvaluateTrue" : "ps 6/9/2018 14:51",
-		"testNotNilEvaluateFalse" : "ps 6/9/2018 14:52",
-		"testNotNilEvaluateTrue" : "ps 6/9/2018 14:52" } }
+		"testClassEvaluateFalse" : "ps 6/20/2018 17:26",
+		"testClassEvaluatesTrue" : "ps 6/20/2018 17:26",
+		"testEqualsEvaluateFalse" : "ps 6/20/2018 17:25",
+		"testEqualsEvaluateTrue" : "ps 6/20/2018 17:25",
+		"testNotEqualsEvaluateFalse" : "ps 6/20/2018 17:28",
+		"testNotEqualsEvaluateTrue" : "ps 6/20/2018 17:28",
+		"testNotNilEvaluateFalse" : "ps 6/20/2018 17:29",
+		"testNotNilEvaluateTrue" : "ps 6/20/2018 17:29" } }

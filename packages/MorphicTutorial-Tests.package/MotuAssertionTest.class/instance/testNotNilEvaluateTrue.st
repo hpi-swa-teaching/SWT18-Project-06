@@ -3,5 +3,5 @@ testNotNilEvaluateTrue
 	|errMessage|
 	
 	errMessage := 'errMessage'.
-	[assertion assertNotNil: Color green errMessage: errMessage]
+	[assertion assertNotNil: Color green errorMessage: errMessage]
 		on: Error do: [:e | self assert: false]
