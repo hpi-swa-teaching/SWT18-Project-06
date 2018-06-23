@@ -2,5 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+<<<<<<< HEAD
 		"lectures" : "ps 6/23/2018 13:20",
+=======
+		"lectures" : "hks 6/13/2018 16:42",
+>>>>>>> b7c074b6d1255dc559dd7d3b21e2ac06b611eecb
 		"name" : "ps 6/9/2018 19:10" } }

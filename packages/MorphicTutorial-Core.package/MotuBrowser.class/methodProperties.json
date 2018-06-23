@@ -5,6 +5,7 @@
 		"open" : "hks 5/7/2018 15:59" },
 	"instance" : {
 		"buildCodeEditorWith:" : "hks 6/11/2018 15:27",
+<<<<<<< HEAD
 		"buildCodeStatusBarWith:" : "js 6/16/2018 10:30",
 		"buildContextBarWith:" : "js 6/16/2018 10:32",
 		"buildDescriptionBoxWith:" : "till-later 5/2/2018 21:06",
@@ -12,6 +13,14 @@
 		"buildLectureListWith:" : "ps 6/9/2018 19:35",
 		"buildPlaygroundPanelWith:" : "js 6/16/2018 10:30",
 		"buildWith:" : "js 6/16/2018 10:29",
+=======
+		"buildCodeStatusBarWith:" : "hks 6/11/2018 15:26",
+		"buildDescriptionBoxWith:" : "till-later 5/2/2018 21:06",
+		"buildEvaluateButtonWith:" : "hks 6/11/2018 15:27",
+		"buildLectureListWith:" : "ps 6/9/2018 19:35",
+		"buildPlaygroundPanelWith:" : "hks 6/11/2018 15:26",
+		"buildWith:" : "till-later 5/14/2018 18:35",
+>>>>>>> b7c074b6d1255dc559dd7d3b21e2ac06b611eecb
 		"categoryList" : "hks 5/22/2018 14:49",
 		"codeEditor" : "hks 5/22/2018 14:48",
 		"codeEditor:" : "hks 5/22/2018 14:48",
@@ -35,6 +44,10 @@
 		"playground:" : "hks 5/22/2018 14:47",
 		"playgroundInCollection" : "hks 5/22/2018 14:47",
 		"selectedLecture" : "hks 5/22/2018 14:47",
+<<<<<<< HEAD
 		"selectedLecture:" : "ps 6/23/2018 13:18",
+=======
+		"selectedLecture:" : "hks 6/11/2018 16:24",
+>>>>>>> b7c074b6d1255dc559dd7d3b21e2ac06b611eecb
 		"update:" : "hks 6/11/2018 16:27",
 		"windowColorToUse" : "till-later 5/2/2018 21:14" } }

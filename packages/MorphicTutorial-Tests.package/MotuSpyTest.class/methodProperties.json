@@ -5,7 +5,14 @@
 		"setUp" : "ps 6/9/2018 14:39",
 		"test01assertHistorieIsAOrderedCollection" : "ps 5/21/2018 18:52",
 		"test02addMethodCallToHistorie" : "ps 5/21/2018 18:54",
+<<<<<<< HEAD
 		"test03assertMessageInHistorie" : "ps 6/20/2018 17:23",
 		"test04assertExpectationSuccess" : "ps 6/20/2018 17:23",
 		"test05ChainedExpectationSuccess" : "ps 6/20/2018 17:23",
 		"test06ChainedExpectationFailure" : "ps 6/20/2018 17:23" } }
+=======
+		"test03assertMessageInHistorie" : "ps 6/7/2018 14:58",
+		"test04assertExpectationSuccess" : "ps 6/7/2018 15:03",
+		"test05ChainedExpectationSuccess" : "ps 6/7/2018 15:04",
+		"test06ChainedExpectationFailure" : "ps 6/7/2018 14:59" } }
+>>>>>>> b7c074b6d1255dc559dd7d3b21e2ac06b611eecb

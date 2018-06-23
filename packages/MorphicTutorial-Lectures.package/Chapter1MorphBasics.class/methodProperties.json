@@ -2,5 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+<<<<<<< HEAD:packages/MorphicTutorial-Lectures.package/Chapter1MorphBasics.class/methodProperties.json
 		"lectures" : "ps 6/23/2018 13:18",
+=======
+		"lectures" : "hks 6/13/2018 16:55",
+>>>>>>> b7c074b6d1255dc559dd7d3b21e2ac06b611eecb:packages/MorphicTutorial-Lectures.package/Chapter1.class/methodProperties.json
 		"name" : "hks 6/3/2018 14:50" } }

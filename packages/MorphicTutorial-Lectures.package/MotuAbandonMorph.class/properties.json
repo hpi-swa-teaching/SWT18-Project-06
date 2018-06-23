@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+<<<<<<< HEAD
 		"morph" ],
+=======
+		 ],
+>>>>>>> b7c074b6d1255dc559dd7d3b21e2ac06b611eecb
 	"name" : "MotuAbandonMorph",
 	"pools" : [
 		 ],

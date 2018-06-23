@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Lecture05Part3CreateImageMorph",
+	"pools" : [
+		 ],
+	"super" : "MotuLecture",
+	"type" : "normal" }

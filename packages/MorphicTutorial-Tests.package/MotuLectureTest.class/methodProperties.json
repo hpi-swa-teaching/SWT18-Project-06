@@ -10,7 +10,11 @@
 		"testAssertEveryLectureHasRichtTextDescription" : "js 5/28/2018 16:48",
 		"testCategoriesExist" : "js 5/21/2018 17:46",
 		"testCategoriesReturnLectures" : "js 5/21/2018 18:04",
+<<<<<<< HEAD
 		"testColorFullMorphLectureHasSelfContext" : "ps 6/23/2018 13:18",
 		"testCreateLecture" : "ps 5/23/2018 15:45",
 		"testExtractMethodName" : "till-later 6/18/2018 17:06",
 		"testFirstLectureSimulatesWorkSpace" : "ps 6/18/2018 15:04" } }
+=======
+		"testCreateLecture" : "ps 5/23/2018 15:45" } }
+>>>>>>> b7c074b6d1255dc559dd7d3b21e2ac06b611eecb
