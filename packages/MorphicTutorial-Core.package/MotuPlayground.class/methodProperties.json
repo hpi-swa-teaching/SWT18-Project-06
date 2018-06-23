@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMorph:" : "js 6/3/2018 16:34",
+		"addMorph:" : "ps 6/23/2018 16:19",
 		"clear" : "hks 5/22/2018 14:29",
-		"initialize" : "hks 5/22/2018 14:29" } }
+		"initialize" : "hks 5/22/2018 14:29",
+		"setRelativePositionInPlaygroundFor:" : "ps 6/23/2018 16:36" } }
