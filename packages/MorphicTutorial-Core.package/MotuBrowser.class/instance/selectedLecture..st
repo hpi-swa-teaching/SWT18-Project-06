@@ -4,7 +4,7 @@ selectedLecture: anObject
 	(anObject isKindOf: MotuLectureCategory) ifTrue: [^ self ].
 	
 	selectedLecture  ifNotNil: [selectedLecture removeDependent: self].
-	selectedLecture := anObject ifNil: [ NilLecture new ].
+	selectedLecture := anObject ifNil: [ MotuNilLecture new ].
 	selectedLecture addDependent: self.
 	
 	self playground clear.

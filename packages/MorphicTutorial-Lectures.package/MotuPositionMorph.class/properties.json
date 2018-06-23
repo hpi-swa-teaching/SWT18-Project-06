@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "StarPolygonMorphs",
+	"name" : "MotuPositionMorph",
 	"pools" : [
 		 ],
 	"super" : "MotuLecture",

@@ -1,4 +1,4 @@
 as yet unclassified
 lectures
 
-	^ {CreatePolygonMorph. LinesWithPolygonMorphs. StarPolygonMorphs }
+	^ {MotuCreatePolygonMorph. MotuLinesWithPolygonMorphs. MotuStarPolygonMorphs }

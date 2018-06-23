@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "PositionMorph",
+		"morph" ],
+	"name" : "MotuSwitchColors",
 	"pools" : [
 		 ],
 	"super" : "MotuLecture",

@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "pascal 5/7/2018 10:32",
 	"instvars" : [
 		 ],
-	"name" : "ImageMorphPart3CreateImageMorph",
+	"name" : "MotuCreateMorph",
 	"pools" : [
 		 ],
 	"super" : "MotuLecture",

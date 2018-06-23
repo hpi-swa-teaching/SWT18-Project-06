@@ -1,4 +1,4 @@
 as yet unclassified
 lectures
 
-	^ {CreateMorph. PositionMorph. MotuAbandonMorph}
+	^ {MotuCreateMorph. MotuPositionMorph. MotuAbandonMorph}

@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"morph" ],
-	"name" : "MouseDown",
+		 ],
+	"name" : "MotuCreatePolygonMorph",
 	"pools" : [
 		 ],
 	"super" : "MotuLecture",

@@ -7,7 +7,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"morph" ],
-	"name" : "SwitchColors",
+	"name" : "MotuMouseDown",
 	"pools" : [
 		 ],
 	"super" : "MotuLecture",

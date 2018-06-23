@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "CreatePolygonMorph",
+	"name" : "MotuImageMorphFileAtPath",
 	"pools" : [
 		 ],
 	"super" : "MotuLecture",

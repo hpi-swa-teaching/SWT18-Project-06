@@ -1,3 +1,3 @@
 as yet unclassified
 testColorFullMorphLectureHasSelfContext
-	self assert: SwitchColors instance simulateWorkspace not
+	self assert: MotuSwitchColors instance simulateWorkspace not
