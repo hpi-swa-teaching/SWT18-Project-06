@@ -1,4 +1,4 @@
 accessing
-playground: anObject
+playground: aMotuPlayground
 
-	playground := anObject
+	playground := aMotuPlayground
