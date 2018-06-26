@@ -1,4 +1,3 @@
 subclassResponsibility
 lectureName
-
 	^ self subclassResponsibility 

@@ -1,6 +1,5 @@
 editor and playground
 evaluateCode
-
 	|code|
 	
 	code := self codeEditor

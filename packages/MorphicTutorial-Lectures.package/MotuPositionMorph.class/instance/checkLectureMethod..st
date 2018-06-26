@@ -11,7 +11,7 @@ checkLectureMethod: aPlaygroundMorph
 	spy
 		expect: #position:
 		withArgs: {150 @ 350}
-		errorMessage: '#position: the Morph at 150@350.'.
+		errorMessage: 'You did not call position: with the correct parameters'.
 	aPlaygroundMorph addMorph: morph.
 	self pass.]
 		on: Error
