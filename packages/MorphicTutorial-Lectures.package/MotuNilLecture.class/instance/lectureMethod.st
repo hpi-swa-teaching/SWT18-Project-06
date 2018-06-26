@@ -1,2 +1,3 @@
 as yet unclassified
-setPosition: aMorph
+lectureMethod
+	^#nil

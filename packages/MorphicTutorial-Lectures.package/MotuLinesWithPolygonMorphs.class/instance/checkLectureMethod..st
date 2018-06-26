@@ -7,7 +7,9 @@ checkLectureMethod: aPlaygroundMorph
 		assert: polygon
 		hasClass: PolygonMorph
 		errorMessage: 'Your method does not return a PolygonMorph.'.
-	asserter assertBlockCollection: {[polygon vertices size = 2]. [polygon vertices first = (0 @ 0)]. [polygon vertices last = (100 @ 100)]} errorMessage: 'You should pass the two given points to the PolygonMorph.'.
+	asserter 
+		assertBlockCollection: {[polygon vertices size = 2]. [polygon vertices first = (0 @ 0)]. [polygon vertices last = (100 @ 100)]} 
+		errorMessage: 'You should pass the two given points to the PolygonMorph.'.
 	asserter
 		assert: polygon borderColor
 		equals: Color red
