@@ -4,5 +4,6 @@
 	"instance" : {
 		"addMorph:" : "ps 6/23/2018 16:19",
 		"clear" : "hks 5/22/2018 14:29",
-		"initialize" : "ps 6/26/2018 13:14",
-		"setRelativePositionInPlaygroundFor:" : "ps 6/23/2018 16:36" } }
+		"initialize" : "js 6/27/2018 13:55",
+		"setRelativePositionInPlaygroundFor:" : "ps 6/23/2018 16:36",
+		"setUpBackground" : "js 6/27/2018 13:57" } }

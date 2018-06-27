@@ -2,7 +2,5 @@ ui
 initialize
 
 	super initialize.
-	self playground: (MotuPlayground new
-		setAsBackground: SqueakTheme linenblue;
-		yourself).
+	self playground: MotuPlayground new.
 	self selectedLecture: nil
