@@ -1,5 +1,7 @@
 as yet unclassified
 setUpBackground
-	(Smalltalk at: #SqueakTheme ifAbsent: nil)
-		ifNil: [self setAsBackground: Preferences defaultWorldColor  ] 
-		ifNotNil: [ self setAsBackground: SqueakTheme linenblue ]
+	| theme |
+	theme := Smalltalk at: #SqueakTheme ifAbsent: nil.
+	theme
+		ifNil: [self color: Preferences defaultWorldColor  ] 
+		ifNotNil: [ self setAsBackground: theme linenblue ]
