@@ -13,5 +13,6 @@ buildWith: aBuilder
 			self buildPlaygroundPanelWith: aBuilder.
 			self buildCodeStatusBarWith: aBuilder.
 			self buildContextBarWith: aBuilder.
+			self buildFirstLineOfCode: aBuilder.
 			};
 		yourself)

@@ -1,4 +1,4 @@
-subclassResponsibility
+code-transformation
 extractMethodName: aString
 	| indexOfNewline |
 	indexOfNewline := aString indexOf: Character cr.
