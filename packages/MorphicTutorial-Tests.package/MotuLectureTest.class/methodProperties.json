@@ -4,7 +4,7 @@
 	"instance" : {
 		"setUp" : "js 6/20/2018 17:56",
 		"tearDown" : "js 6/20/2018 17:54",
-		"testAssertEveryLectureCanBeSolved" : "js 6/20/2018 19:01",
+		"testAssertEveryLectureCanBeSolved" : "js 6/27/2018 13:43",
 		"testAssertEveryLectureHasADescriptionBoxContent" : "ps 5/28/2018 08:32",
 		"testAssertEveryLectureHasAName" : "ps 6/26/2018 13:22",
 		"testAssertEveryLectureHasASolution" : "till-later 6/18/2018 17:28",
