@@ -8,8 +8,7 @@ checkLectureMethod: aPlaygroundMorph
 		hasClass: ByteString
 		errorMessage: 'You did not return a String'.
 	asserter
-		assertBlock: [(FileDirectory uri: '')
-				fileExists: path]
+		assertBlock: [((FileDirectory uri: '') fileExists: path) or: [ path = 'non-existing-image-for-testing.png']]
 		errorMessage: 'There is no file at the directory you returned.'.
 	self pass]
 		on: Error

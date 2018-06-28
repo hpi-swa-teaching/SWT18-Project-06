@@ -1,4 +1,4 @@
 as yet unclassified
 solution 
   ^ 'pathToAnImage
-	^''sample.png'''
+	^''non-existing-image-for-testing.png'''

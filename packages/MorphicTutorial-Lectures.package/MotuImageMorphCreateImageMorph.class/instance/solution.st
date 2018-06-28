@@ -1,4 +1,4 @@
 as yet unclassified
 solution
 	^ 'openMorphIn
-	^ ImageMorph new image: (Form fromFileNamed: ''sample.png'')'
+	^ ImageMorph new image: ToolIcons abstract'
