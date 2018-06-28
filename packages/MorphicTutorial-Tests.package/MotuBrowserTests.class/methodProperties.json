@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "hks 5/2/2018 21:09",
+		"setUp" : "js 6/28/2018 18:45",
 		"testAllFunctionsReturnString" : "ps 5/14/2018 10:38",
+		"testAllLecturesAreSelectable" : "js 6/28/2018 18:45",
 		"testBuildCodeStatusBarReturnsSpec" : "till-later 5/14/2018 18:30",
 		"testBuildMotuBrowser" : "ps 5/14/2018 10:25",
 		"testBuildMotuBrowserCodeEditorReturnsSpec" : "ps 5/14/2018 10:30",
