@@ -7,9 +7,8 @@ testAssertEveryLectureCanBeSolved
 			lecture := aClass new.
 			Transcript show: lecture.
 			Transcript show: Character cr.
-			lecture skipTesting ifFalse: [
-				playgroundMorph := MotuPlaygroundMock new.
-				lecture setFailed.
-				lecture checkCode: (lecture adaptCodeForDisplay: lecture solution) on: playgroundMorph. 
-				self assert: lecture passed]]].
+			playgroundMorph := MotuPlaygroundMock new.
+			lecture setFailed.
+			lecture checkCode: (lecture adaptCodeForDisplay: lecture solution) on: playgroundMorph. 
+			self assert: lecture passed]].
 	MotuLecture resetAll

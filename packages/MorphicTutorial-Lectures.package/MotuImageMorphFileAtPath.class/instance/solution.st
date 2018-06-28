@@ -1,4 +1,4 @@
 as yet unclassified
 solution 
   ^ 'pathToAnImage
-	^''Smalltalk.icns'''
+	^''sample.png'''
