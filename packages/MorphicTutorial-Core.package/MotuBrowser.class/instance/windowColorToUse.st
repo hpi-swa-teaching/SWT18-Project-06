@@ -1,4 +1,3 @@
 ui
-windowColorToUse
-
-	^ Preferences windowColorFor: #Model
+windowColorToUse 
+	^ Color veryVeryLightGray
