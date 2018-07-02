@@ -1,0 +1,3 @@
+ui
+windowColorToUse 
+	^ Color veryVeryLightGray
