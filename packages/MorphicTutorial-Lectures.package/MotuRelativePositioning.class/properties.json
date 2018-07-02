@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph" ],
+	"name" : "MotuRelativePositioning",
+	"pools" : [
+		 ],
+	"super" : "MotuLecture",
+	"type" : "normal" }
