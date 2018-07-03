@@ -5,7 +5,7 @@ buildResetLectureButtonWith: aBuilder
 		model: self;
 		label: 'Reset';
 		enabled: #isLectureSelected;
-		action: #resetLecture;
+		action: #resetSelectedLecture;
 		frame: (LayoutFrame new
 			leftFraction: 0.33;
 			topFraction: 1 offset: self evaluateButtonHeight negated;
