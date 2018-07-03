@@ -3,12 +3,12 @@
 		 },
 	"instance" : {
 		"checkLectureMethod:" : "hks 7/2/2018 16:24",
-		"descriptionBoxContent" : "hks 7/3/2018 09:07",
+		"descriptionBoxContent" : "hks 7/3/2018 15:32",
 		"initialize" : "hks 7/2/2018 16:03",
 		"lectureMethod" : "hks 7/2/2018 16:07",
 		"lectureName" : "hks 7/3/2018 09:06",
 		"morph" : "hks 7/2/2018 16:03",
 		"morph:" : "hks 7/2/2018 16:03",
-		"setPosition:" : "js 7/3/2018 15:30",
+		"setPosition:" : "hks 7/3/2018 15:32",
 		"setUp:" : "hks 7/2/2018 16:18",
 		"solution" : "hks 7/2/2018 16:08" } }
