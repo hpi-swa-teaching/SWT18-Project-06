@@ -1,13 +1,13 @@
 building
-buildEvaluateButtonWith: aBuilder
+buildResetLectureButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		label: 'Evaluate Code';
+		label: 'Reset';
 		enabled: #isLectureSelected;
-		action: #evaluateCode;
+		action: #resetLecture;
 		frame: (LayoutFrame new
-			leftFraction: 0.5;
+			leftFraction: 0.33;
 			topFraction: 1 offset: self evaluateButtonHeight negated;
-			rightFraction: 1;
+			rightFraction: 0.5;
 			bottomFraction: 1)

@@ -10,6 +10,7 @@ buildWith: aBuilder
 			self buildLectureListWith: aBuilder.
 			self buildCodeEditorWith: aBuilder.
 			self buildEvaluateButtonWith: aBuilder.
+			self buildResetLectureButtonWith: aBuilder.
 			self buildPlaygroundPanelWith: aBuilder.
 			self buildCodeStatusBarWith: aBuilder.
 			self buildContextBarWith: aBuilder.
