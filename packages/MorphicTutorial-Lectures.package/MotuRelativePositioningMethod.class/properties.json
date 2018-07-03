@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MotuPositionMorph",
+		"containerMorph",
+		"positionMorph" ],
+	"name" : "MotuRelativePositioningMethod",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "MotuLecture",
 	"type" : "normal" }

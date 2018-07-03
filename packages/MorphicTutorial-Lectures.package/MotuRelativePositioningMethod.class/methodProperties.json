@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"checkLectureMethod:" : "hks 7/3/2018 09:54",
+		"containerMorph" : "hks 7/3/2018 09:35",
+		"containerMorph:" : "hks 7/3/2018 09:35",
+		"descriptionBoxContent" : "hks 7/3/2018 09:59",
+		"initialize" : "hks 7/3/2018 09:50",
+		"lectureMethod" : "hks 7/3/2018 09:12",
+		"lectureName" : "hks 7/3/2018 09:13",
+		"positionMorph" : "hks 7/3/2018 09:35",
+		"positionMorph:" : "hks 7/3/2018 09:35",
+		"setUp:" : "hks 7/3/2018 09:48",
+		"solution" : "hks 7/3/2018 09:13" } }

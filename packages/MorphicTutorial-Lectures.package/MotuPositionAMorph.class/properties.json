@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "MotuPositionMorph",
+	"name" : "MotuPositionAMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "MotuLecture",
 	"type" : "normal" }
