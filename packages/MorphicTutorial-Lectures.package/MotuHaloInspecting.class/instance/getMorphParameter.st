@@ -1,3 +1,3 @@
 as yet unclassified
 getMorphParameter
-	^ {Color maroon. 28. 67}
+	^ {Color paleOrange. 28. 67}

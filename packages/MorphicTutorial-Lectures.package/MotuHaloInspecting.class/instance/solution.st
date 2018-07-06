@@ -4,6 +4,6 @@ solution
 	^'inspect: aMorph
 	
 	aMorph 
-		color: Color maroon;
+		color: Color paleOrange;
 		width: 28;
 		height: 67'
