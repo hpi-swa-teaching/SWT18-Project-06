@@ -8,12 +8,8 @@ selectedLecture: anObject
 	selectedLecture addDependent: self.
 	
 	self playground clear.
+	self showSolution: false.
 	selectedLecture setUp: self playground.
 
 	self codeEditor activeLecture: self selectedLecture.
-
-	self changed: #selectedLecture.
-	self changed: #descriptionBoxContent.
-	self changed: #isLectureSelected.
-	self changed: #contextBarContent.
 	self update: selectedLecture

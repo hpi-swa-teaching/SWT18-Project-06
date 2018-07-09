@@ -11,6 +11,7 @@ buildWith: aBuilder
 			self buildCodeEditorWith: aBuilder.
 			self buildEvaluateButtonWith: aBuilder.
 			self buildResetLectureButtonWith: aBuilder.
+			self buildSolutionToggleButtonWith: aBuilder.
 			self buildPlaygroundPanelWith: aBuilder.
 			self buildCodeStatusBarWith: aBuilder.
 			self buildContextBarWith: aBuilder.

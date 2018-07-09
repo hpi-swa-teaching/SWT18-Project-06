@@ -10,7 +10,8 @@
 		"window",
 		"codeEditor",
 		"playground",
-		"categoryList" ],
+		"categoryList",
+		"showSolution" ],
 	"name" : "MotuBrowser",
 	"pools" : [
 		 ],
