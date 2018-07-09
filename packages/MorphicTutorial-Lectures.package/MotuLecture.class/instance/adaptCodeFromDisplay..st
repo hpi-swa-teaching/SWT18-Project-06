@@ -2,7 +2,7 @@ code-transformation
 adaptCodeFromDisplay: aString
 	| firstLine body |
 	self simulateWorkspace not ifTrue: [ ^ aString ].
-	firstLine := self extractMethodName: self solution.
+	firstLine := self methodName.
 	body := self extractMethodBody: aString.
 	self parameterNames size > 0
 		ifTrue: [ ^ firstLine, Character cr, body ]

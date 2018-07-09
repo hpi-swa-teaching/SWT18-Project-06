@@ -1,3 +1,4 @@
 as yet unclassified
 solution
-	self subclassResponsibility
+
+	^ self adaptCodeForDisplay: self solutionMethod getSource asString

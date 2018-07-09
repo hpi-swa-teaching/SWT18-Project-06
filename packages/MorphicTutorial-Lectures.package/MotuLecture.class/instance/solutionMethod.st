@@ -1,3 +1,3 @@
 subclassResponsibility
-lectureMethod
+solutionMethod
 	^ self subclassResponsibility
