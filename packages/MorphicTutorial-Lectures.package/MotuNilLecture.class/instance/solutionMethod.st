@@ -1,3 +1,3 @@
 as yet unclassified
 solutionMethod
-	^#solutionNilMethod
+	^ self class >> #solutionNilMethod
