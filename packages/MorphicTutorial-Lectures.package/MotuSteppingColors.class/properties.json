@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"morph" ],
+	"name" : "MotuSteppingColors",
+	"pools" : [
+		 ],
+	"super" : "MotuLecture",
+	"type" : "normal" }

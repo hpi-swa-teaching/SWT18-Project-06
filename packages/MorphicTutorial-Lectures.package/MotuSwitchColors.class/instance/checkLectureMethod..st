@@ -1,7 +1,7 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph 
 	| assertion |
-	self morph: (ColorfulMorph new color: Color blue;
+	self morph: (ColorfulMorph new color: Color blue; position: self morph position;
 			 yourself).
 	aPlaygroundMorph addMorph: self morph.
 	assertion := MotuAssertion new.

@@ -1,4 +1,4 @@
 as yet unclassified
 lectures
 
-	^ {MotuSwitchColors. MotuMouseDown}
+	^ {MotuSwitchColors. MotuMouseDown. MotuSteppingColors. MotuSteppingStepColors}
