@@ -2,6 +2,8 @@ editor and playground
 evaluateCode
 	|code|
 	
+	self closeAllAutoCompletionMorphs.
+	
 	code := self codeEditor
 		accept;
 		getText.
