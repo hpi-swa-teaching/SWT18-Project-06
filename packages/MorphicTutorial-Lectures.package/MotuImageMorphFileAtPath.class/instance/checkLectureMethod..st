@@ -1,13 +1,12 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph 
-	| asserter path |
-	asserter := MotuAssertion new.
+	| path |
 	path := self perform: self lectureMethod selector.
-	[asserter
+	[self asserter
 		assert: path
 		hasClass: ByteString
 		errorMessage: 'You did not return a String'.
-	asserter
+	self asserter
 		assertBlock: [((FileDirectory uri: '') fileExists: path) or: [ path = 'non-existing-image-for-testing.png']]
 		errorMessage: 'There is no file at the directory you returned.'.
 	self pass]

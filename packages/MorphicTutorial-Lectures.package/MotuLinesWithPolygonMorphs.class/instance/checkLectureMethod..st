@@ -1,16 +1,15 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph 
-	| polygon asserter |
+	| polygon |
 	polygon := self createLineFrom: 0 @ 0 to: 100 @ 100.
-	asserter := MotuAssertion new.
-	[asserter
+	[self asserter
 		assert: polygon
 		hasClass: PolygonMorph
 		errorMessage: 'Your method does not return a PolygonMorph.'.
-	asserter 
+	self asserter 
 		assertBlockCollection: {[polygon vertices size = 2]. [polygon vertices first = (0 @ 0)]. [polygon vertices last = (100 @ 100)]} 
 		errorMessage: 'You should pass the two given points to the PolygonMorph.'.
-	asserter
+	self asserter
 		assert: polygon borderColor
 		equals: Color red
 		errorMessage: 'Your line should be red.'.

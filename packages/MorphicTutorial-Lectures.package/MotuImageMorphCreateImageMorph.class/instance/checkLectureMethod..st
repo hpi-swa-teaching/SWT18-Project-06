@@ -1,13 +1,12 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph 
-	| assertion morph |
-	assertion := MotuAssertion new.
+	| morph |
 	morph := self perform: self lectureMethod selector.
-	[assertion
+	[self asserter
 		assert: morph
 		hasClass: ImageMorph
 		errorMessage: 'Your did not return an ImageMorph.'.
-	assertion
+	self asserter
 		assert: morph image
 		notEquals: ImageMorph new image
 		errorMessage: 'Your ImageMorph has no image in it'.

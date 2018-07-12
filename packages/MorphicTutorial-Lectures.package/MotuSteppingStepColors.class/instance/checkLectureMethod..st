@@ -1,10 +1,8 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph 
-	| assertion |
 	self morph: (ColorfulMorph new color: Color red; yourself).
 	self morph step.
-	assertion := MotuAssertion new.
-	[assertion
+	[self asserter
 		assert: self morph color
 		equals: Color blue
 		errorMessage: 'You did not implement step right.'.

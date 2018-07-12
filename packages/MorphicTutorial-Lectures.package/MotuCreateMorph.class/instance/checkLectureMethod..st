@@ -1,10 +1,9 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph 
-	| spy assertion morph |
+	| spy morph |
 	spy := MotuSpy spyOn: aPlaygroundMorph.
-	assertion := MotuAssertion new.
 	morph := self performLectureMethodWith: spy.
-	[assertion
+	[self asserter
 		assert: morph
 		hasClass: Morph
 		errorMessage: 'You did not return an instance of Morph to us!'.

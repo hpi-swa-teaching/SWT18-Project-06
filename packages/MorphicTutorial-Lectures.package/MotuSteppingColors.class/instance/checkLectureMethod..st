@@ -1,9 +1,7 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph 
-	| assertion |
 	self setUp: aPlaygroundMorph.
-	assertion := MotuAssertion new.
-	[assertion
+	[self asserter
 		assert: self morph stepTime
 		equals: 1000
 		errorMessage: 'You should set the stepTime to 1000'.

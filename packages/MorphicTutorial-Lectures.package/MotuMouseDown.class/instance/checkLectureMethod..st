@@ -1,7 +1,6 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph	
 	|spy| 
-	
 	self morph: (ColorfulMorph new
 		openInWorld: aPlaygroundMorph;
 		yourself).

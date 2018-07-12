@@ -1,8 +1,8 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph 
 	| spy |
-	self
-		morph: (Morph new openInWorld: aPlaygroundMorph).
+	
+	self morph: (Morph new openInWorld: aPlaygroundMorph).
 	spy := MotuSpy spyOn: self morph.
 	self performLectureMethodWith: spy.
 	[spy

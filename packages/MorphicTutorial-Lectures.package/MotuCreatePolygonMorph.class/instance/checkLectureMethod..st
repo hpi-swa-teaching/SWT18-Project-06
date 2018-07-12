@@ -1,11 +1,12 @@
 as yet unclassified
 checkLectureMethod: aPlaygroundMorph 
-	| spy asserter polygon |
+	| spy polygon |
 	spy := MotuSpy spyOn: aPlaygroundMorph.
-	asserter := MotuAssertion new.
 	polygon := self openPolygonMorph: spy.
-	[asserter assertNotNil: polygon errorMessage: 'Please return your PolygonMorph. You returned nil instead.'.
-	asserter
+	[self asserter
+		assertNotNil: polygon 
+		errorMessage: 'Please return your PolygonMorph. You returned nil instead.'.
+	self asserter
 		assert: polygon
 		hasClass: PolygonMorph
 		errorMessage: 'Please return your PolygonMorph. You returned something different.'.
