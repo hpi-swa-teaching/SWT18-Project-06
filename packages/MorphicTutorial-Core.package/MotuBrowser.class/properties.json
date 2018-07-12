@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"selectedLecture",
-		"window",
 		"codeEditor",
 		"playground",
 		"categoryList",

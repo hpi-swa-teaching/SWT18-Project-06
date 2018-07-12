@@ -1,5 +1,3 @@
 building
 open
-
-	window := ToolBuilder open: self.
-	^ window
+	^ToolBuilder open: self

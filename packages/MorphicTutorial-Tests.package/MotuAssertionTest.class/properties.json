@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"assertion",
-		"failMessage" ],
+		"assertion" ],
 	"name" : "MotuAssertionTest",
 	"pools" : [
 		 ],
