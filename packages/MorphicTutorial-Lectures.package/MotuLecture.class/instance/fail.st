@@ -1,4 +1,3 @@
 accessing
-setFailed
-
+fail
 	self passed: false

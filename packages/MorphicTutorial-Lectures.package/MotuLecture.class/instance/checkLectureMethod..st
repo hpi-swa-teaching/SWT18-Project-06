@@ -1,4 +1,4 @@
-as yet unclassified
+subclassResponsibility
 checkLectureMethod: aPlaygroundMorph
 
 	self subclassResponsibility

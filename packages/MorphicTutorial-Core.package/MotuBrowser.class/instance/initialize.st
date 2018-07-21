@@ -1,4 +1,4 @@
-ui
+building
 initialize
 
 	super initialize.

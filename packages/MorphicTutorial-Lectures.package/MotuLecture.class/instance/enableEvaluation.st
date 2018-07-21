@@ -1,3 +1,3 @@
-subclassResponsibility
+as yet unclassified
 enableEvaluation
 	^ true

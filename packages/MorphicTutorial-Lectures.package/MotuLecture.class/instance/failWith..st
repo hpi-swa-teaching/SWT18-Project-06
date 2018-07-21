@@ -1,6 +1,6 @@
 passing
 failWith: feedback
 
-	self setFailed.
+	self fail.
 	self feedback: feedback.
 	self changed

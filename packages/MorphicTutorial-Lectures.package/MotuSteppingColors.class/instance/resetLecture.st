@@ -1,5 +1,5 @@
 as yet unclassified
 resetLecture 
-	self setFailed.
+	self fail.
 	self feedback: ''.
 	self lectureMethod methodClass compile: self methodName, Character cr, Character tab, '^ super stepTime'.
