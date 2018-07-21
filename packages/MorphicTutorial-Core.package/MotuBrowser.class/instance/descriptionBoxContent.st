@@ -1,4 +1,3 @@
 ui
 descriptionBoxContent
-
 	^ self selectedLecture descriptionBoxContent

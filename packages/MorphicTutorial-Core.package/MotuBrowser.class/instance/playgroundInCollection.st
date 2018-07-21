@@ -1,4 +1,3 @@
-accessing
+ui
 playgroundInCollection
-
-	^ { self playground }
+	^ {self playground}

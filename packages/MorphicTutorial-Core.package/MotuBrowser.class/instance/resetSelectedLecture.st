@@ -1,5 +1,6 @@
 ui
 resetSelectedLecture
+
 	self selectedLecture resetLecture.
 	
 	self 

@@ -1,7 +1,8 @@
 accessing
 update: anObject
 
-	self changed: #codeStatusBarColor;
+	self 
+		changed: #codeStatusBarColor;
 		changed: #codeStatusBarContentStyled;
 		changed: #isSelectedLecturePassed;
 		changed: #selectedLecture;

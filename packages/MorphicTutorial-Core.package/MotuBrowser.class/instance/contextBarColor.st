@@ -1,4 +1,3 @@
 ui
 contextBarColor
-	
 	^ self windowColorToUse 

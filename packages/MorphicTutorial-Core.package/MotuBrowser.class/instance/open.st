@@ -1,3 +1,3 @@
 building
 open
-	^ToolBuilder open: self
+	^ ToolBuilder open: self

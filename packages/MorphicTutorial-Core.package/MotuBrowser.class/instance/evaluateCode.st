@@ -1,6 +1,6 @@
 editor and playground
 evaluateCode
-	|code|
+	| code |
 	
 	self closeAllAutoCompletionMorphs.
 	
