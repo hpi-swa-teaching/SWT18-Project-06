@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "js 6/28/2018 18:45",
+		"setUp" : "ps 7/21/2018 10:02",
 		"testAllFunctionsReturnString" : "ps 5/14/2018 10:38",
-		"testAllLecturesAreSelectable" : "js 6/28/2018 18:45",
-		"testBuildCodeStatusBarReturnsSpec" : "till-later 5/14/2018 18:30",
-		"testBuildMotuBrowser" : "ps 5/14/2018 10:25",
-		"testBuildMotuBrowserCodeEditorReturnsSpec" : "ps 5/14/2018 10:30",
-		"testBuildMotuBrowserDescriptionBoxReturnsSpec" : "ps 5/14/2018 10:30",
-		"testBuildMotuBrowserEvaluateButtonWithReturnsSpec" : "ps 5/14/2018 10:27",
-		"testBuildMotuBrowserListWithReturnsSpec" : "js 5/21/2018 15:54",
-		"testBuildMotuBrowserPlaygroundIsInserted" : "js 5/14/2018 16:08",
-		"testBuildMotuBrowserPlaygroundReturnsSpec" : "js 5/14/2018 16:08",
-		"testBuildWithReturnsWindow" : "5/21/2018 15:14:48" } }
+		"testAllLecturesAreSelectable" : "ps 7/21/2018 09:59",
+		"testBuildCodeStatusBarReturnsSpec" : "ps 7/21/2018 10:02",
+		"testBuildMotuBrowser" : "ps 7/21/2018 10:00",
+		"testBuildMotuBrowserCodeEditorReturnsSpec" : "ps 7/21/2018 10:00",
+		"testBuildMotuBrowserDescriptionBoxReturnsSpec" : "ps 7/21/2018 10:00",
+		"testBuildMotuBrowserEvaluateButtonWithReturnsSpec" : "ps 7/21/2018 10:00",
+		"testBuildMotuBrowserListWithReturnsSpec" : "ps 7/21/2018 10:00",
+		"testBuildMotuBrowserPlaygroundIsInserted" : "ps 7/21/2018 10:10",
+		"testBuildMotuBrowserPlaygroundReturnsSpec" : "ps 7/21/2018 10:00",
+		"testBuildWithReturnsWindow" : "ps 7/21/2018 10:02" } }

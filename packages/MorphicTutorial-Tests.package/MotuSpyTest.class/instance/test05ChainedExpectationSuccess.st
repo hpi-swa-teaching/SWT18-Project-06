@@ -1,7 +1,6 @@
 as yet unclassified
 test05ChainedExpectationSuccess
 	
-	
 	[spy 
 		position: 100@100;
 		color: Color green;

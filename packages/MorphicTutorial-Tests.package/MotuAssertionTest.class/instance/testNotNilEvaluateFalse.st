@@ -1,8 +1,6 @@
 as yet unclassified
 testNotNilEvaluateFalse
-	|errMessage|
-	
-	errMessage := 'errMessage'.
-	[assertion assertNotNil: nil errorMessage: errMessage.
+
+	[assertion assertNotNil: nil errorMessage: errorMessage.
 	self assert: false]
-		on: Error do: [:e | self assert: e messageText = errMessage]
+		on: Error do: [:e | self assert: e messageText = errorMessage]

@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ps 6/9/2018 14:46",
-		"testClassEvaluateFalse" : "ps 6/20/2018 17:26",
-		"testClassEvaluatesTrue" : "ps 6/20/2018 17:26",
-		"testEqualsEvaluateFalse" : "ps 6/20/2018 17:25",
-		"testEqualsEvaluateTrue" : "ps 6/20/2018 17:25",
-		"testNotEqualsEvaluateFalse" : "ps 6/20/2018 17:28",
-		"testNotEqualsEvaluateTrue" : "ps 6/20/2018 17:28",
-		"testNotNilEvaluateFalse" : "ps 6/20/2018 17:29",
-		"testNotNilEvaluateTrue" : "ps 6/20/2018 17:29" } }
+		"setUp" : "ps 7/21/2018 10:08",
+		"testClassEvaluateFalse" : "ps 7/21/2018 10:09",
+		"testClassEvaluatesTrue" : "ps 7/21/2018 10:09",
+		"testEqualsEvaluateFalse" : "ps 7/21/2018 10:09",
+		"testEqualsEvaluateTrue" : "ps 7/21/2018 10:09",
+		"testNotEqualsEvaluateFalse" : "ps 7/21/2018 10:09",
+		"testNotEqualsEvaluateTrue" : "ps 7/21/2018 10:09",
+		"testNotNilEvaluateFalse" : "ps 7/21/2018 10:10",
+		"testNotNilEvaluateTrue" : "ps 7/21/2018 10:10" } }

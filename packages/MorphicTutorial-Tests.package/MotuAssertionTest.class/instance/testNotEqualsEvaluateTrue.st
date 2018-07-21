@@ -1,7 +1,5 @@
 as yet unclassified
 testNotEqualsEvaluateTrue
-	|errMessage|
-	
-	errMessage := 'errMessage'.
-	[assertion assert: Color green notEquals: Color red errorMessage: errMessage]
+
+	[assertion assert: Color green notEquals: Color red errorMessage: errorMessage]
 		on: Error do: [:e | self assert: false]

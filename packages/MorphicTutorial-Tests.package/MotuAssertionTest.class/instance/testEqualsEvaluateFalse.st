@@ -1,9 +1,6 @@
 as yet unclassified
 testEqualsEvaluateFalse
-	|errMessage|
-	
-	errMessage := 'errMessage'.
-	
-	[assertion assert: Color green equals: Color red errorMessage: errMessage.
+
+	[assertion assert: Color green equals: Color red errorMessage: errorMessage.
 	self assert: false]
-		on: Error do: [:e | self assert: e messageText = errMessage]
+		on: Error do: [:e | self assert: e messageText = errorMessage]

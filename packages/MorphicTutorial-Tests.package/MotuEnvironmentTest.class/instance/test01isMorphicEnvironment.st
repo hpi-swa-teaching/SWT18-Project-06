@@ -1,5 +1,3 @@
 as yet unclassified
-test02isMorphicEnvironment
-	"Our first testcase"
-
+test01isMorphicEnvironment
 	self assert: (ToolBuilder default isKindOf: MorphicToolBuilder). 

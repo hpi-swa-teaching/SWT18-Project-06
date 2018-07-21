@@ -2,4 +2,4 @@ as yet unclassified
 setUp
 
 	browser := MotuBrowser new.
-	toolbuilder := ToolBuilder default
+	toolbuilder := ToolBuilder default.

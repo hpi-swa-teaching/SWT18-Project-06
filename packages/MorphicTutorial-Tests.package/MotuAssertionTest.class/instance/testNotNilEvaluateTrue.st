@@ -1,7 +1,5 @@
 as yet unclassified
 testNotNilEvaluateTrue
-	|errMessage|
-	
-	errMessage := 'errMessage'.
-	[assertion assertNotNil: Color green errorMessage: errMessage]
+
+	[assertion assertNotNil: Color green errorMessage: errorMessage]
 		on: Error do: [:e | self assert: false]

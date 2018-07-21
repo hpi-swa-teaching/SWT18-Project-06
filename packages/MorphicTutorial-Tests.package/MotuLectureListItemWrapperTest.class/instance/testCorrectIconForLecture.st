@@ -1,13 +1,14 @@
 as yet unclassified
 testCorrectIconForLecture
-	| lectureMock listWrapper |
-	lectureMock := MotuLecture new.
-	listWrapper := MotuLectureListItemWrapper new.
-	listWrapper setItem: lectureMock.
+	| lecture listWrapper |
 	
-	lectureMock pass.
+	lecture := MotuLecture new.
+	listWrapper := MotuLectureListItemWrapper new.
+	listWrapper setItem: lecture.
+	
+	lecture pass.
 	self assert: listWrapper icon = (ToolIcons iconNamed: #testGreen).
-	lectureMock fail.
+	lecture fail.
 	self assert: listWrapper icon = (ToolIcons iconNamed: #testRed).
 	
 	
