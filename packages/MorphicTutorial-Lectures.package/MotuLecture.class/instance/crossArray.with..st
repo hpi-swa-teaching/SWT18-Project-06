@@ -1,6 +1,7 @@
 code-transformation
 crossArray: aArray with: bArray
 	| newCollection |
+	
 	(aArray size = 1 and: [bArray isEmpty]) ifTrue: [ ^ aArray].
 	aArray size = bArray size 
 		ifFalse: [ ^ self error: 'Arrays must have equal length.' ].

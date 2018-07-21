@@ -1,3 +1,3 @@
-accessing
+passing
 fail
 	self passed: false

@@ -1,6 +1,7 @@
 code-transformation
 adaptCodeFromDisplay: aString
 	| firstLine body |
+	
 	self simulateWorkspace not ifTrue: [ ^ aString ].
 	firstLine := self methodName.
 	body := self extractMethodBody: aString.

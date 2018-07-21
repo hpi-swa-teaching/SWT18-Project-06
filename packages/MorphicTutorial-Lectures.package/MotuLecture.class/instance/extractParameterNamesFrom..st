@@ -1,5 +1,6 @@
 code-transformation
 extractParameterNamesFrom: aString 
+
 	^ self
 		select: ((aString copyWithRegex: '\W+' matchesReplacedWith: ' ')
 				splitBy: ' ')
