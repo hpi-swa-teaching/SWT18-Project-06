@@ -1,4 +1,4 @@
-as yet unclassified
+setup
 setUp: aPlayground
 	
 	self morph

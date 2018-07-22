@@ -1,6 +1,7 @@
-as yet unclassified
+evaluation
 checkLectureMethod: aPlaygroundMorph 
 	| form |
+	
 	form := self perform: self lectureMethod selector.
 	[self asserter
 		assert: form

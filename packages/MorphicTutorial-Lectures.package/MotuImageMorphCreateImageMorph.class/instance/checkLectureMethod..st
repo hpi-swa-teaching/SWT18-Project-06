@@ -1,4 +1,4 @@
-as yet unclassified
+evaluation
 checkLectureMethod: aPlaygroundMorph 
 	| morph |
 	morph := self perform: self lectureMethod selector.

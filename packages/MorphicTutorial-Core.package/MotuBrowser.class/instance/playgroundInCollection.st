@@ -1,3 +1,3 @@
-ui
+style
 playgroundInCollection
 	^ {self playground}

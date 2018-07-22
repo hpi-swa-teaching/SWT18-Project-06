@@ -1,3 +1,3 @@
-as yet unclassified
+code pane
 showUserCode
-	self setText: self activeLecture codeToEdit
+	self code: self activeLecture codeToEdit

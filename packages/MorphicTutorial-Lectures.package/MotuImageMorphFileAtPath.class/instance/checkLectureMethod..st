@@ -1,6 +1,7 @@
-as yet unclassified
+evaluation
 checkLectureMethod: aPlaygroundMorph 
 	| path |
+	
 	path := self perform: self lectureMethod selector.
 	[self asserter
 		assert: path

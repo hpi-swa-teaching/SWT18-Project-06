@@ -1,4 +1,4 @@
-as yet unclassified
+evaluation
 checkLectureMethod: aPlaygroundMorph 
 	| spy outerPosition innerPosition|
 	outerPosition := 77@33 + aPlaygroundMorph position.

@@ -1,4 +1,3 @@
-as yet unclassified
+evaluation
 lectureMethod
-
 	^ ColorfulMorph >> #switchColors

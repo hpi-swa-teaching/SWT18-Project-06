@@ -1,3 +1,3 @@
-as yet unclassified
+solution
 solutionStep
 	self switchColors

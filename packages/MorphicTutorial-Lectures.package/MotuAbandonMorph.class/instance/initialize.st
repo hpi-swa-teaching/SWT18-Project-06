@@ -1,5 +1,4 @@
-as yet unclassified
+setup
 initialize
-
 	super initialize.
 	self morph: Morph new

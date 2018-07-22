@@ -1,4 +1,4 @@
-as yet unclassified
+evaluation
 checkLectureMethod: aPlaygroundMorph 
 	| spy polygon |
 	spy := MotuSpy spyOn: aPlaygroundMorph.

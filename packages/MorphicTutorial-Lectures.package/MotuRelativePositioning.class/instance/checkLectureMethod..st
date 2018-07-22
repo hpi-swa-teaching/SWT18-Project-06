@@ -1,4 +1,4 @@
-as yet unclassified
+evaluation
 checkLectureMethod: aPlaygroundMorph 
 	| spy |
 	aPlaygroundMorph addMorph: self morph.

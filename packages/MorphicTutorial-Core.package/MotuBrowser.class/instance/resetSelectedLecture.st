@@ -1,4 +1,4 @@
-ui
+building
 resetSelectedLecture
 
 	self selectedLecture resetLecture.

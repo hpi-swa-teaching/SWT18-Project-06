@@ -1,4 +1,4 @@
-as yet unclassified
+setup
 lectureName
 
 	^ 'Position a Morph relatively II'

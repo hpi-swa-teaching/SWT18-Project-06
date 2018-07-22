@@ -1,4 +1,4 @@
-as yet unclassified
+evaluation
 checkLectureMethod: aPlaygroundMorph 
 	self morph: (ColorfulMorph new color: Color red; yourself).
 	self morph step.

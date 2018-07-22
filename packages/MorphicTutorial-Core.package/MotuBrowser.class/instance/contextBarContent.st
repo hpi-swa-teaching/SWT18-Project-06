@@ -1,4 +1,4 @@
-ui
+content
 contextBarContent
 
 	^ self selectedLecture simulateWorkspace

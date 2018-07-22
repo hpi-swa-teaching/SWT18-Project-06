@@ -1,4 +1,4 @@
-as yet unclassified
+setup
 lectureName
 
 	^ 'Load an Image'

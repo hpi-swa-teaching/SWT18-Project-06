@@ -1,3 +1,3 @@
-as yet unclassified
+solution
 solutionOpenMorphIn
 	^ ImageMorph new image: ToolIcons abstract

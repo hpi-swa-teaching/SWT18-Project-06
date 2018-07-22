@@ -1,7 +1,3 @@
-as yet unclassified
+solution
 solutionAbandon: aMorph
-
-
-
-
-	aMorph abandon.
+	aMorph abandon

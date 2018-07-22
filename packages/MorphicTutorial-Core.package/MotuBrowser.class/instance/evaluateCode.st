@@ -6,7 +6,7 @@ evaluateCode
 	
 	code := self codeEditor
 		accept;
-		getText.
+		code.
 		
 	self playground clear.
 	self selectedLecture checkCode: code on: self playground.

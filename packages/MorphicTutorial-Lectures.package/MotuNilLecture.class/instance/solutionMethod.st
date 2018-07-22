@@ -1,3 +1,3 @@
-as yet unclassified
+nil overwriting
 solutionMethod
 	^ self class >> #solutionNilMethod

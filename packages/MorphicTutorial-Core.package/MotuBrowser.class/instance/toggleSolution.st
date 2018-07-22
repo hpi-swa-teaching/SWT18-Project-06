@@ -1,4 +1,4 @@
-ui
+state
 toggleSolution
 
 	self showSolution: self showSolution not.

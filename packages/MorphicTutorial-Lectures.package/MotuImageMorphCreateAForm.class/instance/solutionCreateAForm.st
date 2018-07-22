@@ -1,4 +1,4 @@
-as yet unclassified
+solution
 solutionCreateAForm
 	
 	^ ToolIcons abstract

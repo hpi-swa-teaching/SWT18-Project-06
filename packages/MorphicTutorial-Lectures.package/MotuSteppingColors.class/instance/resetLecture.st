@@ -1,4 +1,4 @@
-as yet unclassified
+setup
 resetLecture 
 	self fail.
 	self feedback: ''.

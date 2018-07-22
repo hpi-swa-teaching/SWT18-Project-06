@@ -1,4 +1,4 @@
-as yet unclassified
+style
 aboutToStyle: aStyler
 
 	self activeLecture ifNotNil: [

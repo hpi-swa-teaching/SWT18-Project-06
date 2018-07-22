@@ -1,4 +1,4 @@
-as yet unclassified
+recording
 doesNotUnderstand: aMessage
 
 	self history add: aMessage.

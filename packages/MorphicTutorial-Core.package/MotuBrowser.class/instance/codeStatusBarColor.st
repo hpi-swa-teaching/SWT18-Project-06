@@ -1,4 +1,4 @@
-ui
+style
 codeStatusBarColor
 
 	self selectedLecture ifNil: [^ Color white].

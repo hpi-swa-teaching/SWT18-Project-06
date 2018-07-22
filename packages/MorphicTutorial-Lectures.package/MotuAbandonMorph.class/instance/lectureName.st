@@ -1,4 +1,3 @@
-as yet unclassified
+setup
 lectureName
-
 	^ 'Abandon a Morph'

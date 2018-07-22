@@ -1,4 +1,4 @@
-accessing
+building
 update: anObject
 
 	self 

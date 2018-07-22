@@ -1,3 +1,3 @@
-as yet unclassified
+setup
 lectureName
 	^ 'Creating a star-morph'

@@ -1,4 +1,4 @@
-as yet unclassified
+solution
 solutionMethod
 
 	^ self class >> #solutionCreateStar

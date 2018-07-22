@@ -1,4 +1,4 @@
-as yet unclassified
+solution
 solutionSwitchColors
 	self color = Color blue 
 		ifTrue: [ self color: Color red ] 

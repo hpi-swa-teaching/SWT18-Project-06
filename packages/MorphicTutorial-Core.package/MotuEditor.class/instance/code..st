@@ -1,5 +1,5 @@
-as yet unclassified
-setText: aString
+accessing
+code: aString
 
 	self contents: aString.
 	self changed: #contents

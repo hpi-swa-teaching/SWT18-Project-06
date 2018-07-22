@@ -1,3 +1,3 @@
-ui
+content
 descriptionBoxContent
 	^ self selectedLecture descriptionBoxContent

@@ -1,3 +1,3 @@
-as yet unclassified
+solution
 solutionPathToAnImage
 	^'non-existing-image-for-testing.png'

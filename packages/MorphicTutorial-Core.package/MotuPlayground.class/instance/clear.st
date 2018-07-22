@@ -1,3 +1,3 @@
-as yet unclassified
+reset
 clear
 	self removeAllMorphs

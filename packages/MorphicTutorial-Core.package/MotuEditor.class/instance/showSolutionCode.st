@@ -1,3 +1,3 @@
-as yet unclassified
+code pane
 showSolutionCode
-	self setText: self activeLecture solution
+	self code: self activeLecture solution

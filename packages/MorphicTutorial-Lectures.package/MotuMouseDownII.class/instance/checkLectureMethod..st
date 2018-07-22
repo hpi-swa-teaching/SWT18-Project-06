@@ -1,4 +1,4 @@
-as yet unclassified
+evaluation
 checkLectureMethod: aPlaygroundMorph 
 	self morph: ColorfulMorph new.
 	self setUp: aPlaygroundMorph.

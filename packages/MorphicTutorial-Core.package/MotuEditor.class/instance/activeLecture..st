@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 activeLecture: aLecture
 
 	activeLecture := aLecture.
-	self setText: aLecture codeToEdit.
+	self code: aLecture codeToEdit.

@@ -1,8 +1,8 @@
 {
 	"class" : {
 		"defaultExtent" : "ps 7/21/2018 09:44",
-		"defaultLabel" : "hks 5/2/2018 19:56",
-		"open" : "hks 5/7/2018 15:59" },
+		"defaultLabel" : "ps 7/22/2018 23:19",
+		"open" : "ps 7/22/2018 23:19" },
 	"instance" : {
 		"buildCodeEditorWith:" : "js 6/27/2018 13:43",
 		"buildCodeStatusBarWith:" : "js 6/16/2018 10:30",
@@ -27,7 +27,7 @@
 		"contextBarContent" : "hks 6/18/2018 15:29",
 		"descriptionBoxContent" : "ps 7/21/2018 10:26",
 		"evaluateButtonHeight" : "hks 6/11/2018 15:26",
-		"evaluateCode" : "ps 7/21/2018 10:27",
+		"evaluateCode" : "ps 7/22/2018 23:09",
 		"initialize" : "js 7/9/2018 11:42",
 		"isSelectedLecturePassed" : "js 7/9/2018 11:36",
 		"labelString" : "ps 7/21/2018 10:25",
@@ -35,7 +35,7 @@
 		"playground" : "ps 7/21/2018 10:23",
 		"playground:" : "ps 7/21/2018 10:23",
 		"playgroundInCollection" : "ps 7/21/2018 10:24",
-		"readyToEvaluateCode" : "js 7/9/2018 11:54",
+		"readyToEvaluateCode" : "ps 7/22/2018 23:17",
 		"resetSelectedLecture" : "ps 7/21/2018 10:26",
 		"selectedLecture" : "ps 7/21/2018 10:24",
 		"selectedLecture:" : "js 7/9/2018 11:44",

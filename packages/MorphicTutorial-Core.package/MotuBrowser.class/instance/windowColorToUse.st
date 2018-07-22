@@ -1,3 +1,3 @@
-ui
+style
 windowColorToUse 
 	^ Color veryVeryLightGray

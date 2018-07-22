@@ -1,3 +1,3 @@
-as yet unclassified
+code pane
 accept
 	self changed: #acceptChanges

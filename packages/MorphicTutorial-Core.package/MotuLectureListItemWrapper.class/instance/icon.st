@@ -1,6 +1,5 @@
 as yet unclassified
 icon
-
 	|icon|
 	
 	icon := self item passed

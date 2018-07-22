@@ -1,4 +1,4 @@
-as yet unclassified
+evaluation
 checkLectureMethod: aPlaygroundMorph 
 	| polygon |
 	polygon := self createLineFrom: 0 @ 0 to: 100 @ 100.

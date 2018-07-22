@@ -1,3 +1,3 @@
-as yet unclassified
+nil overwriting
 checkLectureMethod: aMorph
 	^ self

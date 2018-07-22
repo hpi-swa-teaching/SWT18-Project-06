@@ -1,3 +1,3 @@
-ui
+style
 contextBarColor
 	^ self windowColorToUse 
