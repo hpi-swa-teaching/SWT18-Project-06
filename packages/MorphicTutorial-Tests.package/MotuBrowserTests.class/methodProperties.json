@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ps 7/21/2018 10:02",
+		"setUp" : "hks 7/24/2018 16:54",
+		"testALectureCanBeEvaluated" : "hks 7/24/2018 17:01",
 		"testAllFunctionsReturnString" : "ps 5/14/2018 10:38",
 		"testAllLecturesAreSelectable" : "ps 7/21/2018 09:59",
 		"testBuildCodeStatusBarReturnsSpec" : "ps 7/21/2018 10:02",
