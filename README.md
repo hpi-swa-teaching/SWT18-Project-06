@@ -7,6 +7,12 @@ Lessons include:
 3. Events and stepping
 4. PolygonMorphs
 
+## **Supported plattforms**
+* Squeak-5.0
+* Squeak-5.1
+* (Squeak-trunk)\
+	Due to the fast changing nature of trunk, compatibility is not guaranteed, for the current build status visit [Travis-ci](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-06)
+
 ## **Installation Instructions**
 For easy installation, we recommend, you first install [Metacello](https://github.com/Metacello/metacello).
 
