@@ -1,3 +1,3 @@
 style
 windowColorToUse 
-	^ Color veryVeryLightGray
+	^ Color seaFoam muchDarker
