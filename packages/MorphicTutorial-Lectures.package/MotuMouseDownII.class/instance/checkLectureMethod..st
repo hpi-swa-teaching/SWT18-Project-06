@@ -5,7 +5,7 @@ checkLectureMethod: aPlaygroundMorph
 	[self asserter
 		assert: (self morph handlesMouseDown: nil)
 		equals: true
-		errorMessage: 'Your did not implement handlesMouseDown: correct.'.
+		errorMessage: 'You did not implement handlesMouseDown: correct.'.
 	self pass]
 		on: Error
 		do: [:error | self failWith: error asString]
