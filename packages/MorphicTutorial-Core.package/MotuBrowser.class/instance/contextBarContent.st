@@ -7,6 +7,6 @@ contextBarContent
 				self selectedLecture lectureMethod methodClass name asString,
 				'">', self selectedLecture lectureMethod methodClass name asString,
 				'</a></b>'
-			) asHtmlText,
+			) asTextFromHtml,
 			(Text string: ' >> ' attribute: (TextEmphasis bold)),
 			(Text string: self selectedLecture lectureMethod selector asString attribute: (TextEmphasis bold))] 
