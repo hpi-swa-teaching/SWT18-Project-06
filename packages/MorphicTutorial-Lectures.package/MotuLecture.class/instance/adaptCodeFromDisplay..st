@@ -5,8 +5,8 @@ adaptCodeFromDisplay: aString
 	self simulateWorkspace not ifTrue: [ ^ aString ].
 	firstLine := self methodName.
 	body := self extractMethodBody: aString.
-	self parameterNames size > 0
+	"self parameterNames size > 0
 		ifTrue: [ ^ firstLine, Character cr, body ]
-		ifFalse: [ ^ firstLine, aString ]
-	
+		ifFalse: [ ^ firstLine, aString ]"
+	^ firstLine, Character cr, aString
 	

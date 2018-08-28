@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"activeLecture",
-		"styleEnvironment" ],
-	"name" : "MotuEditor",
+		 ],
+	"name" : "MotuTextStyler",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "SHTextStylerST80",
 	"type" : "normal" }
