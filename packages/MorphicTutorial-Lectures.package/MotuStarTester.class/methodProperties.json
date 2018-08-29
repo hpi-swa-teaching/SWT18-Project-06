@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"constructsStar:" : "hks 6/4/2018 16:28",
-		"distFrom:to:" : "hks 6/4/2018 17:38",
-		"indexOf:offset:in:" : "hks 6/4/2018 15:53",
-		"middle:" : "hks 6/4/2018 16:05" } }
+		"constructsStar:" : "LM 8/29/2018 12:51",
+		"constructsStar:around:" : "LM 8/29/2018 12:47",
+		"distanceFrom:to:" : "LM 8/29/2018 12:45",
+		"indexOf:offset:in:" : "LM 8/29/2018 12:31",
+		"middle:" : "LM 8/29/2018 12:53" } }
