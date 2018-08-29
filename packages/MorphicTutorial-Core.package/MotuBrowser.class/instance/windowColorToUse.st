@@ -1,3 +1,3 @@
 style
 windowColorToUse 
-	^ Color green muchDarker
+	^ Color green muchDarker darker
