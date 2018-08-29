@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"clear" : "ps 7/22/2018 23:14",
-		"initialize" : "LM 8/28/2018 14:40",
-		"setUpBackground" : "ps 7/21/2018 10:17" } }
+		"initialize" : "LM 8/29/2018 11:40",
+		"setUpBackground" : "ps 7/21/2018 10:17",
+		"wantsDroppedMorph:event:" : "LM 8/29/2018 11:44" } }
