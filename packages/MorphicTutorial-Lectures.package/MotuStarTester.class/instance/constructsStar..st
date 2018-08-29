@@ -1,4 +1,4 @@
-as yet unclassified
+star checking
 constructsStar: anArray
 
 	"6 edges means 3 tips"

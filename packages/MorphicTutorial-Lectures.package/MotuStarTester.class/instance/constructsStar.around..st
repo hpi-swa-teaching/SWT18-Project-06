@@ -1,4 +1,4 @@
-as yet unclassified
+star checking
 constructsStar: anArray around: aPoint
 
 	^ (anArray withIndexCollect: [ :this :index | 

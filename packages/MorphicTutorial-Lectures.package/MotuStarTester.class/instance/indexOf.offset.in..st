@@ -1,4 +1,4 @@
-as yet unclassified
+star checking
 indexOf: anInteger offset: offset in: anArray
 
 	^ anInteger + offset > anArray size
