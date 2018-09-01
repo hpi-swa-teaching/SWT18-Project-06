@@ -1,4 +1,4 @@
-code pane
+building
 buildCodePaneWith: builder
 
 	^ (super buildCodePaneWith: builder)

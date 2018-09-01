@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"activeLecture",
-		"parameters" ],
-	"name" : "MotuEditor",
+		"motuParameters" ],
+	"name" : "MotuParser",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "SHParserST80",
 	"type" : "normal" }

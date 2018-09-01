@@ -1,10 +1,9 @@
 building
 buildContextBarWith: aBuilder
 
-	^ aBuilder pluggableTextSpec new
+	^ aBuilder pluggableCodePaneSpec new
 		model: self;
 		getText: #contextBarContent;
-		color: #contextBarColor;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new
