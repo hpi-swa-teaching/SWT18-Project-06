@@ -1,4 +1,4 @@
-as yet unclassified
+mocked-methods
 addMorph: aMorph
 
 	Morph new addMorph: aMorph.
