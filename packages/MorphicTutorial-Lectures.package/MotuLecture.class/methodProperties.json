@@ -2,7 +2,8 @@
 	"class" : {
 		"instance" : "till-later 5/14/2018 18:48",
 		"instance:" : "till-later 5/14/2018 18:47",
-		"resetAll" : "hks 5/22/2018 13:35" },
+		"resetAll" : "hks 5/22/2018 13:35",
+		"tutorialStructure" : "je 9/6/2018 10:37" },
 	"instance" : {
 		"adaptCodeForDisplay:" : "LM 9/1/2018 12:43",
 		"adaptCodeFromDisplay:" : "LM 9/1/2018 12:42",

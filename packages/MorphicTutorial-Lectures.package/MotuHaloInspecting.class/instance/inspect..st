@@ -1,3 +1,2 @@
 evaluation
 inspect: aMorph
-aMorph

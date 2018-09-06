@@ -3,7 +3,7 @@ buildLectureListWith: aBuilder
 
 	^ aBuilder pluggableTreeSpec new
 		model: self;
-		roots: #categoryList;
+		roots: #chapters;
 		nodeClass: MotuLectureCategoryListItemWrapper;
 		getSelected: #selectedLecture;
 		setSelected: #selectedLecture:;
