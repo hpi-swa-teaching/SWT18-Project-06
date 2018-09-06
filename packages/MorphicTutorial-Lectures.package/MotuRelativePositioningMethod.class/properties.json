@@ -11,5 +11,5 @@
 	"name" : "MotuRelativePositioningMethod",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuIntroductionLecture",
 	"type" : "normal" }

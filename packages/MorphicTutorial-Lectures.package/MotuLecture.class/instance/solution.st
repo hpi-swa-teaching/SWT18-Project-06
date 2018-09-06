@@ -1,3 +1,3 @@
-as yet unclassified
+solving
 solution
 	^ self adaptCodeForDisplay: self solutionMethod getSource asString

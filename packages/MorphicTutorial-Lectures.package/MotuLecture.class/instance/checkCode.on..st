@@ -1,4 +1,4 @@
-as yet unclassified
+evaluation
 checkCode: aString on: aPlaygroundMorph
 
 	self lectureMethod methodClass compile: (self adaptCodeFromDisplay: aString).

@@ -10,5 +10,5 @@
 	"name" : "MotuCreatePolygonMorph",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuPolygonLecture",
 	"type" : "normal" }

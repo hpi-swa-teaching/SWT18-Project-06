@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"morph" ],
-	"name" : "MotuHaloInspecting",
+		 ],
+	"name" : "MotuEventLecture",
 	"pools" : [
 		 ],
-	"super" : "MotuIntroductionLecture",
+	"super" : "MotuLecture",
 	"type" : "normal" }

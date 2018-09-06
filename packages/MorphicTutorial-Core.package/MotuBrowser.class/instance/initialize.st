@@ -4,4 +4,5 @@ initialize
 	super initialize.
 	self playground: MotuPlayground new.
 	self selectedLecture: nil.
-	self showSolution: false
+	self showSolution: false.
+	self lecture: MotuLecture new

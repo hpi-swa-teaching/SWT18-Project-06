@@ -10,5 +10,5 @@
 	"name" : "MotuPositionAMorph",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuIntroductionLecture",
 	"type" : "normal" }

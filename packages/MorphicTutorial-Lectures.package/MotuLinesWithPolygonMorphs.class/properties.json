@@ -10,5 +10,5 @@
 	"name" : "MotuLinesWithPolygonMorphs",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuPolygonLecture",
 	"type" : "normal" }
