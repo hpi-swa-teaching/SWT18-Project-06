@@ -1,3 +1,3 @@
-as yet unclassified
+mocked-methods
 startSteppingSubmorphsOf: aMorph
 	^ self
