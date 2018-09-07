@@ -12,13 +12,16 @@ checkLectureMethod: aPlaygroundMorph
 	aPlaygroundMorph addMorph: polygon.
 	polygon position: aPlaygroundMorph position.
 	self asserter
-		assert: polygon borderColor
-		equals: Color red
-		errorMessage: 'Your line''s borderColor should also be red.'.
-	self asserter
 		assert: polygon color
 		equals: Color red
 		errorMessage: 'Your line should be red.'.
+	self asserter
+		assertBlock: [polygon borderWidth > 0]
+		errorMessage: 'Your line should have border'.
+	self asserter
+		assert: polygon borderColor
+		equals: Color red
+		errorMessage: 'Your line''s borderColor should also be red.'.
 	self pass]
 		on: Error
 		do: [:error | self failWith: error asString]

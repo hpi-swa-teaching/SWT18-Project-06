@@ -4,8 +4,8 @@ checkLectureMethod: aPlaygroundMorph
 	spy := MotuSpy spyOn: aPlaygroundMorph.
 	"Rebind the world to allow usage of openInWorld"
 	oldWorld := ActiveWorld.
-	ActiveWorld := spy.
-	[polygon := self openPolygonMorph: spy]
+	[ActiveWorld := spy.
+	polygon := self openPolygonMorph: spy]
 		ensure: [ActiveWorld := oldWorld].
 	[self asserter
 		assertNotNil: polygon 
