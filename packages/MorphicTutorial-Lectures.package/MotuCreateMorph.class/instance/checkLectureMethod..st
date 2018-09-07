@@ -1,8 +1,12 @@
 evaluation
 checkLectureMethod: aPlaygroundMorph 
-	| spy morph |
+	| spy morph oldWorld |
 	spy := MotuSpy spyOn: aPlaygroundMorph.
-	morph := self performLectureMethodWith: spy.
+	oldWorld := ActiveWorld.
+	[ActiveWorld := spy.
+	morph := self performLectureMethodWith: spy]
+		ensure: [ActiveWorld := oldWorld].
+	
 	[self asserter
 		assert: morph
 		hasClass: Morph
@@ -10,7 +14,7 @@ checkLectureMethod: aPlaygroundMorph
 	spy
 		expect: #addMorph:
 		withArgs: {morph}
-		errorMessage: 'You did not #openInWorld:!'.
+		errorMessage: 'You did not use #openInWorld or openInWorld: !'.
 	self pass]
 		on: Error
 		do: [:error | self failWith: error asString]
