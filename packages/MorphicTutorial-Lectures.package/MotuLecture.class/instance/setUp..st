@@ -1,4 +1,4 @@
-initialize-release
+solving
 setUp: aPlayground
 
 	self passed

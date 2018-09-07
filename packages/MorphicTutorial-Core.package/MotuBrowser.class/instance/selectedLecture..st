@@ -1,7 +1,7 @@
 accessing
 selectedLecture: anObject
 
-	(anObject isKindOf: MotuLectureCategory) ifTrue: [^ self ].
+	anObject isBehavior ifTrue: [^ self ].
 	
 	selectedLecture  ifNotNil: [selectedLecture removeDependent: self].
 	selectedLecture := anObject ifNil: [ MotuNilLecture new ].

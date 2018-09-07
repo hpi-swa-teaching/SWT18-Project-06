@@ -1,4 +1,4 @@
 accessing
 contents
 	^ self item sublectures collect: [ :each | 
-		MotuLectureListItemWrapper with: each model: self model parent: self]
+		MotuLectureListItemWrapper with: each new model: self model parent: self]
