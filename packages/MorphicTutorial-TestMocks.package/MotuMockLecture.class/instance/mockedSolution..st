@@ -1,0 +1,4 @@
+solution
+mockedSolution: anObject
+
+	^ self

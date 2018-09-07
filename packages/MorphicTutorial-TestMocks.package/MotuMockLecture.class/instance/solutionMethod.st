@@ -1,4 +1,4 @@
 solution
 solutionMethod
 
-	^ self class >> #mockedLecture:
+	^ self class >> #mockedSolution:
