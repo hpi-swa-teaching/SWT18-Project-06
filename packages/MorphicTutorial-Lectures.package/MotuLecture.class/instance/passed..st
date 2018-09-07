@@ -1,3 +1,3 @@
 accessing
 passed: aBoolean
-	self class passed: aBoolean
+	aBoolean isNil not ifTrue: [passed := aBoolean]

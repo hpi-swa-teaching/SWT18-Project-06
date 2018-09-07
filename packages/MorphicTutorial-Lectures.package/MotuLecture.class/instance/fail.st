@@ -1,3 +1,4 @@
 passing
 fail
-	self class passed: false
+
+	self passed: false
