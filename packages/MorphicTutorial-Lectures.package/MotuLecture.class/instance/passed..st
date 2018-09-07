@@ -1,3 +1,3 @@
 accessing
 passed: aBoolean
-	passed := aBoolean
+	self class passed: aBoolean

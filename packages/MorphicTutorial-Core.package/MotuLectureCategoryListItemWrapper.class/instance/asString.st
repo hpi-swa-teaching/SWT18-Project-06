@@ -1,3 +1,3 @@
 accessing
 asString
-	^ self item name
+	^ self item categoryName

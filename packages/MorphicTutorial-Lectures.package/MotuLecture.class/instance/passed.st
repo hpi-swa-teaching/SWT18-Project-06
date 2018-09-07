@@ -1,3 +1,3 @@
 accessing
 passed
-	^ passed
+	^ self class passed
