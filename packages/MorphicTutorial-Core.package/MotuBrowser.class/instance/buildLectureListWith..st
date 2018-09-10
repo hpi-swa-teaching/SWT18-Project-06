@@ -12,4 +12,4 @@ buildLectureListWith: aBuilder
 			leftFraction: 0;
 			topFraction: 0;
 			rightFraction: 0.33;
-			bottomFraction: 0.67)
+			bottomFraction: 0.45)

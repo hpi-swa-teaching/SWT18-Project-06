@@ -4,7 +4,7 @@ checkLectureMethod: aPlaygroundMorph
 	spy := MotuSpy spyOn: aPlaygroundMorph.
 	oldWorld := ActiveWorld.
 	[ActiveWorld := spy.
-	morph := self performLectureMethodWith: spy]
+	morph := self performLectureMethod]
 		ensure: [ActiveWorld := oldWorld].
 	
 	[self asserter

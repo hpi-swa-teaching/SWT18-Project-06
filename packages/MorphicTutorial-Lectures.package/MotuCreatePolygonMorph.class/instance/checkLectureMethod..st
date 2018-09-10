@@ -5,7 +5,7 @@ checkLectureMethod: aPlaygroundMorph
 	"Rebind the world to allow usage of openInWorld"
 	oldWorld := ActiveWorld.
 	[ActiveWorld := spy.
-	polygon := self openPolygonMorph: spy]
+	polygon := self performLectureMethod]
 		ensure: [ActiveWorld := oldWorld].
 	[self asserter
 		assertNotNil: polygon 

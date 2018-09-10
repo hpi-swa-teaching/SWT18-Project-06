@@ -8,6 +8,6 @@ buildDescriptionBoxWith: aBuilder
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new
 			leftFraction: 0;
-			topFraction: 0.67;
+			topFraction: 0.45;
 			rightFraction: 0.33;
 			bottomFraction: 1)

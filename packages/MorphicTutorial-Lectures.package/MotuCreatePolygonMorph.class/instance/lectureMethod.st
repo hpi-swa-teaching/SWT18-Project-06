@@ -1,4 +1,4 @@
 evaluation
 lectureMethod
 
-	^ self class >> #openPolygonMorph:
+	^ self class >> #openPolygonMorph
