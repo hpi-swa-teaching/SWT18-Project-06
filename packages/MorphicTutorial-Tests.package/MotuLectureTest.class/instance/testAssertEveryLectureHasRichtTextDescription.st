@@ -1,5 +1,6 @@
 as yet unclassified
 testAssertEveryLectureHasRichtTextDescription
 
-	MotuLecture allSubclasses do: [:aClass |
-		self assert: (aClass new descriptionBoxContent isKindOf: Text)]
+	MotuLecture lectureCategories do: [:aChapter |
+		aChapter sublectures do: 
+		[:aLecture | self assert: (aLecture new descriptionBoxContent isKindOf: Text)]]

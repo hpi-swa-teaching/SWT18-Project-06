@@ -1,3 +1,3 @@
 solution
 solutionStepTime
-	^ 1000
+	^ 2000

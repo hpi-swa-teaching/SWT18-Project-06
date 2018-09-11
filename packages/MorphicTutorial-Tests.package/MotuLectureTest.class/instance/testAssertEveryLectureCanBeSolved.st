@@ -2,9 +2,9 @@ as yet unclassified
 testAssertEveryLectureCanBeSolved
 	| chapters lecture playgroundMorph |
 	
-	chapters := (MotuLectureCategory allSubclasses collect: [:x | x name]) sorted.
-	chapters do: [:aChapterSymbol |
-		(Smalltalk classNamed: aChapterSymbol) new lectures do: [:aClass|
+	chapters := MotuLecture lectureCategories.
+	chapters do: [:chapter |
+		chapter sublectures do: [:aClass|
 			lecture := aClass new.
 			Transcript show: lecture.
 			Transcript show: Character cr.

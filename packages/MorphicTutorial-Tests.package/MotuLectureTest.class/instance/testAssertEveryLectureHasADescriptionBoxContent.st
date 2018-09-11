@@ -1,5 +1,6 @@
 as yet unclassified
 testAssertEveryLectureHasADescriptionBoxContent
 
-	MotuLecture allSubclasses do: [:aClass |
-		self assert: aClass new descriptionBoxContent notEmpty]
+	MotuLecture lectureCategories do: [:aChapter |
+		aChapter sublectures do: 
+		[:aLecture | self assert: aLecture new descriptionBoxContent notEmpty]]
