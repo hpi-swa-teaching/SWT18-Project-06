@@ -1,3 +1,3 @@
 as yet unclassified
 testCategoriesExist
-	self assert: MotuLectureCategory allCategories size > 0
+	self assert: MotuLecture lectureCategories size > 0
