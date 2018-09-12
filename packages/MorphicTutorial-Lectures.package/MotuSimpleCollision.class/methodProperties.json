@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"checkLectureMethod:" : "je 9/12/2018 16:34",
+		"descriptionBoxContent" : "je 9/12/2018 15:08",
+		"lectureMethod" : "je 9/12/2018 15:08",
+		"lectureName" : "je 9/12/2018 15:09",
+		"morph" : "je 9/12/2018 15:12",
+		"morph:" : "je 9/12/2018 15:12",
+		"setUp:" : "je 9/12/2018 15:18",
+		"solutionCollidesWith:" : "je 9/12/2018 15:32",
+		"solutionMethod" : "je 9/12/2018 15:10",
+		"staticMorph" : "je 9/12/2018 15:12",
+		"staticMorph:" : "je 9/12/2018 15:12" } }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collider" : "je 9/12/2018 15:17",
+		"collider:" : "je 9/12/2018 15:17",
+		"collidesWith:" : "je 9/12/2018 16:34",
+		"inOwner" : "je 9/12/2018 14:13",
+		"moveVector" : "je 9/12/2018 14:23",
+		"speed" : "je 9/12/2018 13:57",
+		"step" : "je 9/12/2018 15:22",
+		"stepTime" : "je 9/12/2018 14:13",
+		"vector" : "je 9/12/2018 14:11",
+		"vector:" : "je 9/12/2018 14:11" } }
