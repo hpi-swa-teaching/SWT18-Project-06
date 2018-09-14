@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 spyOn: aMorph
 
 	^ self new

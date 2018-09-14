@@ -4,11 +4,12 @@
 	"instance" : {
 		"collider" : "je 9/12/2018 15:17",
 		"collider:" : "je 9/12/2018 15:17",
-		"collidesWith:" : "je 9/12/2018 16:39",
+		"collidesWith:" : "je 9/14/2018 16:32",
 		"inOwner" : "je 9/12/2018 14:13",
 		"moveVector" : "je 9/12/2018 14:23",
+		"solutionCollidesWith:" : "je 9/14/2018 16:32",
 		"speed" : "je 9/12/2018 13:57",
-		"step" : "je 9/12/2018 15:22",
+		"step" : "je 9/14/2018 16:19",
 		"stepTime" : "je 9/12/2018 14:13",
 		"vector" : "je 9/12/2018 14:11",
 		"vector:" : "je 9/12/2018 14:11" } }

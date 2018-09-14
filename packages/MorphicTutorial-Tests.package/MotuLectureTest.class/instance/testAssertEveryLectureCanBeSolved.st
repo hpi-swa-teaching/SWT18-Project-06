@@ -6,11 +6,9 @@ testAssertEveryLectureCanBeSolved
 	chapters do: [:chapter |
 		chapter sublectures do: [:aClass|
 			lecture := aClass new.
-			Transcript show: lecture.
-			Transcript show: Character cr.
 			playgroundMorph := MotuPlaygroundMock new.
 			lecture fail.
 			lecture checkCode: lecture solution on: playgroundMorph. 
-			self assert: lecture passed]].
+			self assert: lecture passed ]].
 	
 	MotuLecture resetAll

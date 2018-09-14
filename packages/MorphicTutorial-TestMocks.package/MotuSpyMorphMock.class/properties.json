@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-TestMocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MotuSpyMorphMock",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -2,10 +2,14 @@
 	"class" : {
 		"spyOn:" : "ps 6/9/2018 14:39" },
 	"instance" : {
-		"doesNotUnderstand:" : "ps 7/21/2018 10:17",
+		"doesNotUnderstand:" : "je 9/14/2018 15:59",
 		"dontExpect:errorMessage:" : "ps 6/20/2018 17:22",
 		"expect:withArgs:errorMessage:" : "ps 6/20/2018 17:22",
+		"findGetter:In:" : "je 9/14/2018 12:43",
+		"findImplementingClass:in:" : "je 9/14/2018 16:03",
+		"findSetter:In:" : "je 9/14/2018 12:23",
 		"history" : "ps 7/22/2018 23:22",
 		"history:" : "ps 7/21/2018 10:18",
+		"internalMethods:" : "je 9/14/2018 16:25",
 		"morph" : "ps 7/21/2018 10:18",
 		"morph:" : "ps 7/21/2018 10:18" } }

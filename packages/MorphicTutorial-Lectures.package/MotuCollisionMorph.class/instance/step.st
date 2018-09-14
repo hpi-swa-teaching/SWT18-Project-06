@@ -1,7 +1,10 @@
 stepping
 step
 
+	| isColliding |
 	self position: (self position + self moveVector).
-	(self collidesWith: self collider) ifTrue: [self color: Color red] ifFalse: [self color: Color green]
+	isColliding := self collidesWith: self collider.
+	(isColliding isKindOf: Boolean) ifFalse: [^ self].
+	isColliding ifTrue: [self color: Color red] ifFalse: [self color: Color green]
 	
 	
