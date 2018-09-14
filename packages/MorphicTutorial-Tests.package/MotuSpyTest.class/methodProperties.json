@@ -8,4 +8,9 @@
 		"test03assertMessageInHistorie" : "ps 7/21/2018 10:08",
 		"test04assertExpectationSuccess" : "je 9/14/2018 16:01",
 		"test05ChainedExpectationSuccess" : "ps 7/21/2018 09:59",
-		"test06ChainedExpectationFailure" : "ps 6/20/2018 17:23" } }
+		"test06ChainedExpectationFailure" : "ps 6/20/2018 17:23",
+		"test07getLiteralsOfMethod" : "je 9/14/2018 17:47",
+		"test08getterLiterals" : "je 9/14/2018 17:46",
+		"test09internalMethods" : "je 9/14/2018 17:45",
+		"test09setterLiterals" : "je 9/14/2018 17:46",
+		"test10internalMethods" : "je 9/14/2018 17:49" } }
