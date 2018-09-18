@@ -1,4 +1,4 @@
-recording
+spying
 findGetter: literals In: sourceCode
 
 	| getterLiterals |

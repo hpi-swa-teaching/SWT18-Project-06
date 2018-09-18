@@ -1,7 +1,7 @@
-recording
+spying
 findImplementingClass: aMessage in: aClass
 	
-	aClass == Object ifTrue: [^ Error new].
+	aClass superclass ifNil: [^ ProtoObject ].
 	(aClass selectors includes: aMessage selector) 
 		ifTrue: [^ aClass] 
 		ifFalse: [^ self findImplementingClass: aMessage in: aClass superclass]

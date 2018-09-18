@@ -1,8 +1,6 @@
 recording
 doesNotUnderstand: aMessage
 	
-	| methods receivingClass |
 	self history add: aMessage.
-	receivingClass := self findImplementingClass: aMessage in: self morph class.
-	methods := self internalMethods: (receivingClass >> aMessage selector).
+	Transcript show: (self findCallsIn: aMessage).
 	^ aMessage sendTo: self morph

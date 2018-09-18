@@ -1,4 +1,4 @@
-recording
+spying
 findSetter: literals In: sourceCode
 
 	| argumentMethods collection inputregex|
