@@ -4,7 +4,7 @@
 	"instance" : {
 		"setUp" : "je 9/14/2018 15:40",
 		"test01assertHistorieIsAOrderedCollection" : "ps 5/21/2018 18:52",
-		"test02addMethodCallToHistorie" : "ps 7/21/2018 10:08",
+		"test02addMethodCallToHistorie" : "je 9/19/2018 12:43",
 		"test03assertMessageInHistorie" : "ps 7/21/2018 10:08",
 		"test04assertExpectationSuccess" : "je 9/14/2018 16:01",
 		"test05ChainedExpectationSuccess" : "ps 7/21/2018 09:59",

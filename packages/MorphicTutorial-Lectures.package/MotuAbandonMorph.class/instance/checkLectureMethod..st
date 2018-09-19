@@ -5,13 +5,13 @@ checkLectureMethod: aPlaygroundMorph
 	self morph: (Morph new openInWorld: aPlaygroundMorph).
 	spy := MotuSpy spyOn: self morph.
 	self performLectureMethodWith: spy.
-	[spy 
-		dontExpect: #delete 
-		errorMessage: 'We told you there was a better method than delete'.
-	spy
+	[spy
+		expect: #delete
+		errorMessage: 'Let the Morph disappear.'.
+	spy 
 		expect: #abandon
-		withArgs: {}
-		errorMessage: 'Let the Morph disappear.']
+		before: #delete
+		errorMessage: 'We told you there was a better method than delete']
 		on: Error
 		do: [:error | 
 			self failWith: error asString.
