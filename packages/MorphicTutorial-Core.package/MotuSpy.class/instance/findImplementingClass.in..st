@@ -1,7 +1,7 @@
 spying
-findImplementingClass: aMessage in: aClass
+findImplementingClass: aSymbol in: aClass
 	
 	aClass superclass ifNil: [^ ProtoObject ].
-	(aClass selectors includes: aMessage selector) 
+	(aClass selectors includes: aSymbol) 
 		ifTrue: [^ aClass] 
-		ifFalse: [^ self findImplementingClass: aMessage in: aClass superclass]
+		ifFalse: [^ self findImplementingClass: aSymbol in: aClass superclass]

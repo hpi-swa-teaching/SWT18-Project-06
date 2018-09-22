@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"history",
-		"morph" ],
+		"morph",
+		"parameters" ],
 	"name" : "MotuSpy",
 	"pools" : [
 		 ],

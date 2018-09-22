@@ -1,9 +1,9 @@
 spying
-findCallsIn: aMessage
+findCallsIn: aSymbol
 
 	| receivingClass methods |
-	receivingClass := self findImplementingClass: aMessage in: self morph class.
-	methods := OrderedCollection newFrom: (self internalMethods: (receivingClass >> aMessage selector)).
+	receivingClass := self findImplementingClass: aSymbol in: self morph class.
+	methods := OrderedCollection newFrom: (self internalMethods: (receivingClass >> aSymbol)).
 	methods copy do: [:m | 
 		(self history includes: m)
 		 ifFalse: [self history addLast: m.

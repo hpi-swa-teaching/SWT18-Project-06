@@ -1,5 +1,5 @@
 expect
 expect: aSelector errorMessage: aString
 			
-	(self historySelectors anySatisfy: [:aMessage | aMessage selector = aSelector])
+	(self history includes: aSelector)
 		ifFalse: [ ^ self error: aString ]
