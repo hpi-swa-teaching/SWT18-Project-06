@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph" ],
+	"name" : "MotuLockMorph",
+	"pools" : [
+		 ],
+	"super" : "MotuEventLecture",
+	"type" : "normal" }
