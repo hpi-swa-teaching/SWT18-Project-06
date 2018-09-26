@@ -1,10 +1,10 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "je 9/26/2018 12:10" },
 	"instance" : {
 		"collider" : "je 9/12/2018 15:17",
 		"collider:" : "je 9/12/2018 15:17",
-		"collidesWith:" : "je 9/22/2018 17:37",
+		"collidesWith:" : "je 9/26/2018 14:15",
 		"inOwner" : "je 9/12/2018 14:13",
 		"moveVector" : "je 9/12/2018 14:23",
 		"solutionCollidesWith:" : "je 9/14/2018 16:32",

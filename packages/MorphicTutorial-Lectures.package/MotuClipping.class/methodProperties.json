@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"lectureName" : "je 9/26/2018 12:19" },
+	"instance" : {
+		"activateClipping:" : "je 9/26/2018 14:15",
+		"checkLectureMethod:" : "je 9/26/2018 14:11",
+		"descriptionBoxContent" : "je 9/26/2018 14:15",
+		"initialize" : "je 9/26/2018 13:28",
+		"lectureMethod" : "je 9/26/2018 12:50",
+		"lectureName" : "je 9/26/2018 12:34",
+		"movingMorph" : "je 9/26/2018 12:25",
+		"movingMorph:" : "je 9/26/2018 12:25",
+		"setUp:" : "je 9/26/2018 13:38",
+		"solutionActivateClipping:" : "je 9/26/2018 12:52",
+		"solutionMethod" : "je 9/26/2018 12:51",
+		"staticMorph" : "je 9/26/2018 12:25",
+		"staticMorph:" : "je 9/26/2018 12:25" } }
