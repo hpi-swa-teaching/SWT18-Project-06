@@ -1,4 +1,4 @@
 accessing
 sublectures
 
-	^ {MotuClipping}
+	^ {MotuClipping . MotuRotation}
