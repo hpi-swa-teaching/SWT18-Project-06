@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MotuHelperMorphTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
