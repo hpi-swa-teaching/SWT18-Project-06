@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MotuHelperMorphTest",
+		"morph" ],
+	"name" : "MotuCollisionMorphTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

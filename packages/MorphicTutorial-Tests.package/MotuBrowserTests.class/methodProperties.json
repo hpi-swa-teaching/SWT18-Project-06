@@ -15,4 +15,5 @@
 		"testBuildMotuBrowserPlaygroundIsInserted" : "ps 7/21/2018 10:10",
 		"testBuildMotuBrowserPlaygroundReturnsSpec" : "ps 7/21/2018 10:00",
 		"testBuildWithReturnsWindow" : "ps 7/21/2018 10:02",
-		"testResetSelectedLectureClearsPlayground" : "je 10/4/2018 16:37" } }
+		"testResetSelectedLectureClearsPlayground" : "je 10/4/2018 16:37",
+		"testToggleSolution" : "je 10/4/2018 17:00" } }

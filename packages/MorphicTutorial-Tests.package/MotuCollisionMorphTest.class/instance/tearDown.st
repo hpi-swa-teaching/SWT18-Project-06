@@ -1,0 +1,4 @@
+collisionMorph
+tearDown
+
+	morph := nil

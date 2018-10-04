@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "je 10/4/2018 16:54",
+		"tearDown" : "je 10/4/2018 16:55",
+		"test01assertIntersectionSolutionIsCorrect" : "je 10/4/2018 16:56",
+		"test02steppingMovesMorph" : "je 10/4/2018 16:56" } }
