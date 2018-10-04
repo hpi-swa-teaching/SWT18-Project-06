@@ -2,15 +2,15 @@ evaluation
 checkLectureMethod: aPlayground
 	
 	| spy |
-	self setUp: aPlayground.
-	self morph: Morph new.
+	self setUp: aPlayground.	
 	spy := MotuSpy spyOn: self morph.
-	[self rotateMorph: spy.
+	[self addTransformationMorphFor: spy.
+	spy expect: #addFlexShell 
+		errorMessage: 'You have to add this morph as a submorph to a TransformationMorph. Morph has a Method for this.'.
 	spy
-		expect: #heading:
-		errorMessage: 'Look for a method that calls #heading:'.
-	spy expect: #rotationDegrees: 
-		errorMessage: 'Remember that you want to rotate the morph by degrees.'.
+		expect: #addFlexShellIfNecessary
+		before: #addFlexShell
+		errorMessage: 'Like with abandon and delete there is a wrapper method here'.
 	self pass] 
 	on: Error
 	do: [:error | self failWith: error asString] 

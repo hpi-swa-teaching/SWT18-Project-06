@@ -1,4 +1,4 @@
 setup
 descriptionBoxContent
 
-	^ 'You might ask yourself why rotation is placed in this chapter. So lets explore what happens to a morph when you rotate it. So lets try and rotate it by 45 degrees.' asTextFromHtml 
+	^ 'You might ask yourself why rotation is placed in this chapter. <br> You might find that Morph isnt implementing any functionality for rotation. In Squeak TransformationMorhps or TransformMorphs are used instead. <br> Your task is to add a TransformationMorph to the given Morph.' asTextFromHtml 

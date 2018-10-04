@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"checkLectureMethod:" : "je 10/4/2018 14:42",
+		"descriptionBoxContent" : "je 10/4/2018 14:33",
+		"lectureMethod" : "je 10/4/2018 14:13",
+		"lectureName" : "je 10/4/2018 13:53",
+		"morph" : "je 10/4/2018 13:51",
+		"morph:" : "je 10/4/2018 13:51",
+		"rotateMorphByAngle:" : "je 10/4/2018 14:43",
+		"setUp:" : "je 10/4/2018 13:54",
+		"solutionMethod" : "je 10/4/2018 14:33",
+		"solutionRotateMorphByAngle:" : "je 10/4/2018 14:32" } }

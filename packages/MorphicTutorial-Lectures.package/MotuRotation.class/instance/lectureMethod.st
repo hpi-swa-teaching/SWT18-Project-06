@@ -1,4 +1,4 @@
 evaluation
 lectureMethod
 
-	^ self class >> #rotateMorph: 
+	^ self class >> #addTransformationMorphFor: 
