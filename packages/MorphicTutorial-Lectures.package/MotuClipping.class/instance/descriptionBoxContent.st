@@ -1,4 +1,7 @@
 setup
 descriptionBoxContent
 
-	^ 'Here you can see a static Morph and a moving one. The moving Morph is a submorph of the stationary one. <br> Lets imagine that the static one is a view into a scenery where the other Morph is moving. Now we dont want to see the moving morph if he is out of sight. <br> The concept of clipping exists in the Morphic Framework and is represented by the property clipSubmorphs.' asTextFromHtml 
+	^ '<b>Clip Submorphs</b><br>
+Here you can see a static Morph and a moving one. The moving Morph is a submorph of the stationary one. However, we can always see this submorph, even when it leaves the bounds of its owner. This is quite often not what we want.<br>
+<br>
+To prevent our moving submorph from being drawn outside of the stationary Morph''s bounds, enable clipping on aStaticMorph.' asTextFromHtml 
