@@ -2,6 +2,8 @@ setup
 descriptionBoxContent
 
 	^ '<b>Every now and then ...</b><br>
-We now would like to change the color of our <a href="code://ColorfulMorph">ColorfulMorph</a> every 2 seconds. So it becomes a flashing morph. First of all, we need to define in what interval our Morph needs to be redrawn. For that, there is a special method called <a href="code://ColorfulMorph >> #stepTime">stepTime</a>.<br>
+We now would like to change the color of our <a href="code://ColorfulMorph">ColorfulMorph</a> every 2 seconds.<br>
 <br>
-Find out how you can use it <a href="code://Morph >> #stepTime">here</a>.' asTextFromHtml
+Morphs already have a simple way of implementing such recurring behavior through so-called <a href="code://Morph >> #step">steps</a>.<br>
+<br>
+But first we want to specify the time between steps by overriding <a href="code://Morph >> #stepTime">Morph>>stepTime</a> to return 2 seconds instead of the default 1 second.' asTextFromHtml
