@@ -1,4 +1,9 @@
 setup
 descriptionBoxContent
 
-	^ 'You might ask yourself why rotation is placed in this chapter. <br> You might find that Morph isnt implementing any functionality for rotation. In Squeak TransformationMorhps or TransformMorphs are used instead. <br> Your task is to add a TransformationMorph to the given Morph.' asTextFromHtml 
+	^ '<b>Flex Shells</b><br>
+You might ask yourself why rotation is put in a lecture about submorphs. That is, beacuse a Morph usually does not offer any functionality for rotation on its own.<br>
+<br>
+To achieve rotation, the Morph that is supposed to be rotated has to be wrapped by a <a href="code://TransformMorph">TransformMorph</a> or <a href="code://TransformationMorph">TransformationMorph</a>. These types of morphs hold the desired morph as a submorph, forming a "shell" around it.<br>
+<br>
+Your task is to add a TransformationMorph around the given Morph.' asTextFromHtml 

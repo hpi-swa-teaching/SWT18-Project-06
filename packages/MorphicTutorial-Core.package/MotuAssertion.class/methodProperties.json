@@ -7,4 +7,6 @@
 		"assert:notEquals:errorMessage:" : "ps 7/21/2018 10:12",
 		"assertBlock:errorMessage:" : "ps 7/21/2018 10:12",
 		"assertBlockCollection:errorMessage:" : "ps 7/21/2018 10:12",
-		"assertNotNil:errorMessage:" : "ps 7/21/2018 10:12" } }
+		"assertNotNil:errorMessage:" : "ps 7/21/2018 10:12",
+		"deny:equals:errorMessage:" : "sl 10/15/2018 13:46",
+		"denyBlock:errorMessage:" : "sl 10/15/2018 13:46" } }
