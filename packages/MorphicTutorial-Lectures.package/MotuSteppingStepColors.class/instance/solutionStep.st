@@ -1,3 +1,4 @@
 solution
 solutionStep
+
 	self switchColors
