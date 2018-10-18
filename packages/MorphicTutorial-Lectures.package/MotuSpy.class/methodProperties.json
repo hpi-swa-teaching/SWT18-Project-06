@@ -2,7 +2,7 @@
 	"class" : {
 		"spyOn:" : "ps 6/9/2018 14:39" },
 	"instance" : {
-		"doesNotUnderstand:" : "je 9/22/2018 17:31",
+		"doesNotUnderstand:" : "LM 10/18/2018 16:40",
 		"dontExpect:errorMessage:" : "je 9/22/2018 17:25",
 		"expect:before:errorMessage:" : "je 9/22/2018 17:21",
 		"expect:errorMessage:" : "je 9/22/2018 17:24",
@@ -19,5 +19,6 @@
 		"morph:" : "ps 7/21/2018 10:18",
 		"parameters" : "je 9/22/2018 17:31",
 		"parameters:" : "je 9/22/2018 17:14",
+		"printOn:" : "LM 10/18/2018 16:41",
 		"removeCommentFrom:" : "je 9/18/2018 15:03",
 		"sourceCodeOf:" : "je 9/18/2018 14:55" } }
