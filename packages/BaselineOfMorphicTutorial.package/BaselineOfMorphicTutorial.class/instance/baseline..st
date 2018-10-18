@@ -4,8 +4,8 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [spec
-				package: 'MorphicTutorial-Core';
 				package: 'MorphicTutorial-Lectures';
+				package: 'MorphicTutorial-Core' with: [spec requires: #('MorphicTutorial-Lectures')];
 				package: 'MorphicTutorial-TestMocks' with: [spec requires: #('MorphicTutorial-Core' 'MorphicTutorial-Lectures' )];
 				package: 'MorphicTutorial-Tests' with: [spec requires: #('MorphicTutorial-Core' 'MorphicTutorial-Lectures' )];
 				yourself.

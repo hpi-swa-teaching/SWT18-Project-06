@@ -1,15 +1,13 @@
 {
-	"category" : "MorphicTutorial-Core",
+	"category" : "MorphicTutorial-Lectures",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"history",
-		"morph",
-		"parameters" ],
-	"name" : "MotuSpy",
+		 ],
+	"name" : "MotuAssertion",
 	"pools" : [
 		 ],
 	"super" : "Object",
