@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ps 7/21/2018 10:04",
-		"tearDown" : "js 6/20/2018 17:54",
+		"setUp" : "LM 10/18/2018 15:07",
+		"tearDown" : "LM 10/18/2018 15:07",
 		"testAssertEveryLectureCanBeSolved" : "je 10/4/2018 16:23",
 		"testAssertEveryLectureHasADescriptionBoxContent" : "je 9/11/2018 14:23",
 		"testAssertEveryLectureHasAName" : "je 9/11/2018 14:31",

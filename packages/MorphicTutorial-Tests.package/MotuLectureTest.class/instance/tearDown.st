@@ -1,5 +1,9 @@
 as yet unclassified
 tearDown
 	super tearDown.
-	[TARTestAutoRunner resumeTestAutoRunner] on: Error do: [:e|]
+	
+	(Smalltalk at: #TARTestAutoRunner)
+		ifNotNil: [[Smalltalk at: #TARTestAutoRunner resumeTestAutoRunner] 
+			on: Error 
+			do: [:e|]]
 	
