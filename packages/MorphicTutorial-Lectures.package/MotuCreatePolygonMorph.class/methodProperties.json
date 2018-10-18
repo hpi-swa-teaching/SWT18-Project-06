@@ -2,10 +2,10 @@
 	"class" : {
 		"lectureName" : "je 9/7/2018 15:06" },
 	"instance" : {
-		"checkLectureMethod:" : "LM 9/10/2018 11:42",
+		"checkLectureMethod:" : "LM 10/18/2018 13:44",
 		"descriptionBoxContent" : "LM 9/10/2018 18:03",
-		"lectureMethod" : "LM 9/10/2018 11:41",
+		"lectureMethod" : "LM 10/18/2018 13:44",
 		"lectureName" : "hks 6/3/2018 15:33",
-		"openPolygonMorph" : "LM 10/17/2018 10:03",
-		"solutionMethod" : "LM 9/10/2018 11:41",
-		"solutionOpenPolygonMorph" : "LM 9/10/2018 11:40" } }
+		"openPolygonMorph:" : "LM 10/18/2018 13:47",
+		"solutionMethod" : "LM 10/18/2018 13:44",
+		"solutionOpenPolygonMorph:" : "LM 10/18/2018 13:43" } }

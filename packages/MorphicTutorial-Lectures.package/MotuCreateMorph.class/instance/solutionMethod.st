@@ -1,4 +1,4 @@
 solution
 solutionMethod
 
-	^ self class >> #solutionOpenMorph
+	^ self class >> #solutionOpenMorph:

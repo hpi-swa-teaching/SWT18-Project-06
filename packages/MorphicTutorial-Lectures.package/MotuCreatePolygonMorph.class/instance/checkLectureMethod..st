@@ -1,12 +1,10 @@
 evaluation
 checkLectureMethod: aPlaygroundMorph 
-	| spy polygon oldWorld |
+	| spy polygon |
 	spy := MotuSpy spyOn: aPlaygroundMorph.
-	"Rebind the world to allow usage of openInWorld"
-	oldWorld := ActiveWorld.
-	[ActiveWorld := spy.
-	polygon := self performLectureMethod]
-		ensure: [ActiveWorld := oldWorld].
+	
+	polygon := self performLectureMethodWith: spy.
+	
 	[self asserter
 		assertNotNil: polygon 
 		errorMessage: 'Please return your PolygonMorph. You returned nil instead.'.

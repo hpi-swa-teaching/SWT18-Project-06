@@ -1,4 +1,4 @@
 evaluation
 lectureMethod
 
-	^ self class >> #openMorph
+	^ self class >> #openMorph:

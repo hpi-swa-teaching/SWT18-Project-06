@@ -1,4 +1,4 @@
 solution
 solutionMethod
 
-	^ self class >> #solutionOpenPolygonMorph
+	^ self class >> #solutionOpenPolygonMorph:

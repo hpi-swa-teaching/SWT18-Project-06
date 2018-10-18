@@ -1,11 +1,8 @@
 evaluation
 checkLectureMethod: aPlaygroundMorph 
-	| spy morph oldWorld |
+	| spy morph |
 	spy := MotuSpy spyOn: aPlaygroundMorph.
-	oldWorld := ActiveWorld.
-	[ActiveWorld := spy.
-	morph := self performLectureMethod]
-		ensure: [ActiveWorld := oldWorld].
+	morph := self performLectureMethodWith: spy.
 	
 	[self asserter
 		assert: morph
