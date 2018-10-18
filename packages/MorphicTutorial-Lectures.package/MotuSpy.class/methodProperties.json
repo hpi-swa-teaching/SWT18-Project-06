@@ -2,7 +2,7 @@
 	"class" : {
 		"spyOn:" : "ps 6/9/2018 14:39" },
 	"instance" : {
-		"doesNotUnderstand:" : "LM 10/18/2018 16:40",
+		"doesNotUnderstand:" : "LM 10/18/2018 16:52",
 		"dontExpect:errorMessage:" : "je 9/22/2018 17:25",
 		"expect:before:errorMessage:" : "je 9/22/2018 17:21",
 		"expect:errorMessage:" : "je 9/22/2018 17:24",
