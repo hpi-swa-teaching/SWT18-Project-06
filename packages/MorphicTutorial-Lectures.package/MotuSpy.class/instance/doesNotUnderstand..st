@@ -6,4 +6,6 @@ doesNotUnderstand: aMessage
 	self findCallsIn: aMessage selector.
 	FileStream startUp: true.
 	FileStream stdout nextPutAll: 'self: ', self printString, ' aMessage: ', aMessage printString, Character lf; flush.
-	^ aMessage sendTo: self morph
+	^ self morph
+		perform: aMessage selector
+		withArguments: aMessage arguments
