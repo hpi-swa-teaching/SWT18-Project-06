@@ -10,5 +10,5 @@
 	"name" : "MotuPlaygroundMock",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PasteUpMorph",
 	"type" : "normal" }
