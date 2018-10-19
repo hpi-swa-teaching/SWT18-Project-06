@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMorph:" : "hks 7/2/2018 16:14",
+		"addMorph:" : "LM 10/19/2018 13:17",
 		"clear" : "js 6/28/2018 18:46",
+		"initialize" : "LM 10/19/2018 13:16",
 		"position" : "hks 7/2/2018 15:45",
 		"startSteppingSubmorphsOf:" : "till-later 6/18/2018 17:27",
+		"submorphs" : "LM 10/19/2018 13:15",
+		"submorphs:" : "LM 10/19/2018 13:15",
 		"visibleClearArea" : "till-later 6/18/2018 17:25" } }

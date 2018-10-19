@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"submorphs" ],
 	"name" : "MotuPlaygroundMock",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "Object",
 	"type" : "normal" }

@@ -2,7 +2,6 @@ spying
 findCallsIn: aSymbol
 
 	| receivingClass methods |
-	^ #()."
 	receivingClass := self findImplementingClass: aSymbol in: self morph class.
 	receivingClass ifNil: [^ #()].
 	methods := OrderedCollection newFrom: (self internalMethods: (receivingClass >> aSymbol)).
@@ -10,4 +9,4 @@ findCallsIn: aSymbol
 		(self history includes: m)
 		 ifFalse: [self history addLast: m.
 			methods addAllLast: (self findCallsIn: m)]].
-	^ methods"
+	^ methods
