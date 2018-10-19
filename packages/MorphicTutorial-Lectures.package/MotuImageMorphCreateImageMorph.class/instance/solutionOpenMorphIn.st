@@ -1,3 +1,5 @@
 solution
 solutionOpenMorphIn
-	^ ImageMorph new image: ToolIcons abstract
+
+	^ ImageMorph new
+		image: ToolIcons abstract

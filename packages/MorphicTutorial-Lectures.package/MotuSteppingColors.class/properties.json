@@ -10,5 +10,5 @@
 	"name" : "MotuSteppingColors",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuEventLecture",
 	"type" : "normal" }

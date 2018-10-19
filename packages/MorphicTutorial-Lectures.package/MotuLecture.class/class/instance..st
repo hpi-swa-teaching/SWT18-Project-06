@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 instance: anObject
 	instance := anObject

@@ -1,11 +1,11 @@
 {
 	"class" : {
-		 },
+		"lectureName" : "je 9/7/2018 15:07" },
 	"instance" : {
-		"checkLectureMethod:" : "ps 7/12/2018 11:51",
-		"createStar" : "hks 7/24/2018 17:01",
-		"descriptionBoxContent" : "EE 7/24/2018 19:54",
+		"checkLectureMethod:" : "LM 8/29/2018 13:02",
+		"createStar" : "LM 10/19/2018 13:20",
+		"descriptionBoxContent" : "sl 10/15/2018 20:19",
 		"lectureMethod" : "js 6/16/2018 10:02",
 		"lectureName" : "js 6/4/2018 15:45",
-		"solutionCreateStar" : "js 7/9/2018 11:09",
+		"solutionCreateStar" : "sl 10/15/2018 21:55",
 		"solutionMethod" : "js 7/9/2018 11:10" } }

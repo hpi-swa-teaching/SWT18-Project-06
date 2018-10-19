@@ -10,5 +10,5 @@
 	"name" : "MotuSwitchColors",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuEventLecture",
 	"type" : "normal" }

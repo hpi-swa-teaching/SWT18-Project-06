@@ -1,9 +1,6 @@
-as yet unclassified
+star checking
 indexOf: anInteger offset: offset in: anArray
 
-	anInteger + offset > anArray size
-		ifTrue: [
-			^ anInteger + offset - anArray size]
-		ifFalse: [
-			^ anInteger + offset]
-		
+	^ anInteger + offset > anArray size
+		ifTrue: [anInteger + offset - anArray size]
+		ifFalse: [anInteger + offset]

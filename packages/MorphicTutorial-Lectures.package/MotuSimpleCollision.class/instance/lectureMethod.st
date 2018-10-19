@@ -1,0 +1,4 @@
+evaluation
+lectureMethod
+	
+	^ MotuCollisionMorph >> #collidesWith:

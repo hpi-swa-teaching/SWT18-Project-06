@@ -1,9 +1,9 @@
 {
 	"class" : {
-		 },
+		"lectureName" : "je 9/7/2018 15:00" },
 	"instance" : {
 		"checkLectureMethod:" : "ps 7/12/2018 11:49",
-		"descriptionBoxContent" : "EE 7/24/2018 19:43",
+		"descriptionBoxContent" : "LM 9/10/2018 17:46",
 		"initialize" : "hks 6/19/2018 11:45",
 		"lectureMethod" : "js 6/16/2018 10:02",
 		"lectureName" : "hks 6/3/2018 14:50",
@@ -11,5 +11,5 @@
 		"morph:" : "hks 6/19/2018 11:45",
 		"setUp:" : "hks 7/2/2018 16:30",
 		"solutionMethod" : "js 7/9/2018 11:07",
-		"solutionSwitchColorOnMouseDown:" : "js 7/9/2018 11:06",
-		"switchColorOnMouseDown:" : "hks 7/24/2018 17:01" } }
+		"solutionSwitchColorOnMouseDown:" : "sl 10/15/2018 21:53",
+		"switchColorOnMouseDown:" : "LM 10/19/2018 13:20" } }

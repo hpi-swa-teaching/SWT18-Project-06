@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph" ],
+	"name" : "MotuRotation",
+	"pools" : [
+		 ],
+	"super" : "MotuSubmorphLecture",
+	"type" : "normal" }

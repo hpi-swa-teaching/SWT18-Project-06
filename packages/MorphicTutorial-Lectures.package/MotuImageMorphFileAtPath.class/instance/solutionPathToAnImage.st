@@ -1,3 +1,4 @@
 solution
 solutionPathToAnImage
-	^'non-existing-image-for-testing.png'
+
+	^ 'non-existing-image-for-testing.png'

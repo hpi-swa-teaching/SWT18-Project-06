@@ -1,0 +1,4 @@
+accessing
+lectureName
+
+	^ 'Swapping colors'

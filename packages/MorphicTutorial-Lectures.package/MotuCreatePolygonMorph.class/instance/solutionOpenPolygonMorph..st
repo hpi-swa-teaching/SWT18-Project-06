@@ -1,3 +1,6 @@
 solution
 solutionOpenPolygonMorph: aWorld
-	^ PolygonMorph new openInWorld: aWorld
+
+	^ PolygonMorph new
+		openInWorld: aWorld;
+		yourself

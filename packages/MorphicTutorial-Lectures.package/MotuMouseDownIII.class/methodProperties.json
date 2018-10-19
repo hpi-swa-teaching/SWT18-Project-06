@@ -1,9 +1,9 @@
 {
 	"class" : {
-		 },
+		"lectureName" : "je 9/7/2018 15:01" },
 	"instance" : {
 		"checkLectureMethod:" : "ps 7/12/2018 11:50",
-		"descriptionBoxContent" : "EE 7/24/2018 19:44",
+		"descriptionBoxContent" : "sl 10/15/2018 20:00",
 		"initialize" : "hks 6/19/2018 11:45",
 		"lectureMethod" : "js 7/11/2018 16:50",
 		"lectureName" : "js 7/11/2018 16:50",

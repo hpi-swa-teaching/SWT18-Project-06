@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicTutorial-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"motuParameters" ],
+	"name" : "MotuParser",
+	"pools" : [
+		 ],
+	"super" : "SHParserST80",
+	"type" : "normal" }

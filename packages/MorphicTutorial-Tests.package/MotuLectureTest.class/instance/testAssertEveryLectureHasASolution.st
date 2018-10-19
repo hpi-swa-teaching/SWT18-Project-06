@@ -1,5 +1,6 @@
 as yet unclassified
 testAssertEveryLectureHasASolution
 
-	MotuLecture allSubclasses do: [:aClass |
-		self assert: aClass new solutionMethod selector asString notEmpty]
+	 MotuLecture lectureCategories do: [:aChapter |
+		aChapter sublectures do: 
+		[:aLecture | self assert: (aLecture new solutionMethod selector asString notEmpty)]]

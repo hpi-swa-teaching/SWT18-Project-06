@@ -10,5 +10,5 @@
 	"name" : "MotuImageMorphFileAtPath",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuImageLecture",
 	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addTransformationMorphFor:" : "LM 10/19/2018 13:20",
+		"checkLectureMethod:" : "sl 10/15/2018 13:57",
+		"descriptionBoxContent" : "sl 10/15/2018 20:17",
+		"lectureMethod" : "je 10/4/2018 13:39",
+		"lectureName" : "je 10/4/2018 12:22",
+		"morph" : "je 10/4/2018 12:23",
+		"morph:" : "je 10/4/2018 12:23",
+		"setUp:" : "je 10/4/2018 13:46",
+		"solutionAddTransformationMorphFor:" : "je 10/4/2018 13:40",
+		"solutionMethod" : "je 10/4/2018 13:40" } }

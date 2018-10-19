@@ -4,14 +4,14 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
+			spec package: 'VB-Regex' with: [
+				spec repository: 'http://www.squeaksource.com/Regex'].
+			
 			spec
-				baseline: 'Widgets' with: 
-					[ spec repository: 'github://hpi-swa/widgets:master/repository' ];
-				yourself.
-			spec
-				
-				package: 'MorphicTutorial-Core' with: [spec requires: #('Widgets')];
-				package: 'MorphicTutorial-Lectures';
+				package: 'MorphicTutorial-Lectures' with: [
+					(Smalltalk version = 'Squeak5.0')
+						ifTrue: [spec requires: #('VB-Regex')]];
+				package: 'MorphicTutorial-Core' with: [spec requires: #('MorphicTutorial-Lectures')];
 				package: 'MorphicTutorial-TestMocks' with: [spec requires: #('MorphicTutorial-Core' 'MorphicTutorial-Lectures' )];
 				package: 'MorphicTutorial-Tests' with: [spec requires: #('MorphicTutorial-Core' 'MorphicTutorial-Lectures' )];
 				yourself.

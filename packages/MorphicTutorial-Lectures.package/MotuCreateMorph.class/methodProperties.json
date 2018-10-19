@@ -1,11 +1,12 @@
 {
 	"class" : {
+		"lectureName" : "je 9/7/2018 15:05",
 		"openMorphIn:" : "ps 5/23/2018 16:19" },
 	"instance" : {
-		"checkLectureMethod:" : "ps 7/12/2018 11:44",
-		"descriptionBoxContent" : "hks 6/3/2018 14:57",
-		"lectureMethod" : "js 6/16/2018 10:01",
+		"checkLectureMethod:" : "LM 10/19/2018 13:04",
+		"descriptionBoxContent" : "LM 10/18/2018 13:42",
+		"lectureMethod" : "LM 10/18/2018 13:38",
 		"lectureName" : "hks 5/22/2018 14:07",
-		"openMorphIn:" : "hks 7/24/2018 17:01",
-		"solutionMethod" : "js 7/9/2018 11:03",
-		"solutionOpenMorphIn:" : "js 7/9/2018 11:51" } }
+		"openMorph:" : "LM 10/19/2018 13:20",
+		"solutionMethod" : "LM 10/18/2018 13:38",
+		"solutionOpenMorph:" : "LM 10/19/2018 13:06" } }

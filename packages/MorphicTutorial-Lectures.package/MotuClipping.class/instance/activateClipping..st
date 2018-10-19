@@ -1,0 +1,2 @@
+evaluation
+activateClipping: aStaticMorph

@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"setUp" : "hks 7/24/2018 16:54",
-		"testALectureCanBeEvaluated" : "hks 7/24/2018 17:01",
+		"testALectureCanBeEvaluated" : "je 9/6/2018 10:39",
 		"testAllFunctionsReturnString" : "ps 5/14/2018 10:38",
-		"testAllLecturesAreSelectable" : "ps 7/21/2018 09:59",
+		"testAllLecturesAreSelectable" : "je 9/7/2018 17:25",
 		"testBuildCodeStatusBarReturnsSpec" : "ps 7/21/2018 10:02",
 		"testBuildMotuBrowser" : "ps 7/21/2018 10:00",
 		"testBuildMotuBrowserCodeEditorReturnsSpec" : "ps 7/21/2018 10:00",
@@ -14,4 +14,6 @@
 		"testBuildMotuBrowserListWithReturnsSpec" : "ps 7/21/2018 10:00",
 		"testBuildMotuBrowserPlaygroundIsInserted" : "ps 7/21/2018 10:10",
 		"testBuildMotuBrowserPlaygroundReturnsSpec" : "ps 7/21/2018 10:00",
-		"testBuildWithReturnsWindow" : "ps 7/21/2018 10:02" } }
+		"testBuildWithReturnsWindow" : "ps 7/21/2018 10:02",
+		"testResetSelectedLectureClearsPlayground" : "je 10/4/2018 16:37",
+		"testToggleSolution" : "je 10/4/2018 17:00" } }

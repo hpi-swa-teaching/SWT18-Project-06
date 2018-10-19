@@ -1,4 +1,6 @@
-as yet unclassified
+utility
 resetAll
 
-	self allSubclasses do: [:child | child instance resetLecture. child instance: nil]
+	self lectureCategories do: [ :chapter | 
+		chapter sublectures do: [ :lecture |
+		lecture instance resetLecture. lecture instance: nil]]

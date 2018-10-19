@@ -1,0 +1,4 @@
+solution
+solutionMethod
+	
+	^ MotuCollisionMorph >> #solutionCollidesWith:

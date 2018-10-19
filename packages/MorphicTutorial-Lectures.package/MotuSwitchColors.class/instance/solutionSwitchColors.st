@@ -1,5 +1,6 @@
 solution
 solutionSwitchColors
-	self color = Color blue 
-		ifTrue: [ self color: Color red ] 
-		ifFalse: [ self color: Color blue ]
+
+	self color: (self color = Color blue
+					ifTrue: [Color red] 
+					ifFalse: [Color blue])

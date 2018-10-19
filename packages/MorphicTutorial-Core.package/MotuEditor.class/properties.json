@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"activeLecture" ],
+		"activeLecture",
+		"parameters",
+		"actionOnSave" ],
 	"name" : "MotuEditor",
 	"pools" : [
 		 ],

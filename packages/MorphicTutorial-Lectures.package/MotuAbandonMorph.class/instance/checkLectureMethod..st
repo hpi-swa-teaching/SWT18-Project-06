@@ -7,15 +7,13 @@ checkLectureMethod: aPlaygroundMorph
 	self performLectureMethodWith: spy.
 	[spy
 		expect: #delete
-		withArgs: {}
-		errorMessage: '']
+		errorMessage: 'Let the Morph disappear.'.
+	spy 
+		expect: #abandon
+		before: #delete
+		errorMessage: 'We told you there was a better method than delete']
 		on: Error
-		do: [[spy
-				expect: #abandon
-				withArgs: {}
-				errorMessage: 'Let the Morph disappear using delete or abandon.']
-				on: Error
-				do: [:error | 
-					self failWith: error asString.
-					^ self]].
+		do: [:error | 
+			self failWith: error asString.
+			^ self].
 	self pass

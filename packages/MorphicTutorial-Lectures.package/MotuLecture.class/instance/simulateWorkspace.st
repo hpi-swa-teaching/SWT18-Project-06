@@ -1,3 +1,3 @@
-as yet unclassified
+evaluation
 simulateWorkspace
 	^ self lectureMethod methodClass == self class

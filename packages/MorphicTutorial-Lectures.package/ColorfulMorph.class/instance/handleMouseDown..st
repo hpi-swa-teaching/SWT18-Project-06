@@ -1,3 +1,3 @@
-as yet unclassified
+events-processing
 handleMouseDown: anEvent
 	^ super handleMouseDown: anEvent

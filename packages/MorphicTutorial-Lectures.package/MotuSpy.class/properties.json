@@ -1,0 +1,16 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"history",
+		"morph",
+		"parameters" ],
+	"name" : "MotuSpy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

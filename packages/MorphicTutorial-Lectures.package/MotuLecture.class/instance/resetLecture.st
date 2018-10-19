@@ -1,4 +1,4 @@
-as yet unclassified
+solving
 resetLecture
 
 	self lectureMethod methodClass compile: self methodName.

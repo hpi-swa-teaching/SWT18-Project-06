@@ -1,5 +1,6 @@
 as yet unclassified
 testAssertEveryLectureHasAName
 
-	MotuLecture allSubclasses do: [:aClass | 
-		self assert: (aClass new lectureName isKindOf: String)]
+	MotuLecture lectureCategories do: [:aChapter |
+		aChapter sublectures do: 
+		[:aLecture | self assert: (aLecture new lectureName isKindOf: String)]]

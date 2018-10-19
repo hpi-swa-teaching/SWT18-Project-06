@@ -1,3 +1,3 @@
 nil overwriting
 lectureMethod
-	^#nil
+	^ self class >> #lectureNilMethod

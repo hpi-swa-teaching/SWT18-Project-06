@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"checkLectureMethod:" : "je 9/25/2018 15:42",
+		"descriptionBoxContent" : "sl 10/15/2018 19:51",
+		"initialize" : "je 9/25/2018 16:06",
+		"lectureMethod" : "je 9/25/2018 15:38",
+		"lectureName" : "je 9/25/2018 16:07",
+		"morph" : "je 9/25/2018 15:36",
+		"morph:" : "je 9/25/2018 15:36",
+		"setUp:" : "je 9/25/2018 16:27",
+		"solutionDenyEvents:" : "je 9/25/2018 16:09",
+		"solutionMethod" : "je 9/25/2018 16:09",
+		"stopColorSwitch:" : "LM 10/19/2018 13:20" } }

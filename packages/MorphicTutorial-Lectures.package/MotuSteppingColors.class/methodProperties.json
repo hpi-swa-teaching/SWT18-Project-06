@@ -1,9 +1,9 @@
 {
 	"class" : {
-		 },
+		"lectureName" : "je 9/7/2018 15:02" },
 	"instance" : {
-		"checkLectureMethod:" : "ps 7/12/2018 11:51",
-		"descriptionBoxContent" : "js 7/11/2018 16:11",
+		"checkLectureMethod:" : "LM 9/10/2018 17:57",
+		"descriptionBoxContent" : "sl 10/15/2018 21:23",
 		"initialize" : "hks 6/19/2018 11:18",
 		"lectureMethod" : "js 7/11/2018 16:03",
 		"lectureName" : "js 7/11/2018 16:03",
@@ -12,4 +12,4 @@
 		"resetLecture" : "ps 7/19/2018 11:53",
 		"setUp:" : "hks 7/2/2018 16:29",
 		"solutionMethod" : "js 7/11/2018 16:04",
-		"solutionStepTime" : "js 7/11/2018 16:04" } }
+		"solutionStepTime" : "sl 10/15/2018 21:55" } }

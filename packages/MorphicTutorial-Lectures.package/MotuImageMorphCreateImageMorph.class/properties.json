@@ -10,5 +10,5 @@
 	"name" : "MotuImageMorphCreateImageMorph",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuImageLecture",
 	"type" : "normal" }

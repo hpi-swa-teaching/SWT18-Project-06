@@ -1,4 +1,4 @@
-as yet unclassified
+solving
 setUp: aPlayground
 
 	self passed

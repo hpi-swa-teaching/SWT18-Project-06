@@ -10,5 +10,5 @@
 	"name" : "MotuMouseDown",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuEventLecture",
 	"type" : "normal" }

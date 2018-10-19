@@ -1,8 +1,8 @@
 as yet unclassified
 testCategoriesReturnLectures
 
-	MotuLectureCategory allCategories do: [ :aCategory |
-		self assert: (aCategory lectures isKindOf: Collection).
-		self assert: aCategory lectures size > 0.
-		aCategory lectures do: [:aLecture | 
+	MotuLecture lectureCategories do: [ :aCategory |
+		self assert: (aCategory sublectures isKindOf: Collection).
+		self assert: aCategory sublectures size > 0.
+		aCategory sublectures do: [:aLecture | 
 			self assert: (aLecture isKindOf: MotuLecture class)]]

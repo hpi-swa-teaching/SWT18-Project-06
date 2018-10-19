@@ -1,0 +1,15 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"staticMorph",
+		"movingMorph" ],
+	"name" : "MotuClipping",
+	"pools" : [
+		 ],
+	"super" : "MotuSubmorphLecture",
+	"type" : "normal" }

@@ -1,5 +1,5 @@
-as yet unclassified
+mocked-methods
 addMorph: aMorph
 
 	Morph new addMorph: aMorph.
-	^ self
+	self submorphs addLast: aMorph.

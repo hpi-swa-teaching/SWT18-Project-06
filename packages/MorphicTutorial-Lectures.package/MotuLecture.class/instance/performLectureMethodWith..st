@@ -1,4 +1,4 @@
-as yet unclassified
+evaluation
 performLectureMethodWith: anObject
 
 	self assert: self simulateWorkspace.

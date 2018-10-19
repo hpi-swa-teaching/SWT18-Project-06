@@ -1,3 +1,0 @@
-style
-contextBarColor
-	^ self windowColorToUse 

@@ -1,0 +1,15 @@
+{
+	"category" : "MorphicTutorial-Lectures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph",
+		"staticMorph" ],
+	"name" : "MotuSimpleCollision",
+	"pools" : [
+		 ],
+	"super" : "MotuCollisionLecture",
+	"type" : "normal" }

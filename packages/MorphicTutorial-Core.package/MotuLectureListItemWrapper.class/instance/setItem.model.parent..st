@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 setItem: aMotuLecture model: aModel parent: itemParent
 
 	self parent: itemParent.

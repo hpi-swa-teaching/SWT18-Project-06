@@ -10,5 +10,5 @@
 	"name" : "MotuAbandonMorph",
 	"pools" : [
 		 ],
-	"super" : "MotuLecture",
+	"super" : "MotuIntroductionLecture",
 	"type" : "normal" }

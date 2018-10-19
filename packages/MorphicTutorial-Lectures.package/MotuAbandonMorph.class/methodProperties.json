@@ -1,15 +1,15 @@
 {
 	"class" : {
-		 },
+		"lectureName" : "je 9/7/2018 15:04" },
 	"instance" : {
-		"abandon:" : "hks 7/24/2018 17:01",
-		"checkLectureMethod:" : "ps 7/12/2018 11:44",
-		"descriptionBoxContent" : "EE 7/24/2018 19:34",
+		"abandon:" : "LM 10/19/2018 13:20",
+		"checkLectureMethod:" : "je 9/19/2018 12:46",
+		"descriptionBoxContent" : "sl 10/15/2018 19:39",
 		"initialize" : "ps 7/22/2018 23:25",
 		"lectureMethod" : "js 6/16/2018 10:02",
 		"lectureName" : "ps 7/22/2018 23:26",
 		"morph" : "hks 6/18/2018 19:01",
 		"morph:" : "hks 6/18/2018 19:03",
 		"setUp:" : "hks 7/2/2018 16:28",
-		"solutionAbandon:" : "ps 7/22/2018 23:25",
+		"solutionAbandon:" : "sl 10/15/2018 21:51",
 		"solutionMethod" : "ps 7/22/2018 23:25" } }

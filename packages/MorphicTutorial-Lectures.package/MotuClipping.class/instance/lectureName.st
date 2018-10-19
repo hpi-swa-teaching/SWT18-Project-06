@@ -1,0 +1,4 @@
+setup
+lectureName
+
+	^ 'Enable Clipping'

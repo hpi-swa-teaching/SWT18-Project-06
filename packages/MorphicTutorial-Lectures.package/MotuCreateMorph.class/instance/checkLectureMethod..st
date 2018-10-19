@@ -1,16 +1,15 @@
 evaluation
 checkLectureMethod: aPlaygroundMorph 
-	| spy morph |
-	spy := MotuSpy spyOn: aPlaygroundMorph.
-	morph := self performLectureMethodWith: spy.
+	| morph |
+	morph := self performLectureMethodWith: aPlaygroundMorph.
+	
 	[self asserter
 		assert: morph
 		hasClass: Morph
 		errorMessage: 'You did not return an instance of Morph to us!'.
-	spy
-		expect: #addMorph:
-		withArgs: {morph}
-		errorMessage: 'You did not #openInWorld:!'.
+	self asserter
+		assertBlock: [aPlaygroundMorph submorphs includes: morph]
+		errorMessage: 'You did not open the Morph in the tutorial world!'.
 	self pass]
 		on: Error
 		do: [:error | self failWith: error asString]

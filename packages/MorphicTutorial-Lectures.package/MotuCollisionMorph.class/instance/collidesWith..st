@@ -1,0 +1,2 @@
+private
+collidesWith: aMorph

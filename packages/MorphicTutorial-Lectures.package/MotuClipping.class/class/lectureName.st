@@ -1,0 +1,4 @@
+accessing
+lectureName
+
+	^ 'Enable Clipping'
