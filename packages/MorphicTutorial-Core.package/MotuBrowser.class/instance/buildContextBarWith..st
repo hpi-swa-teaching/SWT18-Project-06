@@ -6,8 +6,9 @@ buildContextBarWith: aBuilder
 		getText: #contextBarContent;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
+		minimumHeight: (self codeStatusBarHeight / 2);
 		frame: (LayoutFrame new
 			leftFraction: 0.33;
-			topFraction: 0.5 offset: self codeStatusBarHeight negated;
+			topFraction: 0.45 offset: (self codeStatusBarHeight / 2);
 			rightFraction: 1;
-			bottomFraction: 0.5)
+			bottomFraction: 0.45 offset: self codeStatusBarHeight)

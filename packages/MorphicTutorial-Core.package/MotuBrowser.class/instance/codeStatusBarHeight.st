@@ -1,3 +1,3 @@
 style
 codeStatusBarHeight
-	^ (Preferences standardCodeFont height * 3/2) rounded
+	^ 3 * Preferences standardCodeFont height
