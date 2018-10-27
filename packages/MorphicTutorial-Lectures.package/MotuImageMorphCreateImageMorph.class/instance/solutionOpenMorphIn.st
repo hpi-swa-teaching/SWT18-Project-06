@@ -2,4 +2,4 @@ solution
 solutionOpenMorphIn
 
 	^ ImageMorph new
-		image: ToolIcons abstract
+		image: (Form fromFileNamed: 'C:\path\to\your\file.png')

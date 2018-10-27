@@ -1,4 +1,4 @@
 solution
 solutionCreateAForm
 	
-	^ ToolIcons abstract
+	^ Form fromFileNamed: 'C:\path\to\your\file.png'
