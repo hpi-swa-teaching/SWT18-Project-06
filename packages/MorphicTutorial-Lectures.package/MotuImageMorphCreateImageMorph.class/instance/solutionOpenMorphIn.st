@@ -1,5 +1,6 @@
 solution
 solutionOpenMorphIn
 
+	"Again: FileDirectory uri: ..."
 	^ ImageMorph new
-		image: (Form fromFileNamed: 'C:\path\to\your\file.png')
+		image: (Form fromFileNamed: (FileDirectory uri: 'C:/path/to/your/file.png') fullName)
