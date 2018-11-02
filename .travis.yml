@@ -7,6 +7,7 @@ os:
 
 smalltalk:
   - Squeak-trunk
+  - Squeak-5.2
   - Squeak-5.1
   - Squeak-5.0
 
