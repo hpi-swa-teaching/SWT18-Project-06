@@ -1,9 +1,10 @@
 as yet unclassified
 testAssertEveryLectureCanBeSolved
-	| chapters lecture playgroundMorph |
+	| chapters lecture playgroundMorph ignoredLectures |
+	ignoredLectures := {MotuImageMorphCreateImageMorph}.
 	chapters := MotuLecture lectureCategories.
 	chapters do: [:chapter |
-		chapter sublectures do: [:aClass|
+		(chapter sublectures difference: ignoredLectures) do: [:aClass|
 			lecture := aClass new.
 			playgroundMorph := MotuPlaygroundMock new.
 			lecture fail.
