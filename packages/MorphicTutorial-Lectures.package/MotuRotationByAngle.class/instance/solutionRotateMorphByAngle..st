@@ -1,4 +1,4 @@
 solution
 solutionRotateMorphByAngle: aMorph
 
-	aMorph owner angle: 30 degreesToRadians negated
+	aMorph rotationDegrees: 30
