@@ -1,5 +1,7 @@
 style
 codeStatusBarTextColor
 
-	self selectedLecture ifNil: [^ Color black].
-	self selectedLecture passed ifTrue: [^ Color black] ifFalse: [^ Color white] 	
+	self selectedLecture ifNil: [^ self statusTextColorNil].
+	^ self selectedLecture passed
+		ifTrue: [self statusTextColorSuccess]
+		ifFalse: [self statusTextColorFailure]
