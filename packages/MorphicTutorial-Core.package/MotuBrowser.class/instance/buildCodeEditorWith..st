@@ -3,7 +3,7 @@ buildCodeEditorWith: aBuilder
 
 	^ (self codeEditor buildCodePaneWith: aBuilder)
 		frame: (LayoutFrame new
-			leftFraction: 0.33;
-			topFraction: 0.45 offset: self codeStatusBarHeight;
+			leftFraction: 0;
+			topOffset: (self codeStatusBarHeightWith: aBuilder) * 2;
 			rightFraction: 1;
-			bottomFraction: 1 offset: self evaluateButtonHeight negated)
+			bottomFraction: 1 offset: (self buttonBarHeightWith: aBuilder) negated)

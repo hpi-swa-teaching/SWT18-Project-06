@@ -8,7 +8,7 @@ buildCodeStatusBarWith: aBuilder
 		readOnly: true;
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new
-			leftFraction: 0.33;
-			topFraction: 0.45;
+			leftFraction: 0;
+			topFraction: 0;
 			rightFraction: 1;
-			bottomFraction: 0.45 offset: self codeStatusBarHeight)
+			bottomFraction: 0 offset: (self codeStatusBarHeightWith: aBuilder))
