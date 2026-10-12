@@ -2,6 +2,7 @@ accessing
 selectedLecture: anObject
 
 	anObject isBehavior ifTrue: [^ self ].
+	(anObject isNil and: [selectedLecture isKindOf: MotuNilLecture]) ifTrue: [^ self].
 	
 	selectedLecture  ifNotNil: [selectedLecture removeDependent: self].
 	selectedLecture := anObject ifNil: [ MotuNilLecture new ].
